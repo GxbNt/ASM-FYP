@@ -1,0 +1,13 @@
+admission.softwarica.softwarica.edu.np
+admission.sunway.softwarica.edu.np
+autodiscover.softwarica.edu.np
+lms.softwarica.edu.np
+mail.softwarica.edu.np
+mis.softwarica.edu.np
+newsoftwarica.softwarica.edu.np
+softwarica.edu.np
+ssh.softwarica.edu.np
+webmail.softwarica.edu.np
+www.mis.softwarica.edu.np
+www.newsoftwarica.softwarica.edu.np
+www.softwarica.edu.np

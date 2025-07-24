@@ -1,0 +1,2 @@
+[secrets-patterns-rules:onelogin_2] [global] [http] [info] https://github.com/login ["secret" value="3ed156aa2946fcc85b51e12a62c4d0b878063d14d3769a6a4adfbf682e7d5ec4"]
+[dns-waf-detect:cloudflare] [dns] [info] cm2.pw

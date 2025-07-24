@@ -1,0 +1,4 @@
+secure.test.com
+www.test.com
+web.test.com
+test.com

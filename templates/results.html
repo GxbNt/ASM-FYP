@@ -1,0 +1,749 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Advanced Recon Dashboard</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+    <style>
+        body { background: #181c23; color: #e0e6ed; }
+        .dashboard-header { background: #10131a; border-radius: 1em; margin-top: 2em; margin-bottom: 2em; padding: 2em; }
+        .dashboard-title { color: #7ee0ff; font-size: 2.5em; font-weight: 700; }
+        .dashboard-sub { color: #b0b8c1; font-size: 1.2em; }
+        .nav-dark { background: #181c23; border-radius: 1em; margin-bottom: 2em; }
+        .nav-dark .nav-link { color: #b0b8c1; font-size: 1.1em; }
+        .nav-dark .nav-link.active, .nav-dark .nav-link:hover { background: #1e2633; color: #7ee0ff; }
+        .summary-card { background: #232a36; border: none; border-radius: 1em; color: #fff; cursor: pointer; transition: box-shadow 0.2s; }
+        .summary-card:hover { box-shadow: 0 0 0 2px #7ee0ff55; }
+        .summary-icon { font-size: 2.2em; margin-bottom: 0.5em; }
+        .summary-value { font-size: 2em; color: #7ee0ff; font-weight: 700; }
+        .summary-label { color: #b0b8c1; }
+        .section-title { color: #7ee0ff; font-family: monospace; font-size: 1.3em; margin-bottom: 1em; }
+        .refresh-btn { background: #232a36; color: #7ee0ff; border: none; }
+        .refresh-btn:hover { background: #1e2633; }
+        .card { background: #232a36; border-radius: 1em; }
+        .chart-container { background: #232a36; border-radius: 1em; padding: 1em; }
+        .search-bar { max-width: 350px; margin: 1.5em 0 1em 0; }
+        .search-bar input { border-radius: 2em; padding-left: 2.5em; background: #232a36; color: #e0e6ed; border: 1px solid #232a36; }
+        .search-icon { position: absolute; left: 18px; top: 10px; color: #aaa; }
+        .tab-card { background: #232a36; border-radius: 1em; box-shadow: 0 2px 8px #0d6efd11; padding: 2em 1.5em; margin-bottom: 2em; }
+        .list-group-item, .table td, .table th { transition: background 0.2s; background: #232a36; color: #e0e6ed; }
+        .list-group-item:hover, .table tbody tr:hover { background: #1e2633; }
+        .nav-tabs .nav-link.active { background: #0d6efd; color: #fff; }
+        .tab-content { background: #232a36; border: 1px solid #232a36; border-top: none; padding: 2em 1.5em; border-radius: 0 0 0.5em 0.5em; }
+        .table-sm td, .table-sm th { font-size: 0.97em; }
+        .tab-pane { min-height: 200px; }
+        .d-none { display: none !important; }
+        .evidence-preview {
+            background: #232a36;
+            border-radius: 6px;
+            border: 1px solid #333;
+            padding: 6px 10px;
+            font-family: monospace;
+            font-size: 0.95em;
+            color: #7ee0ff !important;
+            white-space: pre-wrap;
+        }
+        .evidence-modal-body {
+            font-family: monospace;
+            white-space: pre-wrap;
+            color: #7ee0ff !important;
+            background: #232a36;
+        }
+        .table-striped>tbody>tr:hover {
+            background: #1e2633 !important;
+        }
+        .url-cell {
+            color: #7ee0ff !important;
+            font-family: monospace;
+            word-break: break-all;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <!-- Header -->
+    <div class="dashboard-header text-center p-3" style="margin-top:1em; margin-bottom:1.5em; padding:1.2em 1em; border-radius:0.7em;">
+        <div class="d-flex align-items-center justify-content-center mb-1">
+            <i class="bi bi-shield-shaded" style="font-size:2em; color:#7ee0ff;"></i>
+            <span class="dashboard-title ms-2" style="font-size:1.7em; font-weight:600; letter-spacing:0.5px;">Advanced Recon</span>
+        </div>
+        <div class="dashboard-sub" style="font-size:1em; color:#b0b8c1;">Security Reconnaissance Tool</div>
+        <div class="mt-2" style="font-size:1.1em;">
+            Viewing results for:
+            <span class="badge rounded-pill" style="background:#232a36; color:#7ee0ff; font-size:1.1em; padding:0.5em 1.1em; border:1px solid #7ee0ff; letter-spacing:0.5px;">
+                {{ domain }}
+            </span>
+        </div>
+    </div>
+    <!-- Navigation -->
+    <ul class="nav nav-pills nav-dark justify-content-center mb-4 p-2" id="mainNav">
+        <li class="nav-item"><a class="nav-link active" data-tab="dashboard" href="#"><i class="bi bi-house-door"></i> Dashboard</a></li>
+        <li class="nav-item"><a class="nav-link" data-tab="subdomains" href="#"><i class="bi bi-diagram-3"></i> Subdomains</a></li>
+        <li class="nav-item"><a class="nav-link" data-tab="ports" href="#"><i class="bi bi-plug"></i> Ports</a></li>
+        <li class="nav-item"><a class="nav-link" data-tab="vulns" href="#"><i class="bi bi-bug"></i> Vulnerabilities</a></li>
+        <li class="nav-item"><a class="nav-link" data-tab="emails" href="#"><i class="bi bi-envelope"></i> Emails</a></li>
+        <li class="nav-item"><a class="nav-link" data-tab="dirs" href="#"><i class="bi bi-folder2-open"></i> Directories</a></li>
+        <li class="nav-item"><a class="nav-link" data-tab="urls" href="#"><i class="bi bi-link-45deg"></i> URLs</a></li>
+        <li class="nav-item"><a class="nav-link" data-tab="all" href="#"><i class="bi bi-collection"></i> All</a></li>
+    </ul>
+    <!-- Dashboard Tab -->
+    <div id="dashboardTab" class="tab-section">
+        <div class="card mb-4 p-4">
+            <div class="d-flex justify-content-between align-items-center mb-3">
+                <span class="section-title"><i class="bi bi-graph-up-arrow"></i> Reconnaissance Analytics</span>
+                <a href="" class="btn refresh-btn" onclick="location.reload();return false;"><i class="bi bi-arrow-clockwise"></i> Refresh</a>
+            </div>
+            <div class="row g-3">
+                <div class="col-md-3">
+                    <div class="summary-card card p-3 text-center" data-focus="subdomains">
+                        <div class="summary-icon text-info"><i class="bi bi-bar-chart-line"></i></div>
+                        <div class="summary-label">Active Subdomains</div>
+                        <div class="summary-value">{{ results.active_subdomains|length }}</div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="summary-card card p-3 text-center" data-focus="vulns">
+                        <div class="summary-icon text-danger"><i class="bi bi-bug"></i></div>
+                        <div class="summary-label">Vulnerability Distribution</div>
+                        <div class="summary-value">{{ results.fuzzing_vulns|length + results.nuclei_vulns|length }}</div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="summary-card card p-3 text-center" data-focus="ports">
+                        <div class="summary-icon text-primary"><i class="bi bi-clock-history"></i></div>
+                        <div class="summary-label">Open Ports</div>
+                        <div class="summary-value">{{ results.open_ports|length }}</div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="summary-card card p-3 text-center" data-focus="dirs">
+                        <div class="summary-icon text-warning"><i class="bi bi-exclamation-triangle"></i></div>
+                        <div class="summary-label">Directories</div>
+                        <div class="summary-value">{{ results.directories|length }}</div>
+                    </div>
+                </div>
+            </div>
+            <div class="row g-3 mt-2">
+                <div class="col-md-3">
+                    <div class="summary-card card p-3 text-center" data-focus="urls">
+                        <div class="summary-icon text-primary"><i class="bi bi-link-45deg"></i></div>
+                        <div class="summary-label">Endpoints</div>
+                        <div class="summary-value">{{ results.endpoints|length }}</div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="summary-card card p-3 text-center" data-focus="vulns">
+                        <div class="summary-icon text-danger"><i class="bi bi-bug"></i></div>
+                        <div class="summary-label">Fuzz Vulns</div>
+                        <div class="summary-value">{{ results.fuzzing_vulns|length }}</div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="summary-card card p-3 text-center" data-focus="vulns">
+                        <div class="summary-icon text-dark"><i class="bi bi-hdd-network"></i></div>
+                        <div class="summary-label">Tech/HTTP</div>
+                        <div class="summary-value">{{ results.httpx|length }}</div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="summary-card card p-3 text-center" data-focus="vulns">
+                        <div class="summary-icon text-danger"><i class="bi bi-shield-exclamation"></i></div>
+                        <div class="summary-label">Nuclei Vulns</div>
+                        <div class="summary-value">{{ results.nuclei_vulns|length }}</div>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-4">
+                <div class="col-12 chart-container">
+                    <canvas id="timelineChart" height="80"></canvas>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Tabbed Data Sections -->
+    <div id="subdomainsTab" class="tab-section d-none">
+        <div class="tab-card">
+            <h5 class="section-title">Active Subdomains</h5>
+            <ul class="list-group list-group-flush filterable-list">
+                {% for sub in results.active_subdomains %}
+                <li class="list-group-item">{{ sub }}</li>
+                {% endfor %}
+            </ul>
+        </div>
+        <div class="tab-card">
+            <h5 class="section-title">All Discovered Subdomains</h5>
+            <div style="max-height:350px;overflow:auto;">
+            <ul class="list-group list-group-flush filterable-list">
+                {% for sub in results.all_subdomains %}
+                <li class="list-group-item">{{ sub }}</li>
+                {% endfor %}
+            </ul>
+            </div>
+        </div>
+    </div>
+    <div id="portsTab" class="tab-section d-none">
+        <div class="tab-card">
+            <h5 class="section-title">Open Ports</h5>
+            <!-- Charts for Ports -->
+            <div class="row mb-4">
+                <div class="col-md-6 mb-3">
+                    <div class="chart-container">
+                        <canvas id="ipPortCountChart" height="120"></canvas>
+                    </div>
+                </div>
+                <div class="col-md-6 mb-3">
+                    <div class="chart-container">
+                        <canvas id="domainPortChart" height="120"></canvas>
+                    </div>
+                </div>
+            </div>
+            <div class="table-responsive">
+            <table class="table table-sm table-bordered align-middle filterable-table">
+                <thead class="table-light">
+                    <tr>
+                        <th>Host</th><th>IP</th><th>Port</th><th>Protocol</th><th>TLS</th><th>Timestamp</th>
+                    </tr>
+                </thead>
+                <tbody>
+                {% for entry in results.open_ports %}
+                    <tr>
+                        <td>{{ entry.host }}</td>
+                        <td>{{ entry.ip }}</td>
+                        <td>{{ entry.port }}</td>
+                        <td>{{ entry.protocol }}</td>
+                        <td>{{ entry.tls }}</td>
+                        <td>{{ entry.timestamp }}</td>
+                    </tr>
+                {% endfor %}
+                </tbody>
+            </table>
+            </div>
+        </div>
+    </div>
+    <div id="vulnsTab" class="tab-section d-none">
+        <div class="tab-card">
+            <h5 class="section-title">Fuzzing Vulnerabilities</h5>
+            <div class="table-responsive">
+                <table class="table table-sm table-bordered align-middle">
+                    <thead>
+                        <tr>
+                            <th>Type</th>
+                            <th>Protocol</th>
+                            <th>Severity</th>
+                            <th>URL</th>
+                            <th>Evidence</th>
+                            <th>Extra</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                    {% for vuln in results.fuzzing_vulns_parsed %}
+                        {% if vuln.raw %}
+                        <tr><td colspan="6"><code>{{ vuln.raw }}</code></td></tr>
+                        {% else %}
+                        <tr>
+                            <td>{{ vuln.type or '' }}</td>
+                            <td>{{ vuln.protocol or '' }}</td>
+                            <td>
+                                <span class="badge 
+                                    {% if vuln.severity == 'critical' %}bg-danger
+                                    {% elif vuln.severity == 'high' %}bg-warning text-dark
+                                    {% elif vuln.severity == 'medium' %}bg-info text-dark
+                                    {% else %}bg-secondary{% endif %}">
+                                    {{ vuln.severity or '' }}
+                                </span>
+                            </td>
+                            <td><a href="{{ vuln.url }}" target="_blank">{{ vuln.url }}</a></td>
+                            <td>
+                                {% if vuln.evidence is string %}
+                                    <div class="evidence-preview">
+                                        <span style="color:#7ee0ff !important;">{{ vuln.evidence|trim }}</span>
+                                    </div>
+                                {% elif vuln.evidence %}
+                                    <div class="evidence-preview">
+                                        <span style="color:#7ee0ff !important;">{{ vuln.evidence[0][:200]|trim }}{% if vuln.evidence[0]|length > 200 %}...{% endif %}</span>
+                                    </div>
+                                {% else %}
+                                    <div class="evidence-preview"><span style="color:#7ee0ff !important;">No evidence</span></div>
+                                {% endif %}
+                                <button class="btn btn-sm btn-outline-info mt-1" data-bs-toggle="modal" data-bs-target="#evidenceModalFuzz{{ loop.index }}">View</button>
+                                <!-- Modal -->
+                                <div class="modal fade" id="evidenceModalFuzz{{ loop.index }}" tabindex="-1" aria-labelledby="evidenceModalFuzzLabel{{ loop.index }}" aria-hidden="true">
+                                  <div class="modal-dialog modal-lg modal-dialog-centered">
+                                    <div class="modal-content" style="background:#232a36; color:#e0e6ed;">
+                                      <div class="modal-header">
+                                        <h5 class="modal-title" id="evidenceModalFuzzLabel{{ loop.index }}">Evidence</h5>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                      </div>
+                                      <div class="modal-body evidence-modal-body">
+                                        <span style="color:#7ee0ff !important;">
+                                        {% if vuln.evidence is string %}
+                                            {{ vuln.evidence }}
+                                        {% elif vuln.evidence %}
+                                            {% for ev in vuln.evidence %}
+                                                <div>{{ ev }}</div>
+                                            {% endfor %}
+                                        {% else %}
+                                            No evidence
+                                        {% endif %}
+                                        </span>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                            </td>
+                            <td>
+                                {% if vuln.extra %}
+                                    <span title="{{ vuln.extra }}">{{ vuln.extra|truncate(40) }}</span>
+                                {% endif %}
+                            </td>
+                        </tr>
+                        {% endif %}
+                    {% endfor %}
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <div class="tab-card">
+            <h5 class="section-title">Nuclei Vulnerabilities</h5>
+            <div class="table-responsive">
+                <table class="table table-sm table-bordered align-middle">
+                    <thead>
+                        <tr>
+                            <th>Type</th>
+                            <th>Protocol</th>
+                            <th>Severity</th>
+                            <th>Target</th>
+                            <th>Evidence</th>
+                            <th>Extra</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                    {% for vuln in results.nuclei_vulns_parsed %}
+                        {% if vuln.raw %}
+                        <tr><td colspan="6"><code>{{ vuln.raw }}</code></td></tr>
+                        {% else %}
+                        <tr>
+                            <td>{{ vuln.type or '' }}</td>
+                            <td>{{ vuln.protocol or '' }}</td>
+                            <td>
+                                <span class="badge 
+                                    {% if vuln.severity == 'critical' %}bg-danger
+                                    {% elif vuln.severity == 'high' %}bg-warning text-dark
+                                    {% elif vuln.severity == 'medium' %}bg-info text-dark
+                                    {% else %}bg-secondary{% endif %}">
+                                    {{ vuln.severity or '' }}
+                                </span>
+                            </td>
+                            <td><a href="{{ vuln.target }}" target="_blank">{{ vuln.target }}</a></td>
+                            <td>
+                                {% if vuln.evidence is string %}
+                                    <div class="evidence-preview">
+                                        <span style="color:#7ee0ff !important;">{{ vuln.evidence|truncate(80, True, '...') }}</span>
+                                    </div>
+                                {% elif vuln.evidence %}
+                                    <div class="evidence-preview">
+                                        <span style="color:#7ee0ff !important;">{{ vuln.evidence[0]|truncate(80, True, '...') }}</span>
+                                    </div>
+                                {% else %}
+                                    <div class="evidence-preview"><span style="color:#7ee0ff !important;">No evidence</span></div>
+                                {% endif %}
+                                <button class="btn btn-sm btn-outline-info mt-1" data-bs-toggle="modal" data-bs-target="#evidenceModalNuclei{{ loop.index }}">View</button>
+                                <!-- Modal -->
+                                <div class="modal fade" id="evidenceModalNuclei{{ loop.index }}" tabindex="-1" aria-labelledby="evidenceModalNucleiLabel{{ loop.index }}" aria-hidden="true">
+                                  <div class="modal-dialog modal-lg modal-dialog-centered">
+                                    <div class="modal-content" style="background:#232a36; color:#e0e6ed;">
+                                      <div class="modal-header">
+                                        <h5 class="modal-title" id="evidenceModalNucleiLabel{{ loop.index }}">Evidence</h5>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                      </div>
+                                      <div class="modal-body evidence-modal-body">
+                                        <span style="color:#7ee0ff !important;">
+                                        {% if vuln.evidence is string %}
+                                            {{ vuln.evidence }}
+                                        {% elif vuln.evidence %}
+                                            {% for ev in vuln.evidence %}
+                                                <div>{{ ev }}</div>
+                                            {% endfor %}
+                                        {% else %}
+                                            No evidence
+                                        {% endif %}
+                                        </span>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                            </td>
+                            <td>
+                                {% if vuln.extra %}
+                                    <span title="{{ vuln.extra }}">{{ vuln.extra|truncate(40) }}</span>
+                                {% endif %}
+                            </td>
+                        </tr>
+                        {% endif %}
+                    {% endfor %}
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+    <div id="dirsTab" class="tab-section d-none">
+        <div class="tab-card">
+            <h5 class="section-title">Directories & Files (Fuzzing)</h5>
+            <div class="table-responsive">
+                <table class="table table-sm table-bordered align-middle">
+                    <thead>
+                        <tr>
+                            <th>Path</th>
+                            <th>Status</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                    {% for entry in results.directories_parsed %}
+                        {% if entry.raw %}
+                            <tr><td colspan="2"><code>{{ entry.raw }}</code></td></tr>
+                        {% else %}
+                            <tr>
+                                <td><span style="color:#7ee0ff;">{{ entry.path }}</span></td>
+                                <td>
+                                    <span class="badge 
+                                        {% if entry.status == '200' %}bg-success
+                                        {% elif entry.status == '403' %}bg-danger
+                                        {% elif entry.status == '404' %}bg-secondary
+                                        {% else %}bg-info{% endif %}">
+                                        {{ entry.status }}
+                                    </span>
+                                </td>
+                            </tr>
+                        {% endif %}
+                    {% endfor %}
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+    <div id="urlsTab" class="tab-section d-none">
+        <div class="tab-card">
+            <h5 class="section-title">Endpoints (URLs Found)</h5>
+            <div style="max-height:350px;overflow:auto;">
+            <table class="table table-sm table-striped align-middle filterable-table" style="background:#232a36; border-radius:8px;">
+                <thead class="table-light">
+                    <tr><th>URL</th><th>Source</th></tr>
+                </thead>
+                <tbody>
+                {% for ep in results.endpoints %}
+                    <tr>
+                        <td>
+                            <span class="url-cell">
+                                <a href="{{ ep.url }}" target="_blank" style="color:#7ee0ff; text-decoration:underline;">{{ ep.url }}</a>
+                            </span>
+                            <button class="btn btn-sm btn-outline-info ms-2" onclick="navigator.clipboard.writeText('{{ ep.url }}'); return false;" title="Copy URL">
+                              <i class="bi bi-clipboard"></i>
+                            </button>
+                        </td>
+                        <td>{{ ep.source }}</td>
+                    </tr>
+                {% endfor %}
+                </tbody>
+            </table>
+            </div>
+        </div>
+    </div>
+    <div id="emailsTab" class="tab-section d-none">
+        <div class="tab-card">
+            <h5 class="section-title">Emails</h5>
+            {% if results.emails_parsed and results.emails_parsed|length > 0 %}
+                <ul class="list-group list-group-flush filterable-list">
+                    {% for email in results.emails_parsed %}
+                    <li class="list-group-item" style="color:#7ee0ff;">{{ email }}</li>
+                    {% endfor %}
+                </ul>
+            {% else %}
+                <div class="text-muted">No emails found.</div>
+            {% endif %}
+        </div>
+    </div>
+    <div id="allTab" class="tab-section d-none">
+        <div class="tab-card">
+            <h5 class="section-title">All Data</h5>
+            <ul class="list-group list-group-flush filterable-list">
+                <li class="list-group-item">Active Subdomains: {{ results.active_subdomains|length }}</li>
+                <li class="list-group-item">All Subdomains: {{ results.all_subdomains|length }}</li>
+                <li class="list-group-item">Open Ports: {{ results.open_ports|length }}</li>
+                <li class="list-group-item">Directories: {{ results.directories|length }}</li>
+                <li class="list-group-item">Endpoints: {{ results.endpoints|length }}</li>
+                <li class="list-group-item">Fuzzing Vulns: {{ results.fuzzing_vulns|length }}</li>
+                <li class="list-group-item">Nuclei Vulns: {{ results.nuclei_vulns|length }}</li>
+            </ul>
+        </div>
+    </div>
+</div>
+<!-- Floating AI Chatbot -->
+<div id="ai-chatbot-bubble" style="position:fixed;bottom:32px;right:32px;z-index:9999;cursor:pointer;background:#232a36;border-radius:50%;width:60px;height:60px;display:flex;align-items:center;justify-content:center;box-shadow:0 2px 12px #0008;">
+    <i class="bi bi-robot" style="font-size:2em;color:#7ee0ff;"></i>
+</div>
+<div id="ai-chatbot-panel" style="display:none;position:fixed;bottom:32px;right:32px;z-index:10000;width:350px;max-width:95vw;height:500px;max-height:90vh;background:#181c23;border-radius:1em;box-shadow:0 2px 24px #000b;flex-direction:column;overflow:hidden;">
+    <div style="background:#232a36;padding:1em 1.2em;display:flex;align-items:center;justify-content:space-between;">
+        <span style="font-weight:600;color:#7ee0ff;"><i class="bi bi-robot"></i> Recon AI Chat</span>
+        <button onclick="closeAIChat()" class="btn btn-sm btn-outline-info"><i class="bi bi-x"></i></button>
+    </div>
+    <div id="ai-chatbot-messages" style="flex:1;overflow-y:auto;padding:1em;display:flex;flex-direction:column;gap:0.7em;background:#181c23;"></div>
+    <div style="padding:0.7em 1em;background:#232a36;">
+        <form id="ai-chatbot-form" style="display:flex;gap:0.5em;">
+            <input id="ai-chatbot-input" class="form-control" style="background:#232a36;color:#e0e6ed;border:1px solid #333;" placeholder="Ask about this domain..." autocomplete="off" />
+            <button class="btn btn-info" type="submit"><i class="bi bi-send"></i></button>
+        </form>
+    </div>
+</div>
+<style>
+#ai-chatbot-panel .ai-msg {
+    display: flex; align-items: flex-start; gap: 0.7em;
+}
+#ai-chatbot-panel .ai-msg.user { flex-direction: row-reverse; }
+#ai-chatbot-panel .ai-avatar {
+    width: 32px; height: 32px; border-radius: 50%; background: #232a36; display: flex; align-items: center; justify-content: center;
+}
+#ai-chatbot-panel .ai-avatar.ai { background: #7ee0ff22; }
+#ai-chatbot-panel .ai-avatar.user { background: #232a36; }
+#ai-chatbot-panel .ai-bubble {
+    background: #232a36; color: #e0e6ed; border-radius: 1em; padding: 0.7em 1.1em; max-width: 70%; font-size: 1em; word-break: break-word;
+}
+#ai-chatbot-panel .ai-msg.user .ai-bubble { background: #7ee0ff; color: #181c23; }
+#ai-chatbot-panel .ai-msg.ai .ai-bubble { background: #232a36; color: #7ee0ff; }
+#ai-chatbot-panel .ai-thinking { color: #b0b8c1; font-style: italic; margin-left: 2.5em; }
+</style>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/dompurify@3.0.5/dist/purify.min.js"></script>
+<script>
+    // Chart.js bar chart using real data if available
+    const ctx = document.getElementById('timelineChart').getContext('2d');
+    new Chart(ctx, {
+        type: 'bar',
+        data: {
+            labels: ['Active Subdomains', 'All Subdomains', 'Ports', 'Dirs', 'Endpoints', 'Fuzz Vulns', 'Nuclei Vulns'],
+            datasets: [{
+                label: 'Discoveries',
+                data: [
+                    {{ results.active_subdomains|length }},
+                    {{ results.all_subdomains|length }},
+                    {{ results.open_ports|length }},
+                    {{ results.directories|length }},
+                    {{ results.endpoints|length }},
+                    {{ results.fuzzing_vulns|length }},
+                    {{ results.nuclei_vulns|length }}
+                ],
+                backgroundColor: '#7ee0ff'
+            }]
+        },
+        options: {
+            plugins: { legend: { display: false } },
+            scales: {
+                x: { grid: { color: '#232a36' } },
+                y: { grid: { color: '#232a36' } }
+            }
+        }
+    });
+    // Ports tab charts data extraction from Jinja2
+    const openPorts = [
+        {% for entry in results.open_ports %}
+        {host: "{{ entry.host }}", ip: "{{ entry.ip }}", port: "{{ entry.port }}"},
+        {% endfor %}
+    ];
+    // IP to port count
+    const ipPortMap = {};
+    openPorts.forEach(e => {
+        if (!ipPortMap[e.ip]) ipPortMap[e.ip] = new Set();
+        ipPortMap[e.ip].add(e.port);
+    });
+    const ipLabels = Object.keys(ipPortMap);
+    const ipCounts = ipLabels.map(ip => ipPortMap[ip].size);
+    // Domain to ports
+    const domainPortMap = {};
+    openPorts.forEach(e => {
+        if (!domainPortMap[e.host]) domainPortMap[e.host] = new Set();
+        domainPortMap[e.host].add(e.port);
+    });
+    const domainLabels = Object.keys(domainPortMap);
+    const allPorts = Array.from(new Set(openPorts.map(e => e.port))).sort((a,b)=>a-b);
+    const domainPortData = allPorts.map(port => domainLabels.map(domain => domainPortMap[domain] && domainPortMap[domain].has(port) ? 1 : 0));
+    // IP to port count chart
+    if (document.getElementById('ipPortCountChart')) {
+        new Chart(document.getElementById('ipPortCountChart').getContext('2d'), {
+            type: 'bar',
+            data: {
+                labels: ipLabels,
+                datasets: [{
+                    label: 'Open Ports per IP',
+                    data: ipCounts,
+                    backgroundColor: '#7ee0ff'
+                }]
+            },
+            options: {
+                plugins: { legend: { display: false } },
+                scales: { x: { grid: { color: '#232a36' }, ticks: { color: '#e0e6ed' } }, y: { grid: { color: '#232a36' }, ticks: { color: '#e0e6ed' } } }
+            }
+        });
+    }
+    // Domain to port grouped bar chart
+    if (document.getElementById('domainPortChart')) {
+        new Chart(document.getElementById('domainPortChart').getContext('2d'), {
+            type: 'bar',
+            data: {
+                labels: domainLabels,
+                datasets: allPorts.map((port, idx) => ({
+                    label: 'Port ' + port,
+                    data: domainPortData[idx],
+                    backgroundColor: `hsl(${(idx*40)%360},70%,60%)`,
+                    stack: 'ports'
+                }))
+            },
+            options: {
+                plugins: { legend: { display: true, labels: { color: '#e0e6ed' } } },
+                scales: { x: { stacked: true, grid: { color: '#232a36' }, ticks: { color: '#e0e6ed' } }, y: { stacked: true, grid: { color: '#232a36' }, ticks: { color: '#e0e6ed' } } }
+            }
+        });
+    }
+    // Tab navigation logic
+    const tabMap = {
+        dashboard: 'dashboardTab',
+        subdomains: 'subdomainsTab',
+        ports: 'portsTab',
+        vulns: 'vulnsTab',
+        dirs: 'dirsTab',
+        urls: 'urlsTab',
+        emails: 'emailsTab',
+        all: 'allTab'
+    };
+    function showTab(tab) {
+        for (const key in tabMap) {
+            document.getElementById(tabMap[key]).classList.add('d-none');
+        }
+        document.getElementById(tabMap[tab]).classList.remove('d-none');
+        // Set nav active
+        document.querySelectorAll('#mainNav .nav-link').forEach(link => {
+            link.classList.toggle('active', link.getAttribute('data-tab') === tab);
+        });
+    }
+    document.querySelectorAll('#mainNav .nav-link').forEach(link => {
+        link.addEventListener('click', function(e) {
+            e.preventDefault();
+            showTab(this.getAttribute('data-tab'));
+        });
+    });
+    // Summary card click focuses tab
+    document.querySelectorAll('.summary-card[data-focus]').forEach(card => {
+        card.addEventListener('click', function() {
+            showTab(this.getAttribute('data-focus'));
+            window.scrollTo({ top: document.querySelector('.search-bar').offsetTop - 40, behavior: 'smooth' });
+        });
+    });
+    // Show dashboard tab by default
+    showTab('dashboard');
+    // Live search for all visible lists/tables in the active tab
+    const searchInput = document.getElementById('globalSearch');
+    searchInput.addEventListener('input', function() {
+        const query = this.value.trim().toLowerCase();
+        // Find the visible tab section
+        const activeTab = document.querySelector('.tab-section:not(.d-none)');
+        if (!activeTab) return;
+        // Filter list items
+        activeTab.querySelectorAll('.filterable-list li').forEach(li => {
+            li.style.display = li.textContent.toLowerCase().includes(query) ? '' : 'none';
+        });
+        // Filter table rows
+        activeTab.querySelectorAll('.filterable-table tbody tr').forEach(tr => {
+            let rowText = tr.textContent.toLowerCase();
+            tr.style.display = rowText.includes(query) ? '' : 'none';
+        });
+    });
+</script>
+<script>
+const aiBubble = document.getElementById('ai-chatbot-bubble');
+const aiPanel = document.getElementById('ai-chatbot-panel');
+const aiMessages = document.getElementById('ai-chatbot-messages');
+const aiInput = document.getElementById('ai-chatbot-input');
+const aiForm = document.getElementById('ai-chatbot-form');
+let aiContext = `Domain: {{ domain }}\nSubdomains: {{ results.active_subdomains|join(', ') }}\nPorts: {% for p in results.open_ports %}{{p.port}} ({{p.host}}), {% endfor %}\nVulnerabilities: {% for v in results.fuzzing_vulns_parsed %}{{v.type}} ({{v.severity}}) at {{v.url}}, {% endfor %}\nNuclei: {% for v in results.nuclei_vulns_parsed %}{{v.type}} ({{v.severity}}) at {{v.target}}, {% endfor %}\nDirectories: {% for d in results.directories_parsed %}{{d.path}} ({{d.status}}), {% endfor %}\nEmails: {{ results.emails_parsed|join(', ') }}\nURLs: {% for ep in results.endpoints %}{{ep.url}}, {% endfor %}\n`;
+aiBubble.onclick = () => {
+    aiPanel.style.display = 'flex';
+    aiBubble.style.display = 'none';
+    if (aiMessages.childElementCount === 0) {
+        addAIMessage('ai', 'Hi! Ask me anything about <b>{{ domain }}</b>.');
+    }
+};
+function closeAIChat() {
+    aiPanel.style.display = 'none';
+    aiBubble.style.display = 'flex';
+}
+function addAIMessage(sender, text) {
+    const msg = document.createElement('div');
+    msg.className = 'ai-msg ' + sender;
+    let bubbleContent = text;
+    if (sender === 'ai') {
+        // Render markdown for AI responses and sanitize to prevent XSS
+        bubbleContent = DOMPurify.sanitize(marked.parse(text));
+    }
+    msg.innerHTML = `
+        <div class="ai-avatar ${sender}">
+            <i class="bi ${sender === 'ai' ? 'bi-robot' : 'bi-person'}" style="font-size:1.3em;${sender==='ai'?'color:#7ee0ff;':'color:#e0e6ed;'}"></i>
+        </div>
+        <div class="ai-bubble">${bubbleContent}</div>
+    `;
+    aiMessages.appendChild(msg);
+    aiMessages.scrollTop = aiMessages.scrollHeight;
+}
+function addAIThinking() {
+    const think = document.createElement('div');
+    think.className = 'ai-thinking';
+    think.id = 'ai-thinking';
+    think.innerText = 'Thinking...';
+    aiMessages.appendChild(think);
+    aiMessages.scrollTop = aiMessages.scrollHeight;
+}
+function removeAIThinking() {
+    const think = document.getElementById('ai-thinking');
+    if (think) think.remove();
+}
+async function sendAIMessage() {
+    const text = aiInput.value.trim();
+    if (!text) return false;
+    addAIMessage('user', text);
+    aiInput.value = '';
+    addAIThinking();
+    // Gemini API call
+    try {
+        const apiKey = 'AIzaSyDSvMTwaCYW92XYdK01k6cPeEITl0qVynQ';
+        // Use the summary as context, but only send it with the user's question
+        const prompt = aiContext + '\nUser: ' + text + '\nAI:';
+        const response = await fetch('https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=' + apiKey, {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({
+                contents: [{ parts: [{ text: prompt }] }]
+            })
+        });
+        const data = await response.json();
+        console.log('Gemini API response:', data);
+        removeAIThinking();
+        if (data && data.error) {
+            addAIMessage('ai', 'Gemini API error: ' + data.error.message);
+        } else if (data && data.candidates && data.candidates[0] && data.candidates[0].content && data.candidates[0].content.parts) {
+            addAIMessage('ai', data.candidates[0].content.parts[0].text);
+        } else {
+            addAIMessage('ai', 'Sorry, I could not get a response from Gemini.');
+        }
+    } catch (e) {
+        removeAIThinking();
+        addAIMessage('ai', 'Error: ' + e.message);
+    }
+    return false;
+}
+aiForm.addEventListener('submit', function(e) {
+    e.preventDefault();
+    sendAIMessage();
+});
+</script>
+</body>
+</html> 
