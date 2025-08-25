@@ -1,0 +1,254 @@
+[dns-waf-detect:cloudflare] [dns] [info] softwarica.edu.np
+[azure-domain-tenant] [http] [info] https://login.microsoftonline.com:443/softwarica.edu.np/v2.0/.well-known/openid-configuration ["e18411f5-4580-4151-9f55-eb37cd84392c"]
+[cookies-without-httponly] [javascript] [info] ftp.softwarica.edu.np ["nevercache-b39818"]
+[cookies-without-httponly] [javascript] [info] mail.softwarica.edu.np ["nevercache-b39818"]
+[cookies-without-httponly] [javascript] [info] softwarica.edu.np ["nevercache-b39818"]
+[cookies-without-httponly] [javascript] [info] webmail.softwarica.edu.np ["nevercache-b39818"]
+[cookies-without-httponly] [javascript] [info] ssh.softwarica.edu.np ["nevercache-b39818"]
+[cookies-without-secure] [javascript] [info] webmail.softwarica.edu.np ["nevercache-b39818"]
+[cookies-without-secure] [javascript] [info] ssh.softwarica.edu.np ["nevercache-b39818"]
+[cookies-without-secure] [javascript] [info] mail.softwarica.edu.np ["nevercache-b39818"]
+[cookies-without-secure] [javascript] [info] ftp.softwarica.edu.np ["nevercache-b39818"]
+[cookies-without-secure] [javascript] [info] softwarica.edu.np ["nevercache-b39818"]
+[missing-sri] [http] [info] https://www.softwarica.edu.np ["https://fonts.googleapis.com/css?family=Open+Sans:400,700%7CRoboto:400,700"]
+[waf-detect:cloudflare] [http] [info] https://softwarica.edu.np
+[waf-detect:cloudflare] [http] [info] https://mail.softwarica.edu.np
+[waf-detect:cloudflare] [http] [info] https://lyncdiscover.softwarica.edu.np
+[waf-detect:cloudflare] [http] [info] https://ftp.softwarica.edu.np
+[waf-detect:cloudflare] [http] [info] https://sip.softwarica.edu.np
+[waf-detect:cloudflare] [http] [info] https://ssh.softwarica.edu.np
+[waf-detect:cloudflare] [http] [info] https://webmail.softwarica.edu.np
+[waf-detect:cloudflare] [http] [info] https://autodiscover.softwarica.edu.np
+[waf-detect:cloudflare] [http] [info] https://www.softwarica.edu.np
+[deprecated-tls:tls_1.1] [ssl] [info] webmail.softwarica.edu.np:443 ["tls11"]
+[deprecated-tls:tls_1.1] [ssl] [info] mail.softwarica.edu.np:443 ["tls11"]
+[deprecated-tls:tls_1.1] [ssl] [info] ftp.softwarica.edu.np:443 ["tls11"]
+[deprecated-tls:tls_1.1] [ssl] [info] softwarica.edu.np:443 ["tls11"]
+[deprecated-tls:tls_1.1] [ssl] [info] autodiscover.softwarica.edu.np:443 ["tls11"]
+[deprecated-tls:tls_1.1] [ssl] [info] www.softwarica.edu.np:443 ["tls11"]
+[deprecated-tls:tls_1.1] [ssl] [info] lyncdiscover.softwarica.edu.np:443 ["tls11"]
+[deprecated-tls:tls_1.1] [ssl] [info] ssh.softwarica.edu.np:443 ["tls11"]
+[deprecated-tls:tls_1.1] [ssl] [info] sip.softwarica.edu.np:443 ["tls11"]
+[deprecated-tls:tls_1.0] [ssl] [info] lyncdiscover.softwarica.edu.np:443 ["tls10"]
+[deprecated-tls:tls_1.0] [ssl] [info] sip.softwarica.edu.np:443 ["tls10"]
+[deprecated-tls:tls_1.0] [ssl] [info] softwarica.edu.np:443 ["tls10"]
+[deprecated-tls:tls_1.0] [ssl] [info] webmail.softwarica.edu.np:443 ["tls10"]
+[deprecated-tls:tls_1.0] [ssl] [info] ftp.softwarica.edu.np:443 ["tls10"]
+[deprecated-tls:tls_1.0] [ssl] [info] autodiscover.softwarica.edu.np:443 ["tls10"]
+[deprecated-tls:tls_1.0] [ssl] [info] ssh.softwarica.edu.np:443 ["tls10"]
+[deprecated-tls:tls_1.0] [ssl] [info] www.softwarica.edu.np:443 ["tls10"]
+[deprecated-tls:tls_1.0] [ssl] [info] mail.softwarica.edu.np:443 ["tls10"]
+[tls-version] [ssl] [info] lyncdiscover.softwarica.edu.np:443 ["tls10"]
+[tls-version] [ssl] [info] ftp.softwarica.edu.np:443 ["tls10"]
+[tls-version] [ssl] [info] mail.softwarica.edu.np:443 ["tls10"]
+[tls-version] [ssl] [info] softwarica.edu.np:443 ["tls10"]
+[tls-version] [ssl] [info] sip.softwarica.edu.np:443 ["tls10"]
+[tls-version] [ssl] [info] ssh.softwarica.edu.np:443 ["tls10"]
+[tls-version] [ssl] [info] autodiscover.softwarica.edu.np:443 ["tls10"]
+[tls-version] [ssl] [info] webmail.softwarica.edu.np:443 ["tls10"]
+[tls-version] [ssl] [info] www.softwarica.edu.np:443 ["tls10"]
+[tls-version] [ssl] [info] lyncdiscover.softwarica.edu.np:443 ["tls11"]
+[tls-version] [ssl] [info] ssh.softwarica.edu.np:443 ["tls11"]
+[tls-version] [ssl] [info] mail.softwarica.edu.np:443 ["tls11"]
+[tls-version] [ssl] [info] softwarica.edu.np:443 ["tls11"]
+[tls-version] [ssl] [info] webmail.softwarica.edu.np:443 ["tls11"]
+[tls-version] [ssl] [info] ftp.softwarica.edu.np:443 ["tls11"]
+[tls-version] [ssl] [info] sip.softwarica.edu.np:443 ["tls11"]
+[tls-version] [ssl] [info] autodiscover.softwarica.edu.np:443 ["tls11"]
+[tls-version] [ssl] [info] www.softwarica.edu.np:443 ["tls11"]
+[weak-cipher-suites:tls-1.0] [ssl] [low] www.softwarica.edu.np:443 ["[tls10 TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA]"]
+[weak-cipher-suites:tls-1.0] [ssl] [low] sip.softwarica.edu.np:443 ["[tls10 TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA]"]
+[weak-cipher-suites:tls-1.0] [ssl] [low] lyncdiscover.softwarica.edu.np:443 ["[tls10 TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA]"]
+[weak-cipher-suites:tls-1.0] [ssl] [low] webmail.softwarica.edu.np:443 ["[tls10 TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA]"]
+[weak-cipher-suites:tls-1.0] [ssl] [low] autodiscover.softwarica.edu.np:443 ["[tls10 TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA]"]
+[weak-cipher-suites:tls-1.0] [ssl] [low] ftp.softwarica.edu.np:443 ["[tls10 TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA]"]
+[weak-cipher-suites:tls-1.0] [ssl] [low] softwarica.edu.np:443 ["[tls10 TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA]"]
+[weak-cipher-suites:tls-1.0] [ssl] [low] mail.softwarica.edu.np:443 ["[tls10 TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA]"]
+[weak-cipher-suites:tls-1.0] [ssl] [low] ssh.softwarica.edu.np:443 ["[tls10 TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA]"]
+[tls-version] [ssl] [info] lyncdiscover.softwarica.edu.np:443 ["tls12"]
+[tls-version] [ssl] [info] mail.softwarica.edu.np:443 ["tls12"]
+[tls-version] [ssl] [info] ftp.softwarica.edu.np:443 ["tls12"]
+[tls-version] [ssl] [info] sip.softwarica.edu.np:443 ["tls12"]
+[tls-version] [ssl] [info] softwarica.edu.np:443 ["tls12"]
+[tls-version] [ssl] [info] ssh.softwarica.edu.np:443 ["tls12"]
+[tls-version] [ssl] [info] autodiscover.softwarica.edu.np:443 ["tls12"]
+[tls-version] [ssl] [info] www.softwarica.edu.np:443 ["tls12"]
+[tls-version] [ssl] [info] webmail.softwarica.edu.np:443 ["tls12"]
+[weak-cipher-suites:tls-1.1] [ssl] [low] www.softwarica.edu.np:443 ["[tls11 TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA]"]
+[weak-cipher-suites:tls-1.1] [ssl] [low] sip.softwarica.edu.np:443 ["[tls11 TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA]"]
+[weak-cipher-suites:tls-1.1] [ssl] [low] webmail.softwarica.edu.np:443 ["[tls11 TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA]"]
+[weak-cipher-suites:tls-1.1] [ssl] [low] softwarica.edu.np:443 ["[tls11 TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA]"]
+[weak-cipher-suites:tls-1.1] [ssl] [low] ftp.softwarica.edu.np:443 ["[tls11 TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA]"]
+[weak-cipher-suites:tls-1.1] [ssl] [low] mail.softwarica.edu.np:443 ["[tls11 TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA]"]
+[weak-cipher-suites:tls-1.1] [ssl] [low] ssh.softwarica.edu.np:443 ["[tls11 TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA]"]
+[weak-cipher-suites:tls-1.1] [ssl] [low] lyncdiscover.softwarica.edu.np:443 ["[tls11 TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA]"]
+[weak-cipher-suites:tls-1.1] [ssl] [low] autodiscover.softwarica.edu.np:443 ["[tls11 TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA]"]
+[tls-version] [ssl] [info] lyncdiscover.softwarica.edu.np:443 ["tls13"]
+[tls-version] [ssl] [info] sip.softwarica.edu.np:443 ["tls13"]
+[tls-version] [ssl] [info] ftp.softwarica.edu.np:443 ["tls13"]
+[tls-version] [ssl] [info] mail.softwarica.edu.np:443 ["tls13"]
+[tls-version] [ssl] [info] ssh.softwarica.edu.np:443 ["tls13"]
+[tls-version] [ssl] [info] autodiscover.softwarica.edu.np:443 ["tls13"]
+[tls-version] [ssl] [info] www.softwarica.edu.np:443 ["tls13"]
+[tls-version] [ssl] [info] webmail.softwarica.edu.np:443 ["tls13"]
+[tls-version] [ssl] [info] softwarica.edu.np:443 ["tls13"]
+[robots-txt] [http] [info] https://softwarica.edu.np/robots.txt
+[robots-txt] [http] [info] https://ssh.softwarica.edu.np/robots.txt
+[robots-txt] [http] [info] https://webmail.softwarica.edu.np/robots.txt
+[robots-txt] [http] [info] https://ftp.softwarica.edu.np/robots.txt
+[robots-txt] [http] [info] https://mail.softwarica.edu.np/robots.txt
+[robots-txt] [http] [info] https://www.softwarica.edu.np/robots.txt
+[http-missing-security-headers:referrer-policy] [http] [info] https://webmail.softwarica.edu.np
+[http-missing-security-headers:cross-origin-resource-policy] [http] [info] https://webmail.softwarica.edu.np
+[http-missing-security-headers:strict-transport-security] [http] [info] https://webmail.softwarica.edu.np
+[http-missing-security-headers:permissions-policy] [http] [info] https://webmail.softwarica.edu.np
+[http-missing-security-headers:x-frame-options] [http] [info] https://webmail.softwarica.edu.np
+[http-missing-security-headers:x-permitted-cross-domain-policies] [http] [info] https://webmail.softwarica.edu.np
+[http-missing-security-headers:clear-site-data] [http] [info] https://webmail.softwarica.edu.np
+[http-missing-security-headers:cross-origin-embedder-policy] [http] [info] https://webmail.softwarica.edu.np
+[http-missing-security-headers:cross-origin-opener-policy] [http] [info] https://webmail.softwarica.edu.np
+[http-missing-security-headers:content-security-policy] [http] [info] https://webmail.softwarica.edu.np
+[http-missing-security-headers:x-content-type-options] [http] [info] https://webmail.softwarica.edu.np
+[http-missing-security-headers:x-content-type-options] [http] [info] https://ssh.softwarica.edu.np
+[http-missing-security-headers:x-permitted-cross-domain-policies] [http] [info] https://ssh.softwarica.edu.np
+[http-missing-security-headers:cross-origin-resource-policy] [http] [info] https://ssh.softwarica.edu.np
+[http-missing-security-headers:content-security-policy] [http] [info] https://ssh.softwarica.edu.np
+[http-missing-security-headers:permissions-policy] [http] [info] https://ssh.softwarica.edu.np
+[http-missing-security-headers:referrer-policy] [http] [info] https://ssh.softwarica.edu.np
+[http-missing-security-headers:clear-site-data] [http] [info] https://ssh.softwarica.edu.np
+[http-missing-security-headers:cross-origin-embedder-policy] [http] [info] https://ssh.softwarica.edu.np
+[http-missing-security-headers:cross-origin-opener-policy] [http] [info] https://ssh.softwarica.edu.np
+[http-missing-security-headers:strict-transport-security] [http] [info] https://ssh.softwarica.edu.np
+[http-missing-security-headers:x-frame-options] [http] [info] https://ssh.softwarica.edu.np
+[http-missing-security-headers:x-content-type-options] [http] [info] https://ftp.softwarica.edu.np
+[http-missing-security-headers:cross-origin-opener-policy] [http] [info] https://ftp.softwarica.edu.np
+[http-missing-security-headers:cross-origin-resource-policy] [http] [info] https://ftp.softwarica.edu.np
+[http-missing-security-headers:permissions-policy] [http] [info] https://ftp.softwarica.edu.np
+[http-missing-security-headers:x-permitted-cross-domain-policies] [http] [info] https://ftp.softwarica.edu.np
+[http-missing-security-headers:referrer-policy] [http] [info] https://ftp.softwarica.edu.np
+[http-missing-security-headers:clear-site-data] [http] [info] https://ftp.softwarica.edu.np
+[http-missing-security-headers:cross-origin-embedder-policy] [http] [info] https://ftp.softwarica.edu.np
+[http-missing-security-headers:strict-transport-security] [http] [info] https://ftp.softwarica.edu.np
+[http-missing-security-headers:content-security-policy] [http] [info] https://ftp.softwarica.edu.np
+[http-missing-security-headers:x-frame-options] [http] [info] https://ftp.softwarica.edu.np
+[http-missing-security-headers:permissions-policy] [http] [info] https://autodiscover.softwarica.edu.np
+[http-missing-security-headers:x-content-type-options] [http] [info] https://autodiscover.softwarica.edu.np
+[http-missing-security-headers:clear-site-data] [http] [info] https://autodiscover.softwarica.edu.np
+[http-missing-security-headers:cross-origin-opener-policy] [http] [info] https://autodiscover.softwarica.edu.np
+[http-missing-security-headers:cross-origin-resource-policy] [http] [info] https://autodiscover.softwarica.edu.np
+[http-missing-security-headers:strict-transport-security] [http] [info] https://autodiscover.softwarica.edu.np
+[http-missing-security-headers:content-security-policy] [http] [info] https://autodiscover.softwarica.edu.np
+[http-missing-security-headers:x-permitted-cross-domain-policies] [http] [info] https://autodiscover.softwarica.edu.np
+[http-missing-security-headers:cross-origin-embedder-policy] [http] [info] https://autodiscover.softwarica.edu.np
+[http-missing-security-headers:content-security-policy] [http] [info] https://lyncdiscover.softwarica.edu.np
+[http-missing-security-headers:permissions-policy] [http] [info] https://lyncdiscover.softwarica.edu.np
+[http-missing-security-headers:x-permitted-cross-domain-policies] [http] [info] https://lyncdiscover.softwarica.edu.np
+[http-missing-security-headers:clear-site-data] [http] [info] https://lyncdiscover.softwarica.edu.np
+[http-missing-security-headers:cross-origin-embedder-policy] [http] [info] https://lyncdiscover.softwarica.edu.np
+[http-missing-security-headers:cross-origin-opener-policy] [http] [info] https://lyncdiscover.softwarica.edu.np
+[http-missing-security-headers:strict-transport-security] [http] [info] https://lyncdiscover.softwarica.edu.np
+[http-missing-security-headers:x-content-type-options] [http] [info] https://lyncdiscover.softwarica.edu.np
+[http-missing-security-headers:cross-origin-resource-policy] [http] [info] https://lyncdiscover.softwarica.edu.np
+[http-missing-security-headers:content-security-policy] [http] [info] https://mail.softwarica.edu.np
+[http-missing-security-headers:x-frame-options] [http] [info] https://mail.softwarica.edu.np
+[http-missing-security-headers:x-content-type-options] [http] [info] https://mail.softwarica.edu.np
+[http-missing-security-headers:cross-origin-opener-policy] [http] [info] https://mail.softwarica.edu.np
+[http-missing-security-headers:strict-transport-security] [http] [info] https://mail.softwarica.edu.np
+[http-missing-security-headers:permissions-policy] [http] [info] https://mail.softwarica.edu.np
+[http-missing-security-headers:x-permitted-cross-domain-policies] [http] [info] https://mail.softwarica.edu.np
+[http-missing-security-headers:referrer-policy] [http] [info] https://mail.softwarica.edu.np
+[http-missing-security-headers:clear-site-data] [http] [info] https://mail.softwarica.edu.np
+[http-missing-security-headers:cross-origin-embedder-policy] [http] [info] https://mail.softwarica.edu.np
+[http-missing-security-headers:cross-origin-resource-policy] [http] [info] https://mail.softwarica.edu.np
+[http-missing-security-headers:content-security-policy] [http] [info] https://sip.softwarica.edu.np
+[http-missing-security-headers:x-frame-options] [http] [info] https://softwarica.edu.np
+[http-missing-security-headers:x-content-type-options] [http] [info] https://sip.softwarica.edu.np
+[http-missing-security-headers:cross-origin-embedder-policy] [http] [info] https://sip.softwarica.edu.np
+[http-missing-security-headers:strict-transport-security] [http] [info] https://sip.softwarica.edu.np
+[http-missing-security-headers:permissions-policy] [http] [info] https://sip.softwarica.edu.np
+[http-missing-security-headers:x-permitted-cross-domain-policies] [http] [info] https://sip.softwarica.edu.np
+[http-missing-security-headers:clear-site-data] [http] [info] https://sip.softwarica.edu.np
+[http-missing-security-headers:cross-origin-opener-policy] [http] [info] https://sip.softwarica.edu.np
+[http-missing-security-headers:cross-origin-resource-policy] [http] [info] https://sip.softwarica.edu.np
+[http-missing-security-headers:x-content-type-options] [http] [info] https://softwarica.edu.np
+[http-missing-security-headers:referrer-policy] [http] [info] https://softwarica.edu.np
+[http-missing-security-headers:cross-origin-resource-policy] [http] [info] https://softwarica.edu.np
+[http-missing-security-headers:permissions-policy] [http] [info] https://softwarica.edu.np
+[http-missing-security-headers:x-permitted-cross-domain-policies] [http] [info] https://softwarica.edu.np
+[http-missing-security-headers:clear-site-data] [http] [info] https://softwarica.edu.np
+[http-missing-security-headers:cross-origin-embedder-policy] [http] [info] https://softwarica.edu.np
+[http-missing-security-headers:cross-origin-opener-policy] [http] [info] https://softwarica.edu.np
+[http-missing-security-headers:strict-transport-security] [http] [info] https://softwarica.edu.np
+[http-missing-security-headers:content-security-policy] [http] [info] https://softwarica.edu.np
+[http-missing-security-headers:strict-transport-security] [http] [info] https://www.softwarica.edu.np
+[http-missing-security-headers:permissions-policy] [http] [info] https://www.softwarica.edu.np
+[http-missing-security-headers:x-frame-options] [http] [info] https://www.softwarica.edu.np
+[http-missing-security-headers:x-content-type-options] [http] [info] https://www.softwarica.edu.np
+[http-missing-security-headers:referrer-policy] [http] [info] https://www.softwarica.edu.np
+[http-missing-security-headers:clear-site-data] [http] [info] https://www.softwarica.edu.np
+[http-missing-security-headers:cross-origin-opener-policy] [http] [info] https://www.softwarica.edu.np
+[http-missing-security-headers:content-security-policy] [http] [info] https://www.softwarica.edu.np
+[http-missing-security-headers:x-permitted-cross-domain-policies] [http] [info] https://www.softwarica.edu.np
+[http-missing-security-headers:cross-origin-embedder-policy] [http] [info] https://www.softwarica.edu.np
+[http-missing-security-headers:cross-origin-resource-policy] [http] [info] https://www.softwarica.edu.np
+[tech-detect:cloudflare] [http] [info] https://mail.softwarica.edu.np
+[tech-detect:cloudflare] [http] [info] https://webmail.softwarica.edu.np
+[tech-detect:cloudflare] [http] [info] https://ftp.softwarica.edu.np
+[tech-detect:cloudflare] [http] [info] https://softwarica.edu.np
+[tech-detect:cloudflare] [http] [info] https://ssh.softwarica.edu.np
+[tech-detect:cloudflare] [http] [info] https://autodiscover.softwarica.edu.np
+[tech-detect:cloudflare] [http] [info] https://lyncdiscover.softwarica.edu.np
+[tech-detect:cloudflare] [http] [info] https://sip.softwarica.edu.np
+[tech-detect:cloudflare] [http] [info] https://www.softwarica.edu.np
+[tech-detect:google-font-api] [http] [info] https://www.softwarica.edu.np
+[robots-txt-endpoint] [http] [info] https://softwarica.edu.np/robots.txt
+[robots-txt-endpoint] [http] [info] https://ssh.softwarica.edu.np/robots.txt
+[robots-txt-endpoint] [http] [info] https://webmail.softwarica.edu.np/robots.txt
+[robots-txt-endpoint] [http] [info] https://mail.softwarica.edu.np/robots.txt
+[robots-txt-endpoint] [http] [info] https://ftp.softwarica.edu.np/robots.txt
+[robots-txt-endpoint] [http] [info] https://www.softwarica.edu.np/robots.txt
+[addeventlistener-detect] [http] [info] https://sip.softwarica.edu.np
+[addeventlistener-detect] [http] [info] https://lyncdiscover.softwarica.edu.np
+[addeventlistener-detect] [http] [info] https://autodiscover.softwarica.edu.np
+[ssl-issuer] [ssl] [info] ftp.softwarica.edu.np:443 ["Google Trust Services"]
+[ssl-dns-names] [ssl] [info] ftp.softwarica.edu.np:443 ["softwarica.edu.np","*.softwarica.edu.np"]
+[ssl-issuer] [ssl] [info] mail.softwarica.edu.np:443 ["Google Trust Services"]
+[wildcard-tls] [ssl] [info] ftp.softwarica.edu.np:443 ["CN: softwarica.edu.np","SAN: [softwarica.edu.np *.softwarica.edu.np]"]
+[ssl-dns-names] [ssl] [info] mail.softwarica.edu.np:443 ["*.softwarica.edu.np","softwarica.edu.np"]
+[wildcard-tls] [ssl] [info] mail.softwarica.edu.np:443 ["CN: softwarica.edu.np","SAN: [softwarica.edu.np *.softwarica.edu.np]"]
+[ssl-issuer] [ssl] [info] lyncdiscover.softwarica.edu.np:443 ["Google Trust Services"]
+[ssl-dns-names] [ssl] [info] lyncdiscover.softwarica.edu.np:443 ["softwarica.edu.np","*.softwarica.edu.np"]
+[wildcard-tls] [ssl] [info] lyncdiscover.softwarica.edu.np:443 ["SAN: [softwarica.edu.np *.softwarica.edu.np]","CN: softwarica.edu.np"]
+[ssl-issuer] [ssl] [info] sip.softwarica.edu.np:443 ["Google Trust Services"]
+[ssl-issuer] [ssl] [info] autodiscover.softwarica.edu.np:443 ["Google Trust Services"]
+[ssl-dns-names] [ssl] [info] autodiscover.softwarica.edu.np:443 ["softwarica.edu.np","*.softwarica.edu.np"]
+[wildcard-tls] [ssl] [info] autodiscover.softwarica.edu.np:443 ["CN: softwarica.edu.np","SAN: [softwarica.edu.np *.softwarica.edu.np]"]
+[ssl-dns-names] [ssl] [info] sip.softwarica.edu.np:443 ["softwarica.edu.np","*.softwarica.edu.np"]
+[wildcard-tls] [ssl] [info] sip.softwarica.edu.np:443 ["SAN: [softwarica.edu.np *.softwarica.edu.np]","CN: softwarica.edu.np"]
+[ssl-issuer] [ssl] [info] softwarica.edu.np:443 ["Google Trust Services"]
+[ssl-issuer] [ssl] [info] www.softwarica.edu.np:443 ["Google Trust Services"]
+[ssl-dns-names] [ssl] [info] www.softwarica.edu.np:443 ["softwarica.edu.np","*.softwarica.edu.np"]
+[wildcard-tls] [ssl] [info] www.softwarica.edu.np:443 ["CN: softwarica.edu.np","SAN: [softwarica.edu.np *.softwarica.edu.np]"]
+[ssl-dns-names] [ssl] [info] softwarica.edu.np:443 ["softwarica.edu.np","*.softwarica.edu.np"]
+[wildcard-tls] [ssl] [info] softwarica.edu.np:443 ["CN: softwarica.edu.np","SAN: [softwarica.edu.np *.softwarica.edu.np]"]
+[ssl-issuer] [ssl] [info] webmail.softwarica.edu.np:443 ["Google Trust Services"]
+[ssl-dns-names] [ssl] [info] webmail.softwarica.edu.np:443 ["softwarica.edu.np","*.softwarica.edu.np"]
+[wildcard-tls] [ssl] [info] webmail.softwarica.edu.np:443 ["CN: softwarica.edu.np","SAN: [softwarica.edu.np *.softwarica.edu.np]"]
+[ssl-issuer] [ssl] [info] ssh.softwarica.edu.np:443 ["Google Trust Services"]
+[ssl-dns-names] [ssl] [info] ssh.softwarica.edu.np:443 ["softwarica.edu.np","*.softwarica.edu.np"]
+[wildcard-tls] [ssl] [info] ssh.softwarica.edu.np:443 ["CN: softwarica.edu.np","SAN: [softwarica.edu.np *.softwarica.edu.np]"]
+[caa-fingerprint] [dns] [info] www.softwarica.edu.np
+[caa-fingerprint] [dns] [info] ftp.softwarica.edu.np
+[caa-fingerprint] [dns] [info] softwarica.edu.np
+[caa-fingerprint] [dns] [info] webmail.softwarica.edu.np
+[caa-fingerprint] [dns] [info] sip.softwarica.edu.np
+[caa-fingerprint] [dns] [info] mail.softwarica.edu.np
+[caa-fingerprint] [dns] [info] lyncdiscover.softwarica.edu.np
+[caa-fingerprint] [dns] [info] autodiscover.softwarica.edu.np
+[mx-fingerprint] [dns] [info] softwarica.edu.np ["0 softwarica-edu-np.mail.protection.outlook.com."]
+[mx-service-detector:Office 365] [dns] [info] softwarica.edu.np
+[spf-record-detect] [dns] [info] softwarica.edu.np ["v=spf1 include:spf.protection.outlook.com include:softwarica.edu.np.spf.auto.dnssmarthost.net -all""]
+[txt-fingerprint] [dns] [info] softwarica.edu.np [""google-site-verification=CCBN-BySSaGfvwGsmACjvxvVxszgv0IGrwg7WMZPRGQ"",""v=spf1 include:spf.protection.outlook.com include:softwarica.edu.np.spf.auto.dnssmarthost.net -all""]
+[dmarc-detect] [dns] [info] _dmarc.softwarica.edu.np [""v=DMARC1; p=none; aspf=r; adkim=r;""]
+[caa-fingerprint] [dns] [info] ssh.softwarica.edu.np
+[nameserver-fingerprint] [dns] [info] softwarica.edu.np ["carlos.ns.cloudflare.com.","dolly.ns.cloudflare.com."]

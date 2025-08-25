@@ -11,6 +11,10 @@ NUCLEI_TEMPLATES = os.path.expanduser("~/nuclei-templates/dast/vulnerabilities/"
 def silent_run(command):
     subprocess.run(command, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
 
+def run_with_tee(command, output_file):
+    full_cmd = f"{' '.join(command)} | tee {output_file} > /dev/null"
+    subprocess.run(full_cmd, shell=True, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
+
 def run_nuclei_dast(domain):
     urlfinder_file = os.path.join(OUTPUT_DIR, f"{domain}_urlfinder.json")
     output_file = os.path.join(OUTPUT_DIR, f"{domain}_vulnerabilities.json")
@@ -45,11 +49,11 @@ def run_nuclei_dast(domain):
         "-dast",
         "-t", NUCLEI_TEMPLATES,
         "-nc",
-        "-silent",
-        "-json-export", output_file
+        "-silent"
     ]
 
     silent_run(command)
+    run_with_tee(command, output_file)
 
     try:
         os.remove(temp_file_path)

@@ -10,6 +10,9 @@ OUTPUT_DIR = os.path.join(BASE_DIR, "Outputs")
 def silent_run(command):
     subprocess.run(command, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
 
+def run_with_tee(command, output_file):
+    full_cmd = f"{' '.join(command)} | tee {output_file} > /dev/null" 
+    subprocess.run(full_cmd, shell=True, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
 # Main nuclei execution
 def run_nuclei(domain):
     os.makedirs(OUTPUT_DIR, exist_ok=True)
@@ -27,11 +30,11 @@ def run_nuclei(domain):
         "nuclei",
         "-list", subdomain_file,
         "-nc",
-        "-silent",
-        "-json-export", output_file
+        "-silent"
     ]
 
     silent_run(command)
+    run_with_tee(command, output_file)
 
 # Script entry point
 def main():

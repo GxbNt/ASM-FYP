@@ -1,0 +1,3 @@
+[submodule "tools/OneForAll"]
+	path = tools/OneForAll
+	url = https://github.com/shmilylty/OneForAll.git

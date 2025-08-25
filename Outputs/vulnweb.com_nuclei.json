@@ -1,0 +1,91 @@
+[dns-rebinding:IPv4] [dns] [unknown] localhost.vulnweb.com ["127.0.0.1"]
+[default-sql-dump] [http] [medium] http://rest.vulnweb.com/db.sql [paths="/db.sql"]
+[mysql-dump] [http] [medium] http://rest.vulnweb.com/db.sql [paths="/db.sql"]
+[phpinfo-files] [http] [low] http://rest.vulnweb.com/info.php ["7.1.26"] [paths="/info.php"]
+[aspx-debug-mode] [http] [info] http://testaspnet.vulnweb.com/Foobar-debug.aspx
+[cookies-without-httponly] [javascript] [info] testasp.vulnweb.com ["ASPSESSIONIDQAARDACS"]
+[cookies-without-secure] [javascript] [info] testasp.vulnweb.com ["ASPSESSIONIDQAARDACS"]
+[missing-sri] [http] [info] http://rest.vulnweb.com ["https://fonts.googleapis.com/css?family=Nunito:200,600"]
+[waf-detect:nginxgeneric] [http] [info] http://vulnweb.com
+[waf-detect:aspgeneric] [http] [info] http://testasp.vulnweb.com
+[waf-detect:aspgeneric] [http] [info] http://testaspnet.vulnweb.com
+[waf-detect:apachegeneric] [http] [info] http://rest.vulnweb.com
+[microsoft-iis-version] [http] [info] http://testasp.vulnweb.com ["Microsoft-IIS/8.5"]
+[microsoft-iis-version] [http] [info] http://testaspnet.vulnweb.com ["Microsoft-IIS/8.5"]
+[tech-detect:dreamweaver] [http] [info] http://testasp.vulnweb.com
+[tech-detect:ms-iis] [http] [info] http://testasp.vulnweb.com
+[tech-detect:nginx] [http] [info] http://vulnweb.com
+[tech-detect:google-font-api] [http] [info] http://rest.vulnweb.com
+[tech-detect:php] [http] [info] http://rest.vulnweb.com
+[tech-detect:ms-iis] [http] [info] http://testaspnet.vulnweb.com
+[robots-txt-endpoint] [http] [info] http://testaspnet.vulnweb.com/robots.txt
+[robots-txt-endpoint] [http] [info] http://testasp.vulnweb.com/robots.txt
+[nginx-version] [http] [info] http://vulnweb.com ["nginx/1.19.0"]
+[php-errors] [http] [info] http://testaspnet.vulnweb.com ["Stack Trace:"]
+[apache-detect] [http] [info] http://rest.vulnweb.com ["Apache/2.4.25 (Debian)"]
+[php-detect] [http] [info] http://rest.vulnweb.com ["7.1.26"]
+[aspnet-version-detect] [http] [info] http://testaspnet.vulnweb.com ["2.0.50727"]
+[http-missing-security-headers:cross-origin-resource-policy] [http] [info] http://vulnweb.com
+[http-missing-security-headers:content-security-policy] [http] [info] http://vulnweb.com
+[http-missing-security-headers:x-permitted-cross-domain-policies] [http] [info] http://vulnweb.com
+[http-missing-security-headers:referrer-policy] [http] [info] http://vulnweb.com
+[http-missing-security-headers:clear-site-data] [http] [info] http://vulnweb.com
+[http-missing-security-headers:cross-origin-embedder-policy] [http] [info] http://vulnweb.com
+[http-missing-security-headers:cross-origin-opener-policy] [http] [info] http://vulnweb.com
+[http-missing-security-headers:strict-transport-security] [http] [info] http://vulnweb.com
+[http-missing-security-headers:permissions-policy] [http] [info] http://vulnweb.com
+[http-missing-security-headers:x-frame-options] [http] [info] http://vulnweb.com
+[http-missing-security-headers:x-content-type-options] [http] [info] http://vulnweb.com
+[http-missing-security-headers:strict-transport-security] [http] [info] http://testasp.vulnweb.com
+[http-missing-security-headers:x-frame-options] [http] [info] http://testasp.vulnweb.com
+[http-missing-security-headers:x-permitted-cross-domain-policies] [http] [info] http://testasp.vulnweb.com
+[http-missing-security-headers:referrer-policy] [http] [info] http://testasp.vulnweb.com
+[http-missing-security-headers:clear-site-data] [http] [info] http://testasp.vulnweb.com
+[http-missing-security-headers:cross-origin-embedder-policy] [http] [info] http://testasp.vulnweb.com
+[http-missing-security-headers:cross-origin-opener-policy] [http] [info] http://testasp.vulnweb.com
+[http-missing-security-headers:content-security-policy] [http] [info] http://testasp.vulnweb.com
+[http-missing-security-headers:permissions-policy] [http] [info] http://testasp.vulnweb.com
+[http-missing-security-headers:x-content-type-options] [http] [info] http://testasp.vulnweb.com
+[http-missing-security-headers:cross-origin-resource-policy] [http] [info] http://testasp.vulnweb.com
+[http-missing-security-headers:strict-transport-security] [http] [info] http://testaspnet.vulnweb.com
+[http-missing-security-headers:content-security-policy] [http] [info] http://testaspnet.vulnweb.com
+[http-missing-security-headers:x-frame-options] [http] [info] http://testaspnet.vulnweb.com
+[http-missing-security-headers:x-content-type-options] [http] [info] http://testaspnet.vulnweb.com
+[http-missing-security-headers:referrer-policy] [http] [info] http://testaspnet.vulnweb.com
+[http-missing-security-headers:clear-site-data] [http] [info] http://testaspnet.vulnweb.com
+[http-missing-security-headers:permissions-policy] [http] [info] http://testaspnet.vulnweb.com
+[http-missing-security-headers:x-permitted-cross-domain-policies] [http] [info] http://testaspnet.vulnweb.com
+[http-missing-security-headers:cross-origin-embedder-policy] [http] [info] http://testaspnet.vulnweb.com
+[http-missing-security-headers:cross-origin-opener-policy] [http] [info] http://testaspnet.vulnweb.com
+[http-missing-security-headers:cross-origin-resource-policy] [http] [info] http://testaspnet.vulnweb.com
+[http-missing-security-headers:clear-site-data] [http] [info] http://rest.vulnweb.com
+[http-missing-security-headers:cross-origin-embedder-policy] [http] [info] http://rest.vulnweb.com
+[http-missing-security-headers:permissions-policy] [http] [info] http://rest.vulnweb.com
+[http-missing-security-headers:x-frame-options] [http] [info] http://rest.vulnweb.com
+[http-missing-security-headers:x-permitted-cross-domain-policies] [http] [info] http://rest.vulnweb.com
+[http-missing-security-headers:referrer-policy] [http] [info] http://rest.vulnweb.com
+[http-missing-security-headers:cross-origin-opener-policy] [http] [info] http://rest.vulnweb.com
+[http-missing-security-headers:cross-origin-resource-policy] [http] [info] http://rest.vulnweb.com
+[http-missing-security-headers:strict-transport-security] [http] [info] http://rest.vulnweb.com
+[http-missing-security-headers:content-security-policy] [http] [info] http://rest.vulnweb.com
+[http-missing-security-headers:x-content-type-options] [http] [info] http://rest.vulnweb.com
+[options-method] [http] [info] http://testasp.vulnweb.com ["OPTIONS, TRACE, GET, HEAD, POST"]
+[options-method] [http] [info] http://testaspnet.vulnweb.com ["OPTIONS, TRACE, GET, HEAD, POST"]
+[options-method] [http] [info] http://rest.vulnweb.com ["GET"]
+[rdap-whois:expirationDate] [http] [info] https://rdap.verisign.com/com/v1/domain/vulnweb.com ["2026-06-14T07:50:29Z"]
+[rdap-whois:nameServers] [http] [info] https://rdap.verisign.com/com/v1/domain/vulnweb.com ["NS2.EURODNS.COM","NS3.EURODNS.COM","NS4.EURODNS.COM","NS1.EURODNS.COM"]
+[rdap-whois:secureDNS] [http] [info] https://rdap.verisign.com/com/v1/domain/vulnweb.com ["false"]
+[rdap-whois:status] [http] [info] https://rdap.verisign.com/com/v1/domain/vulnweb.com ["client transfer prohibited"]
+[rdap-whois:registrationDate] [http] [info] https://rdap.verisign.com/com/v1/domain/vulnweb.com ["2010-06-14T07:50:29Z"]
+[rdap-whois:lastChangeDate] [http] [info] https://rdap.verisign.com/com/v1/domain/vulnweb.com ["2025-05-20T08:14:02Z"]
+[spf-record-detect] [dns] [info] vulnweb.com ["v=spf1 -all""]
+[txt-fingerprint] [dns] [info] vulnweb.com [""v=spf1 -all"",""google-site-verification=4LQORV-lTi-d4GPxtBEQWmFnwff7UAazQc9gZvHukbw""]
+[spf-record-detect] [dns] [info] testaspnet.vulnweb.com ["v=spf1 -all""]
+[txt-fingerprint] [dns] [info] testaspnet.vulnweb.com [""google-site-verification:0I73u7E64LVLWuS-nT9ssWHaHOI36n65prWVTGJklFo"",""v=spf1 -all""]
+[spf-record-detect] [dns] [info] testasp.vulnweb.com ["v=spf1 -all""]
+[txt-fingerprint] [dns] [info] testasp.vulnweb.com [""v=spf1 -all"",""google-site-verification:9QFopDZwL4Fw1z9RU7_L1QQqIpeZNgyuufqN44mRG8w""]
+[caa-fingerprint] [dns] [info] vulnweb.com
+[caa-fingerprint] [dns] [info] testasp.vulnweb.com
+[caa-fingerprint] [dns] [info] testaspnet.vulnweb.com
+[caa-fingerprint] [dns] [info] rest.vulnweb.com
+[nameserver-fingerprint] [dns] [info] vulnweb.com ["ns4.eurodns.com.","ns2.eurodns.com.","ns3.eurodns.com.","ns1.eurodns.com."]

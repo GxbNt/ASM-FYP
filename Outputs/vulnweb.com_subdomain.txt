@@ -1,0 +1,5 @@
+testasp.vulnweb.com
+testaspnet.vulnweb.com
+rest.vulnweb.com
+localhost.vulnweb.com
+vulnweb.com

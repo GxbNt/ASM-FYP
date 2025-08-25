@@ -1,0 +1,583 @@
+[dns-waf-detect:cloudflare] [dns] [info] c4mpus.com
+[azure-domain-tenant] [http] [info] https://login.microsoftonline.com:443/c4mpus.com/v2.0/.well-known/openid-configuration ["d31d5797-e1b6-4a98-bd58-8b6e3b63f3c8"]
+[phpinfo-files] [http] [low] https://metrics.c4mpus.com/info.php ["8.1.2"] [paths="/info.php"]
+[missing-sri] [http] [info] https://admin.c4mpus.com ["https://public.tableau.com/javascripts/api/tableau-2.min.js","https://public.tableau.com/javascripts/api/tableau.embedding.3.latest.min.js"]
+[missing-sri] [http] [info] https://employer.c4mpus.com ["//fonts.googleapis.com/css?family=Poppins:300,400,500,600,700"]
+[missing-sri] [http] [info] https://c4mpus.com ["https://public.tableau.com/javascripts/api/tableau-2.min.js","https://public.tableau.com/javascripts/api/tableau.embedding.3.latest.min.js","https://call.schoolworkspro.com/external_api.js","https://fonts.googleapis.com/css?family=Roboto:400,300,300italic,400italic,700,700italic&subset=latin,vietnamese,latin-ext,cyrillic,cyrillic-ext,greek-ext,greek"]
+[missing-sri] [http] [info] https://exam.c4mpus.com ["https://fonts.googleapis.com/css?family=Roboto:400,300,300italic,400italic,700,700italic&subset=latin,vietnamese,latin-ext,cyrillic,cyrillic-ext,greek-ext,greek"]
+[missing-sri] [http] [info] https://c4mpus.com ["https://public.tableau.com/javascripts/api/tableau-2.min.js","https://public.tableau.com/javascripts/api/tableau.embedding.3.latest.min.js","https://call.schoolworkspro.com/external_api.js","https://fonts.googleapis.com/css?family=Roboto:400,300,300italic,400italic,700,700italic&subset=latin,vietnamese,latin-ext,cyrillic,cyrillic-ext,greek-ext,greek"]
+[missing-sri] [http] [info] https://staging.c4mpus.com ["https://public.tableau.com/javascripts/api/tableau-2.min.js","https://public.tableau.com/javascripts/api/tableau.embedding.3.latest.min.js","https://call.schoolworkspro.com/external_api.js","https://fonts.googleapis.com/css?family=Roboto:400,300,300italic,400italic,700,700italic&subset=latin,vietnamese,latin-ext,cyrillic,cyrillic-ext,greek-ext,greek"]
+[missing-sri] [http] [info] https://sso.godaddy.com/login?app=o365&realm=pass ["https://img6.wsimg.com/ux-assets/react/18/react.umd.js","https://img6.wsimg.com/identity-static-assets/_next/static/chunks/main-e174b425c6839837.js","https://img6.wsimg.com/identity-static-assets/_next/static/AFArgTv-DSgB1-cHlKXz7/_buildManifest.js","https://img6.wsimg.com/identity-static-assets/_next/static/AFArgTv-DSgB1-cHlKXz7/_ssgManifest.js","https://img6.wsimg.com/ux-assets/react/18/react-dom.umd.js","https://img6.wsimg.com/identity-static-assets/_next/static/chunks/polyfills-42372ed130431b0a.js","https://img6.wsimg.com/identity-static-assets/_next/static/chunks/pages/_app-17d1f2eacd9f1462.js","https://img6.wsimg.com/identity-static-assets/_next/static/chunks/pages/login-bada7677e6cc2e20.js","//sso.godaddy.com/149e9513-01fa-4fb0-aad4-566afd725d1b/2d206a39-8ed7-437e-a3be-862e0f06eea3/p.js","https://img6.wsimg.com/identity-static-assets/_next/static/chunks/38779-68d30d0415e9e3a1.js","https://img6.wsimg.com/hivemind/hivemind-3.1.9.js","https://img6.wsimg.com/wrhs-next/970fa82d28593a3581ed8984a6ba6fb7/utility-header.js","https://img6.wsimg.com/identity-static-assets/_next/static/chunks/webpack-513fa4f756ad8387.js","https://img6.wsimg.com/identity-static-assets/_next/static/chunks/framework-46b5297abc498ada.js","https://img6.wsimg.com/identity-static-assets/_next/static/chunks/26041-ee567ed160f0c5c4.js","https://img6.wsimg.com/identity-static-assets/_next/static/css/951b697951b21815.css","https://img6.wsimg.com/identity-static-assets/_next/static/css/b9407e6af25f8bf9.css"]
+[node-express-dev-env] [http] [medium] https://enrollee-softwarica.c4mpus.com
+[waf-detect:cloudflare] [http] [info] https://www.c4mpus.com
+[waf-detect:cloudflare] [http] [info] https://autodiscover.c4mpus.com
+[waf-detect:aspgeneric] [http] [info] https://autodiscover.c4mpus.com
+[waf-detect:cloudflare] [http] [info] https://staging-api.c4mpus.com
+[waf-detect:cloudflare] [http] [info] https://staging.c4mpus.com
+[waf-detect:nginxgeneric] [http] [info] https://staging.c4mpus.com
+[waf-detect:cloudflare] [http] [info] https://code.c4mpus.com
+[waf-detect:cloudflare] [http] [info] https://s3.c4mpus.com
+[waf-detect:cloudflare] [http] [info] https://api.c4mpus.com
+[waf-detect:cloudflare] [http] [info] https://admin.c4mpus.com
+[waf-detect:cloudflare] [http] [info] https://exam.c4mpus.com
+[waf-detect:nginxgeneric] [http] [info] https://exam.c4mpus.com
+[waf-detect:nginxgeneric] [http] [info] https://admin.c4mpus.com
+[waf-detect:cloudflare] [http] [info] https://employer.c4mpus.com
+[waf-detect:nginxgeneric] [http] [info] https://employer.c4mpus.com
+[waf-detect:cloudflare] [http] [info] https://dev.c4mpus.com
+[waf-detect:nginxgeneric] [http] [info] https://dev.c4mpus.com
+[waf-detect:cloudflare] [http] [info] https://apiv2.c4mpus.com
+[waf-detect:cloudflare] [http] [info] https://c4mpus.com
+[waf-detect:nginxgeneric] [http] [info] https://c4mpus.com
+[waf-detect:cloudflare] [http] [info] https://enrollee-softwarica.c4mpus.com
+[waf-detect:cloudflare] [http] [info] https://call.c4mpus.com
+[waf-detect:nginxgeneric] [http] [info] https://call.c4mpus.com
+[waf-detect:cloudflare] [http] [info] https://plagiarism.c4mpus.com
+[waf-detect:cloudflare] [http] [info] https://metrics.c4mpus.com
+[waf-detect:apachegeneric] [http] [info] https://metrics.c4mpus.com
+[waf-detect:cloudflare] [http] [info] https://email.c4mpus.com
+[waf-detect:apachegeneric] [http] [info] https://email.c4mpus.com
+[waf-detect:cloudflare] [http] [info] https://dev-api.c4mpus.com
+[waf-detect:cloudflare] [http] [info] https://cms.c4mpus.com
+[waf-detect:cloudflare] [http] [info] https://sage.c4mpus.com
+[waf-detect:cloudflare] [http] [info] https://chat.c4mpus.com
+[deprecated-tls:tls_1.1] [ssl] [info] dev.c4mpus.com:443 ["tls11"]
+[deprecated-tls:tls_1.1] [ssl] [info] staging.c4mpus.com:443 ["tls11"]
+[deprecated-tls:tls_1.1] [ssl] [info] admin.c4mpus.com:443 ["tls11"]
+[deprecated-tls:tls_1.1] [ssl] [info] staging-api.c4mpus.com:443 ["tls11"]
+[deprecated-tls:tls_1.1] [ssl] [info] metrics.c4mpus.com:443 ["tls11"]
+[deprecated-tls:tls_1.1] [ssl] [info] www.c4mpus.com:443 ["tls11"]
+[deprecated-tls:tls_1.1] [ssl] [info] chat.c4mpus.com:443 ["tls11"]
+[deprecated-tls:tls_1.1] [ssl] [info] dev-api.c4mpus.com:443 ["tls11"]
+[deprecated-tls:tls_1.1] [ssl] [info] exam.c4mpus.com:443 ["tls11"]
+[deprecated-tls:tls_1.1] [ssl] [info] plagiarism.c4mpus.com:443 ["tls11"]
+[deprecated-tls:tls_1.1] [ssl] [info] c4mpus.com:443 ["tls11"]
+[deprecated-tls:tls_1.1] [ssl] [info] api.c4mpus.com:443 ["tls11"]
+[deprecated-tls:tls_1.1] [ssl] [info] code.c4mpus.com:443 ["tls11"]
+[deprecated-tls:tls_1.1] [ssl] [info] apiv2.c4mpus.com:443 ["tls11"]
+[deprecated-tls:tls_1.1] [ssl] [info] enrollee-softwarica.c4mpus.com:443 ["tls11"]
+[deprecated-tls:tls_1.1] [ssl] [info] employer.c4mpus.com:443 ["tls11"]
+[deprecated-tls:tls_1.1] [ssl] [info] sage.c4mpus.com:443 ["tls11"]
+[deprecated-tls:tls_1.1] [ssl] [info] call.c4mpus.com:443 ["tls11"]
+[deprecated-tls:tls_1.1] [ssl] [info] cms.c4mpus.com:443 ["tls11"]
+[deprecated-tls:tls_1.1] [ssl] [info] autodiscover.c4mpus.com:443 ["tls11"]
+[deprecated-tls:tls_1.1] [ssl] [info] email.c4mpus.com:443 ["tls11"]
+[deprecated-tls:tls_1.1] [ssl] [info] s3.c4mpus.com:443 ["tls11"]
+[deprecated-tls:tls_1.0] [ssl] [info] chat.c4mpus.com:443 ["tls10"]
+[deprecated-tls:tls_1.0] [ssl] [info] metrics.c4mpus.com:443 ["tls10"]
+[deprecated-tls:tls_1.0] [ssl] [info] staging.c4mpus.com:443 ["tls10"]
+[deprecated-tls:tls_1.0] [ssl] [info] exam.c4mpus.com:443 ["tls10"]
+[deprecated-tls:tls_1.0] [ssl] [info] staging-api.c4mpus.com:443 ["tls10"]
+[deprecated-tls:tls_1.0] [ssl] [info] admin.c4mpus.com:443 ["tls10"]
+[deprecated-tls:tls_1.0] [ssl] [info] dev.c4mpus.com:443 ["tls10"]
+[deprecated-tls:tls_1.0] [ssl] [info] api.c4mpus.com:443 ["tls10"]
+[deprecated-tls:tls_1.0] [ssl] [info] www.c4mpus.com:443 ["tls10"]
+[deprecated-tls:tls_1.0] [ssl] [info] apiv2.c4mpus.com:443 ["tls10"]
+[deprecated-tls:tls_1.0] [ssl] [info] c4mpus.com:443 ["tls10"]
+[deprecated-tls:tls_1.0] [ssl] [info] sage.c4mpus.com:443 ["tls10"]
+[deprecated-tls:tls_1.0] [ssl] [info] call.c4mpus.com:443 ["tls10"]
+[deprecated-tls:tls_1.0] [ssl] [info] s3.c4mpus.com:443 ["tls10"]
+[deprecated-tls:tls_1.0] [ssl] [info] enrollee-softwarica.c4mpus.com:443 ["tls10"]
+[deprecated-tls:tls_1.0] [ssl] [info] dev-api.c4mpus.com:443 ["tls10"]
+[deprecated-tls:tls_1.0] [ssl] [info] autodiscover.c4mpus.com:443 ["tls10"]
+[deprecated-tls:tls_1.0] [ssl] [info] email.c4mpus.com:443 ["tls10"]
+[deprecated-tls:tls_1.0] [ssl] [info] plagiarism.c4mpus.com:443 ["tls10"]
+[deprecated-tls:tls_1.0] [ssl] [info] cms.c4mpus.com:443 ["tls10"]
+[deprecated-tls:tls_1.0] [ssl] [info] employer.c4mpus.com:443 ["tls10"]
+[deprecated-tls:tls_1.0] [ssl] [info] code.c4mpus.com:443 ["tls10"]
+[tls-version] [ssl] [info] staging.c4mpus.com:443 ["tls10"]
+[tls-version] [ssl] [info] dev-api.c4mpus.com:443 ["tls10"]
+[tls-version] [ssl] [info] admin.c4mpus.com:443 ["tls10"]
+[tls-version] [ssl] [info] employer.c4mpus.com:443 ["tls10"]
+[tls-version] [ssl] [info] call.c4mpus.com:443 ["tls10"]
+[tls-version] [ssl] [info] staging-api.c4mpus.com:443 ["tls10"]
+[tls-version] [ssl] [info] cms.c4mpus.com:443 ["tls10"]
+[tls-version] [ssl] [info] plagiarism.c4mpus.com:443 ["tls10"]
+[tls-version] [ssl] [info] exam.c4mpus.com:443 ["tls10"]
+[tls-version] [ssl] [info] chat.c4mpus.com:443 ["tls10"]
+[tls-version] [ssl] [info] c4mpus.com:443 ["tls10"]
+[tls-version] [ssl] [info] email.c4mpus.com:443 ["tls10"]
+[tls-version] [ssl] [info] www.c4mpus.com:443 ["tls10"]
+[tls-version] [ssl] [info] autodiscover.c4mpus.com:443 ["tls10"]
+[tls-version] [ssl] [info] metrics.c4mpus.com:443 ["tls10"]
+[tls-version] [ssl] [info] apiv2.c4mpus.com:443 ["tls10"]
+[tls-version] [ssl] [info] api.c4mpus.com:443 ["tls10"]
+[tls-version] [ssl] [info] dev.c4mpus.com:443 ["tls10"]
+[tls-version] [ssl] [info] s3.c4mpus.com:443 ["tls10"]
+[tls-version] [ssl] [info] code.c4mpus.com:443 ["tls10"]
+[tls-version] [ssl] [info] sage.c4mpus.com:443 ["tls10"]
+[tls-version] [ssl] [info] enrollee-softwarica.c4mpus.com:443 ["tls10"]
+[tls-version] [ssl] [info] staging-api.c4mpus.com:443 ["tls11"]
+[tls-version] [ssl] [info] staging.c4mpus.com:443 ["tls11"]
+[tls-version] [ssl] [info] chat.c4mpus.com:443 ["tls11"]
+[tls-version] [ssl] [info] dev-api.c4mpus.com:443 ["tls11"]
+[tls-version] [ssl] [info] admin.c4mpus.com:443 ["tls11"]
+[tls-version] [ssl] [info] autodiscover.c4mpus.com:443 ["tls11"]
+[tls-version] [ssl] [info] cms.c4mpus.com:443 ["tls11"]
+[tls-version] [ssl] [info] call.c4mpus.com:443 ["tls11"]
+[tls-version] [ssl] [info] plagiarism.c4mpus.com:443 ["tls11"]
+[tls-version] [ssl] [info] apiv2.c4mpus.com:443 ["tls11"]
+[tls-version] [ssl] [info] exam.c4mpus.com:443 ["tls11"]
+[tls-version] [ssl] [info] api.c4mpus.com:443 ["tls11"]
+[tls-version] [ssl] [info] c4mpus.com:443 ["tls11"]
+[tls-version] [ssl] [info] email.c4mpus.com:443 ["tls11"]
+[tls-version] [ssl] [info] employer.c4mpus.com:443 ["tls11"]
+[tls-version] [ssl] [info] metrics.c4mpus.com:443 ["tls11"]
+[tls-version] [ssl] [info] www.c4mpus.com:443 ["tls11"]
+[tls-version] [ssl] [info] dev.c4mpus.com:443 ["tls11"]
+[tls-version] [ssl] [info] code.c4mpus.com:443 ["tls11"]
+[tls-version] [ssl] [info] sage.c4mpus.com:443 ["tls11"]
+[tls-version] [ssl] [info] s3.c4mpus.com:443 ["tls11"]
+[tls-version] [ssl] [info] enrollee-softwarica.c4mpus.com:443 ["tls11"]
+[tls-version] [ssl] [info] call.c4mpus.com:443 ["tls12"]
+[tls-version] [ssl] [info] admin.c4mpus.com:443 ["tls12"]
+[tls-version] [ssl] [info] staging-api.c4mpus.com:443 ["tls12"]
+[tls-version] [ssl] [info] autodiscover.c4mpus.com:443 ["tls12"]
+[tls-version] [ssl] [info] c4mpus.com:443 ["tls12"]
+[tls-version] [ssl] [info] staging.c4mpus.com:443 ["tls12"]
+[tls-version] [ssl] [info] exam.c4mpus.com:443 ["tls12"]
+[tls-version] [ssl] [info] email.c4mpus.com:443 ["tls12"]
+[tls-version] [ssl] [info] chat.c4mpus.com:443 ["tls12"]
+[tls-version] [ssl] [info] api.c4mpus.com:443 ["tls12"]
+[tls-version] [ssl] [info] cms.c4mpus.com:443 ["tls12"]
+[tls-version] [ssl] [info] apiv2.c4mpus.com:443 ["tls12"]
+[tls-version] [ssl] [info] dev-api.c4mpus.com:443 ["tls12"]
+[tls-version] [ssl] [info] metrics.c4mpus.com:443 ["tls12"]
+[tls-version] [ssl] [info] employer.c4mpus.com:443 ["tls12"]
+[tls-version] [ssl] [info] plagiarism.c4mpus.com:443 ["tls12"]
+[tls-version] [ssl] [info] dev.c4mpus.com:443 ["tls12"]
+[tls-version] [ssl] [info] www.c4mpus.com:443 ["tls12"]
+[tls-version] [ssl] [info] code.c4mpus.com:443 ["tls12"]
+[tls-version] [ssl] [info] sage.c4mpus.com:443 ["tls12"]
+[tls-version] [ssl] [info] s3.c4mpus.com:443 ["tls12"]
+[tls-version] [ssl] [info] enrollee-softwarica.c4mpus.com:443 ["tls12"]
+[tls-version] [ssl] [info] exam.c4mpus.com:443 ["tls13"]
+[tls-version] [ssl] [info] admin.c4mpus.com:443 ["tls13"]
+[tls-version] [ssl] [info] autodiscover.c4mpus.com:443 ["tls13"]
+[tls-version] [ssl] [info] staging-api.c4mpus.com:443 ["tls13"]
+[tls-version] [ssl] [info] apiv2.c4mpus.com:443 ["tls13"]
+[tls-version] [ssl] [info] api.c4mpus.com:443 ["tls13"]
+[tls-version] [ssl] [info] email.c4mpus.com:443 ["tls13"]
+[tls-version] [ssl] [info] c4mpus.com:443 ["tls13"]
+[tls-version] [ssl] [info] chat.c4mpus.com:443 ["tls13"]
+[tls-version] [ssl] [info] staging.c4mpus.com:443 ["tls13"]
+[tls-version] [ssl] [info] dev-api.c4mpus.com:443 ["tls13"]
+[tls-version] [ssl] [info] call.c4mpus.com:443 ["tls13"]
+[tls-version] [ssl] [info] dev.c4mpus.com:443 ["tls13"]
+[tls-version] [ssl] [info] cms.c4mpus.com:443 ["tls13"]
+[tls-version] [ssl] [info] plagiarism.c4mpus.com:443 ["tls13"]
+[tls-version] [ssl] [info] employer.c4mpus.com:443 ["tls13"]
+[tls-version] [ssl] [info] metrics.c4mpus.com:443 ["tls13"]
+[tls-version] [ssl] [info] www.c4mpus.com:443 ["tls13"]
+[tls-version] [ssl] [info] s3.c4mpus.com:443 ["tls13"]
+[tls-version] [ssl] [info] enrollee-softwarica.c4mpus.com:443 ["tls13"]
+[tls-version] [ssl] [info] code.c4mpus.com:443 ["tls13"]
+[tls-version] [ssl] [info] sage.c4mpus.com:443 ["tls13"]
+[weak-cipher-suites:tls-1.0] [ssl] [low] code.c4mpus.com:443 ["[tls10 TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA]"]
+[weak-cipher-suites:tls-1.0] [ssl] [low] api.c4mpus.com:443 ["[tls10 TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA]"]
+[weak-cipher-suites:tls-1.0] [ssl] [low] cms.c4mpus.com:443 ["[tls10 TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA]"]
+[weak-cipher-suites:tls-1.0] [ssl] [low] dev-api.c4mpus.com:443 ["[tls10 TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA]"]
+[weak-cipher-suites:tls-1.0] [ssl] [low] s3.c4mpus.com:443 ["[tls10 TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA]"]
+[weak-cipher-suites:tls-1.0] [ssl] [low] employer.c4mpus.com:443 ["[tls10 TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA]"]
+[weak-cipher-suites:tls-1.0] [ssl] [low] www.c4mpus.com:443 ["[tls10 TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA]"]
+[weak-cipher-suites:tls-1.0] [ssl] [low] enrollee-softwarica.c4mpus.com:443 ["[tls10 TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA]"]
+[weak-cipher-suites:tls-1.0] [ssl] [low] dev.c4mpus.com:443 ["[tls10 TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA]"]
+[weak-cipher-suites:tls-1.0] [ssl] [low] sage.c4mpus.com:443 ["[tls10 TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA]"]
+[weak-cipher-suites:tls-1.0] [ssl] [low] call.c4mpus.com:443 ["[tls10 TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA]"]
+[weak-cipher-suites:tls-1.0] [ssl] [low] apiv2.c4mpus.com:443 ["[tls10 TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA]"]
+[weak-cipher-suites:tls-1.0] [ssl] [low] staging-api.c4mpus.com:443 ["[tls10 TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA]"]
+[weak-cipher-suites:tls-1.0] [ssl] [low] staging.c4mpus.com:443 ["[tls10 TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA]"]
+[weak-cipher-suites:tls-1.0] [ssl] [low] autodiscover.c4mpus.com:443 ["[tls10 TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA]"]
+[weak-cipher-suites:tls-1.0] [ssl] [low] admin.c4mpus.com:443 ["[tls10 TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA]"]
+[weak-cipher-suites:tls-1.0] [ssl] [low] plagiarism.c4mpus.com:443 ["[tls10 TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA]"]
+[weak-cipher-suites:tls-1.0] [ssl] [low] chat.c4mpus.com:443 ["[tls10 TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA]"]
+[weak-cipher-suites:tls-1.0] [ssl] [low] metrics.c4mpus.com:443 ["[tls10 TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA]"]
+[weak-cipher-suites:tls-1.0] [ssl] [low] c4mpus.com:443 ["[tls10 TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA]"]
+[weak-cipher-suites:tls-1.0] [ssl] [low] email.c4mpus.com:443 ["[tls10 TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA]"]
+[weak-cipher-suites:tls-1.0] [ssl] [low] exam.c4mpus.com:443 ["[tls10 TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA]"]
+[weak-cipher-suites:tls-1.1] [ssl] [low] code.c4mpus.com:443 ["[tls11 TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA]"]
+[weak-cipher-suites:tls-1.1] [ssl] [low] staging.c4mpus.com:443 ["[tls11 TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA]"]
+[weak-cipher-suites:tls-1.1] [ssl] [low] www.c4mpus.com:443 ["[tls11 TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA]"]
+[weak-cipher-suites:tls-1.1] [ssl] [low] s3.c4mpus.com:443 ["[tls11 TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA]"]
+[weak-cipher-suites:tls-1.1] [ssl] [low] api.c4mpus.com:443 ["[tls11 TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA]"]
+[weak-cipher-suites:tls-1.1] [ssl] [low] enrollee-softwarica.c4mpus.com:443 ["[tls11 TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA]"]
+[weak-cipher-suites:tls-1.1] [ssl] [low] sage.c4mpus.com:443 ["[tls11 TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA]"]
+[weak-cipher-suites:tls-1.1] [ssl] [low] email.c4mpus.com:443 ["[tls11 TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA]"]
+[weak-cipher-suites:tls-1.1] [ssl] [low] cms.c4mpus.com:443 ["[tls11 TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA]"]
+[weak-cipher-suites:tls-1.1] [ssl] [low] apiv2.c4mpus.com:443 ["[tls11 TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA]"]
+[weak-cipher-suites:tls-1.1] [ssl] [low] staging-api.c4mpus.com:443 ["[tls11 TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA]"]
+[weak-cipher-suites:tls-1.1] [ssl] [low] employer.c4mpus.com:443 ["[tls11 TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA]"]
+[weak-cipher-suites:tls-1.1] [ssl] [low] plagiarism.c4mpus.com:443 ["[tls11 TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA]"]
+[weak-cipher-suites:tls-1.1] [ssl] [low] dev-api.c4mpus.com:443 ["[tls11 TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA]"]
+[weak-cipher-suites:tls-1.1] [ssl] [low] chat.c4mpus.com:443 ["[tls11 TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA]"]
+[weak-cipher-suites:tls-1.1] [ssl] [low] admin.c4mpus.com:443 ["[tls11 TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA]"]
+[weak-cipher-suites:tls-1.1] [ssl] [low] dev.c4mpus.com:443 ["[tls11 TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA]"]
+[weak-cipher-suites:tls-1.1] [ssl] [low] metrics.c4mpus.com:443 ["[tls11 TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA]"]
+[weak-cipher-suites:tls-1.1] [ssl] [low] c4mpus.com:443 ["[tls11 TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA]"]
+[weak-cipher-suites:tls-1.1] [ssl] [low] call.c4mpus.com:443 ["[tls11 TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA]"]
+[weak-cipher-suites:tls-1.1] [ssl] [low] autodiscover.c4mpus.com:443 ["[tls11 TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA]"]
+[weak-cipher-suites:tls-1.1] [ssl] [low] exam.c4mpus.com:443 ["[tls11 TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA]"]
+[rdap-whois:registrationDate] [http] [info] https://rdap.verisign.com/com/v1/domain/c4mpus.com ["2023-09-07T09:58:27Z"]
+[rdap-whois:lastChangeDate] [http] [info] https://rdap.verisign.com/com/v1/domain/c4mpus.com ["2024-10-21T09:25:11Z"]
+[rdap-whois:expirationDate] [http] [info] https://rdap.verisign.com/com/v1/domain/c4mpus.com ["2025-09-07T09:58:27Z"]
+[rdap-whois:nameServers] [http] [info] https://rdap.verisign.com/com/v1/domain/c4mpus.com ["VEDA.NS.CLOUDFLARE.COM","PIOTR.NS.CLOUDFLARE.COM"]
+[rdap-whois:secureDNS] [http] [info] https://rdap.verisign.com/com/v1/domain/c4mpus.com ["false"]
+[rdap-whois:status] [http] [info] https://rdap.verisign.com/com/v1/domain/c4mpus.com ["client delete prohibited","client renew prohibited","client transfer prohibited","client update prohibited"]
+[robots-txt-endpoint] [http] [info] https://staging.c4mpus.com/robots.txt
+[robots-txt-endpoint] [http] [info] https://call.c4mpus.com/robots.txt
+[robots-txt-endpoint] [http] [info] https://c4mpus.com/robots.txt
+[robots-txt-endpoint] [http] [info] https://dev.c4mpus.com/robots.txt
+[robots-txt-endpoint] [http] [info] https://exam.c4mpus.com/robots.txt
+[aspnet-version-detect] [http] [info] https://autodiscover.c4mpus.com/%3f ["4.0.30319"]
+[tech-detect:cloudflare] [http] [info] https://www.c4mpus.com
+[tech-detect:cloudflare] [http] [info] https://autodiscover.c4mpus.com
+[tech-detect:cloudflare] [http] [info] https://code.c4mpus.com
+[tech-detect:cloudflare] [http] [info] https://plagiarism.c4mpus.com
+[tech-detect:cloudflare] [http] [info] https://email.c4mpus.com
+[tech-detect:express] [http] [info] https://api.c4mpus.com
+[tech-detect:cloudflare] [http] [info] https://api.c4mpus.com
+[tech-detect:express] [http] [info] https://staging-api.c4mpus.com
+[tech-detect:cloudflare] [http] [info] https://staging-api.c4mpus.com
+[tech-detect:express] [http] [info] https://apiv2.c4mpus.com
+[tech-detect:cloudflare] [http] [info] https://apiv2.c4mpus.com
+[tech-detect:react] [http] [info] https://dev.c4mpus.com
+[tech-detect:cloudflare] [http] [info] https://dev.c4mpus.com
+[tech-detect:express] [http] [info] https://enrollee-softwarica.c4mpus.com
+[tech-detect:cloudflare] [http] [info] https://enrollee-softwarica.c4mpus.com
+[tech-detect:google-font-api] [http] [info] https://employer.c4mpus.com
+[tech-detect:cloudflare] [http] [info] https://employer.c4mpus.com
+[tech-detect:google-font-api] [http] [info] https://staging.c4mpus.com
+[tech-detect:cloudflare] [http] [info] https://staging.c4mpus.com
+[tech-detect:cloudflare] [http] [info] https://c4mpus.com
+[tech-detect:google-font-api] [http] [info] https://c4mpus.com
+[tech-detect:google-font-api] [http] [info] https://exam.c4mpus.com
+[tech-detect:cloudflare] [http] [info] https://exam.c4mpus.com
+[tech-detect:font-awesome] [http] [info] https://admin.c4mpus.com
+[tech-detect:bootstrap] [http] [info] https://admin.c4mpus.com
+[tech-detect:cloudflare] [http] [info] https://admin.c4mpus.com
+[tech-detect:cloudflare] [http] [info] https://s3.c4mpus.com
+[tech-detect:cloudflare] [http] [info] https://chat.c4mpus.com
+[tech-detect:cloudflare] [http] [info] https://sage.c4mpus.com
+[tech-detect:cloudflare] [http] [info] https://cms.c4mpus.com
+[tech-detect:cloudflare] [http] [info] https://dev-api.c4mpus.com
+[tech-detect:cloudflare] [http] [info] https://metrics.c4mpus.com
+[tech-detect:cloudflare] [http] [info] https://call.c4mpus.com
+[robots-txt] [http] [info] https://call.c4mpus.com/robots.txt
+[robots-txt] [http] [info] https://staging.c4mpus.com/robots.txt
+[robots-txt] [http] [info] https://c4mpus.com/robots.txt
+[robots-txt] [http] [info] https://dev.c4mpus.com/robots.txt
+[robots-txt] [http] [info] https://exam.c4mpus.com/robots.txt
+[http-missing-security-headers:content-security-policy] [http] [info] https://plagiarism.c4mpus.com
+[http-missing-security-headers:x-frame-options] [http] [info] https://plagiarism.c4mpus.com
+[http-missing-security-headers:x-content-type-options] [http] [info] https://plagiarism.c4mpus.com
+[http-missing-security-headers:x-permitted-cross-domain-policies] [http] [info] https://plagiarism.c4mpus.com
+[http-missing-security-headers:referrer-policy] [http] [info] https://plagiarism.c4mpus.com
+[http-missing-security-headers:clear-site-data] [http] [info] https://plagiarism.c4mpus.com
+[http-missing-security-headers:cross-origin-opener-policy] [http] [info] https://plagiarism.c4mpus.com
+[http-missing-security-headers:cross-origin-resource-policy] [http] [info] https://plagiarism.c4mpus.com
+[http-missing-security-headers:strict-transport-security] [http] [info] https://plagiarism.c4mpus.com
+[http-missing-security-headers:permissions-policy] [http] [info] https://plagiarism.c4mpus.com
+[http-missing-security-headers:cross-origin-embedder-policy] [http] [info] https://plagiarism.c4mpus.com
+[http-missing-security-headers:strict-transport-security] [http] [info] https://call.c4mpus.com
+[http-missing-security-headers:content-security-policy] [http] [info] https://call.c4mpus.com
+[http-missing-security-headers:x-permitted-cross-domain-policies] [http] [info] https://call.c4mpus.com
+[http-missing-security-headers:cross-origin-opener-policy] [http] [info] https://call.c4mpus.com
+[http-missing-security-headers:cross-origin-resource-policy] [http] [info] https://call.c4mpus.com
+[http-missing-security-headers:x-frame-options] [http] [info] https://call.c4mpus.com
+[http-missing-security-headers:referrer-policy] [http] [info] https://call.c4mpus.com
+[http-missing-security-headers:clear-site-data] [http] [info] https://call.c4mpus.com
+[http-missing-security-headers:cross-origin-embedder-policy] [http] [info] https://call.c4mpus.com
+[http-missing-security-headers:permissions-policy] [http] [info] https://c4mpus.com
+[http-missing-security-headers:x-frame-options] [http] [info] https://c4mpus.com
+[http-missing-security-headers:x-content-type-options] [http] [info] https://c4mpus.com
+[http-missing-security-headers:x-permitted-cross-domain-policies] [http] [info] https://c4mpus.com
+[http-missing-security-headers:referrer-policy] [http] [info] https://c4mpus.com
+[http-missing-security-headers:clear-site-data] [http] [info] https://c4mpus.com
+[http-missing-security-headers:cross-origin-resource-policy] [http] [info] https://c4mpus.com
+[http-missing-security-headers:content-security-policy] [http] [info] https://c4mpus.com
+[http-missing-security-headers:cross-origin-embedder-policy] [http] [info] https://c4mpus.com
+[http-missing-security-headers:cross-origin-opener-policy] [http] [info] https://c4mpus.com
+[http-missing-security-headers:strict-transport-security] [http] [info] https://c4mpus.com
+[http-missing-security-headers:strict-transport-security] [http] [info] https://s3.c4mpus.com
+[http-missing-security-headers:content-security-policy] [http] [info] https://s3.c4mpus.com
+[http-missing-security-headers:permissions-policy] [http] [info] https://s3.c4mpus.com
+[http-missing-security-headers:x-permitted-cross-domain-policies] [http] [info] https://s3.c4mpus.com
+[http-missing-security-headers:cross-origin-embedder-policy] [http] [info] https://s3.c4mpus.com
+[http-missing-security-headers:x-content-type-options] [http] [info] https://s3.c4mpus.com
+[http-missing-security-headers:clear-site-data] [http] [info] https://s3.c4mpus.com
+[http-missing-security-headers:cross-origin-opener-policy] [http] [info] https://s3.c4mpus.com
+[http-missing-security-headers:cross-origin-resource-policy] [http] [info] https://s3.c4mpus.com
+[http-missing-security-headers:strict-transport-security] [http] [info] https://enrollee-softwarica.c4mpus.com
+[http-missing-security-headers:x-frame-options] [http] [info] https://enrollee-softwarica.c4mpus.com
+[http-missing-security-headers:clear-site-data] [http] [info] https://enrollee-softwarica.c4mpus.com
+[http-missing-security-headers:cross-origin-resource-policy] [http] [info] https://enrollee-softwarica.c4mpus.com
+[http-missing-security-headers:permissions-policy] [http] [info] https://enrollee-softwarica.c4mpus.com
+[http-missing-security-headers:x-permitted-cross-domain-policies] [http] [info] https://enrollee-softwarica.c4mpus.com
+[http-missing-security-headers:referrer-policy] [http] [info] https://enrollee-softwarica.c4mpus.com
+[http-missing-security-headers:cross-origin-embedder-policy] [http] [info] https://enrollee-softwarica.c4mpus.com
+[http-missing-security-headers:cross-origin-opener-policy] [http] [info] https://enrollee-softwarica.c4mpus.com
+[http-missing-security-headers:x-permitted-cross-domain-policies] [http] [info] https://dev.c4mpus.com
+[http-missing-security-headers:cross-origin-embedder-policy] [http] [info] https://dev.c4mpus.com
+[http-missing-security-headers:content-security-policy] [http] [info] https://dev.c4mpus.com
+[http-missing-security-headers:x-frame-options] [http] [info] https://dev.c4mpus.com
+[http-missing-security-headers:referrer-policy] [http] [info] https://dev.c4mpus.com
+[http-missing-security-headers:clear-site-data] [http] [info] https://dev.c4mpus.com
+[http-missing-security-headers:cross-origin-opener-policy] [http] [info] https://dev.c4mpus.com
+[http-missing-security-headers:cross-origin-resource-policy] [http] [info] https://dev.c4mpus.com
+[http-missing-security-headers:strict-transport-security] [http] [info] https://dev.c4mpus.com
+[http-missing-security-headers:permissions-policy] [http] [info] https://dev.c4mpus.com
+[http-missing-security-headers:x-content-type-options] [http] [info] https://dev.c4mpus.com
+[http-missing-security-headers:permissions-policy] [http] [info] https://apiv2.c4mpus.com
+[http-missing-security-headers:x-frame-options] [http] [info] https://apiv2.c4mpus.com
+[http-missing-security-headers:x-permitted-cross-domain-policies] [http] [info] https://apiv2.c4mpus.com
+[http-missing-security-headers:clear-site-data] [http] [info] https://apiv2.c4mpus.com
+[http-missing-security-headers:cross-origin-embedder-policy] [http] [info] https://apiv2.c4mpus.com
+[http-missing-security-headers:cross-origin-opener-policy] [http] [info] https://apiv2.c4mpus.com
+[http-missing-security-headers:cross-origin-resource-policy] [http] [info] https://apiv2.c4mpus.com
+[http-missing-security-headers:strict-transport-security] [http] [info] https://apiv2.c4mpus.com
+[http-missing-security-headers:content-security-policy] [http] [info] https://apiv2.c4mpus.com
+[http-missing-security-headers:x-content-type-options] [http] [info] https://apiv2.c4mpus.com
+[http-missing-security-headers:referrer-policy] [http] [info] https://apiv2.c4mpus.com
+[http-missing-security-headers:x-frame-options] [http] [info] https://admin.c4mpus.com
+[http-missing-security-headers:x-permitted-cross-domain-policies] [http] [info] https://admin.c4mpus.com
+[http-missing-security-headers:cross-origin-embedder-policy] [http] [info] https://admin.c4mpus.com
+[http-missing-security-headers:cross-origin-resource-policy] [http] [info] https://admin.c4mpus.com
+[http-missing-security-headers:strict-transport-security] [http] [info] https://admin.c4mpus.com
+[http-missing-security-headers:content-security-policy] [http] [info] https://admin.c4mpus.com
+[http-missing-security-headers:x-content-type-options] [http] [info] https://admin.c4mpus.com
+[http-missing-security-headers:referrer-policy] [http] [info] https://admin.c4mpus.com
+[http-missing-security-headers:clear-site-data] [http] [info] https://admin.c4mpus.com
+[http-missing-security-headers:cross-origin-opener-policy] [http] [info] https://admin.c4mpus.com
+[http-missing-security-headers:permissions-policy] [http] [info] https://admin.c4mpus.com
+[http-missing-security-headers:permissions-policy] [http] [info] https://employer.c4mpus.com
+[http-missing-security-headers:referrer-policy] [http] [info] https://employer.c4mpus.com
+[http-missing-security-headers:clear-site-data] [http] [info] https://employer.c4mpus.com
+[http-missing-security-headers:cross-origin-embedder-policy] [http] [info] https://employer.c4mpus.com
+[http-missing-security-headers:cross-origin-resource-policy] [http] [info] https://employer.c4mpus.com
+[http-missing-security-headers:strict-transport-security] [http] [info] https://employer.c4mpus.com
+[http-missing-security-headers:content-security-policy] [http] [info] https://employer.c4mpus.com
+[http-missing-security-headers:x-frame-options] [http] [info] https://employer.c4mpus.com
+[http-missing-security-headers:x-content-type-options] [http] [info] https://employer.c4mpus.com
+[http-missing-security-headers:x-permitted-cross-domain-policies] [http] [info] https://employer.c4mpus.com
+[http-missing-security-headers:cross-origin-opener-policy] [http] [info] https://employer.c4mpus.com
+[http-missing-security-headers:strict-transport-security] [http] [info] https://api.c4mpus.com
+[http-missing-security-headers:content-security-policy] [http] [info] https://api.c4mpus.com
+[http-missing-security-headers:permissions-policy] [http] [info] https://api.c4mpus.com
+[http-missing-security-headers:x-content-type-options] [http] [info] https://api.c4mpus.com
+[http-missing-security-headers:clear-site-data] [http] [info] https://api.c4mpus.com
+[http-missing-security-headers:x-frame-options] [http] [info] https://api.c4mpus.com
+[http-missing-security-headers:x-permitted-cross-domain-policies] [http] [info] https://api.c4mpus.com
+[http-missing-security-headers:referrer-policy] [http] [info] https://api.c4mpus.com
+[http-missing-security-headers:cross-origin-embedder-policy] [http] [info] https://api.c4mpus.com
+[http-missing-security-headers:cross-origin-opener-policy] [http] [info] https://api.c4mpus.com
+[http-missing-security-headers:cross-origin-resource-policy] [http] [info] https://api.c4mpus.com
+[http-missing-security-headers:x-frame-options] [http] [info] https://staging.c4mpus.com
+[http-missing-security-headers:x-content-type-options] [http] [info] https://staging.c4mpus.com
+[http-missing-security-headers:x-permitted-cross-domain-policies] [http] [info] https://staging.c4mpus.com
+[http-missing-security-headers:referrer-policy] [http] [info] https://staging.c4mpus.com
+[http-missing-security-headers:cross-origin-embedder-policy] [http] [info] https://staging.c4mpus.com
+[http-missing-security-headers:cross-origin-resource-policy] [http] [info] https://staging.c4mpus.com
+[http-missing-security-headers:strict-transport-security] [http] [info] https://staging.c4mpus.com
+[http-missing-security-headers:permissions-policy] [http] [info] https://staging.c4mpus.com
+[http-missing-security-headers:clear-site-data] [http] [info] https://staging.c4mpus.com
+[http-missing-security-headers:cross-origin-opener-policy] [http] [info] https://staging.c4mpus.com
+[http-missing-security-headers:content-security-policy] [http] [info] https://staging.c4mpus.com
+[http-missing-security-headers:cross-origin-opener-policy] [http] [info] https://exam.c4mpus.com
+[http-missing-security-headers:cross-origin-resource-policy] [http] [info] https://exam.c4mpus.com
+[http-missing-security-headers:permissions-policy] [http] [info] https://exam.c4mpus.com
+[http-missing-security-headers:x-content-type-options] [http] [info] https://exam.c4mpus.com
+[http-missing-security-headers:referrer-policy] [http] [info] https://exam.c4mpus.com
+[http-missing-security-headers:cross-origin-embedder-policy] [http] [info] https://exam.c4mpus.com
+[http-missing-security-headers:strict-transport-security] [http] [info] https://exam.c4mpus.com
+[http-missing-security-headers:content-security-policy] [http] [info] https://exam.c4mpus.com
+[http-missing-security-headers:x-frame-options] [http] [info] https://exam.c4mpus.com
+[http-missing-security-headers:x-permitted-cross-domain-policies] [http] [info] https://exam.c4mpus.com
+[http-missing-security-headers:clear-site-data] [http] [info] https://exam.c4mpus.com
+[http-missing-security-headers:cross-origin-opener-policy] [http] [info] https://metrics.c4mpus.com
+[http-missing-security-headers:cross-origin-resource-policy] [http] [info] https://metrics.c4mpus.com
+[http-missing-security-headers:x-frame-options] [http] [info] https://metrics.c4mpus.com
+[http-missing-security-headers:clear-site-data] [http] [info] https://metrics.c4mpus.com
+[http-missing-security-headers:cross-origin-embedder-policy] [http] [info] https://metrics.c4mpus.com
+[http-missing-security-headers:strict-transport-security] [http] [info] https://metrics.c4mpus.com
+[http-missing-security-headers:content-security-policy] [http] [info] https://metrics.c4mpus.com
+[http-missing-security-headers:permissions-policy] [http] [info] https://metrics.c4mpus.com
+[http-missing-security-headers:x-content-type-options] [http] [info] https://metrics.c4mpus.com
+[http-missing-security-headers:x-permitted-cross-domain-policies] [http] [info] https://metrics.c4mpus.com
+[http-missing-security-headers:referrer-policy] [http] [info] https://metrics.c4mpus.com
+[http-missing-security-headers:content-security-policy] [http] [info] https://code.c4mpus.com
+[http-missing-security-headers:permissions-policy] [http] [info] https://code.c4mpus.com
+[http-missing-security-headers:x-frame-options] [http] [info] https://code.c4mpus.com
+[http-missing-security-headers:x-content-type-options] [http] [info] https://code.c4mpus.com
+[http-missing-security-headers:cross-origin-embedder-policy] [http] [info] https://code.c4mpus.com
+[http-missing-security-headers:cross-origin-opener-policy] [http] [info] https://code.c4mpus.com
+[http-missing-security-headers:cross-origin-resource-policy] [http] [info] https://code.c4mpus.com
+[http-missing-security-headers:strict-transport-security] [http] [info] https://code.c4mpus.com
+[http-missing-security-headers:x-permitted-cross-domain-policies] [http] [info] https://code.c4mpus.com
+[http-missing-security-headers:referrer-policy] [http] [info] https://code.c4mpus.com
+[http-missing-security-headers:clear-site-data] [http] [info] https://code.c4mpus.com
+[http-missing-security-headers:x-content-type-options] [http] [info] https://staging-api.c4mpus.com
+[http-missing-security-headers:x-permitted-cross-domain-policies] [http] [info] https://staging-api.c4mpus.com
+[http-missing-security-headers:cross-origin-opener-policy] [http] [info] https://staging-api.c4mpus.com
+[http-missing-security-headers:permissions-policy] [http] [info] https://staging-api.c4mpus.com
+[http-missing-security-headers:referrer-policy] [http] [info] https://staging-api.c4mpus.com
+[http-missing-security-headers:clear-site-data] [http] [info] https://staging-api.c4mpus.com
+[http-missing-security-headers:cross-origin-embedder-policy] [http] [info] https://staging-api.c4mpus.com
+[http-missing-security-headers:cross-origin-resource-policy] [http] [info] https://staging-api.c4mpus.com
+[http-missing-security-headers:strict-transport-security] [http] [info] https://staging-api.c4mpus.com
+[http-missing-security-headers:content-security-policy] [http] [info] https://staging-api.c4mpus.com
+[http-missing-security-headers:x-frame-options] [http] [info] https://staging-api.c4mpus.com
+[options-method] [http] [info] https://plagiarism.c4mpus.com ["GET, HEAD, OPTIONS"]
+[http-missing-security-headers:strict-transport-security] [http] [info] https://sage.c4mpus.com
+[http-missing-security-headers:content-security-policy] [http] [info] https://sage.c4mpus.com
+[http-missing-security-headers:x-permitted-cross-domain-policies] [http] [info] https://sage.c4mpus.com
+[http-missing-security-headers:clear-site-data] [http] [info] https://sage.c4mpus.com
+[http-missing-security-headers:permissions-policy] [http] [info] https://sage.c4mpus.com
+[http-missing-security-headers:x-content-type-options] [http] [info] https://sage.c4mpus.com
+[http-missing-security-headers:cross-origin-embedder-policy] [http] [info] https://sage.c4mpus.com
+[http-missing-security-headers:cross-origin-opener-policy] [http] [info] https://sage.c4mpus.com
+[http-missing-security-headers:cross-origin-resource-policy] [http] [info] https://sage.c4mpus.com
+[http-missing-security-headers:cross-origin-embedder-policy] [http] [info] https://chat.c4mpus.com
+[http-missing-security-headers:cross-origin-resource-policy] [http] [info] https://chat.c4mpus.com
+[http-missing-security-headers:strict-transport-security] [http] [info] https://chat.c4mpus.com
+[http-missing-security-headers:content-security-policy] [http] [info] https://chat.c4mpus.com
+[http-missing-security-headers:permissions-policy] [http] [info] https://chat.c4mpus.com
+[http-missing-security-headers:clear-site-data] [http] [info] https://chat.c4mpus.com
+[http-missing-security-headers:cross-origin-opener-policy] [http] [info] https://chat.c4mpus.com
+[http-missing-security-headers:x-content-type-options] [http] [info] https://chat.c4mpus.com
+[http-missing-security-headers:x-permitted-cross-domain-policies] [http] [info] https://chat.c4mpus.com
+[options-method] [http] [info] https://metrics.c4mpus.com ["OPTIONS,HEAD,GET,POST"]
+[http-missing-security-headers:x-permitted-cross-domain-policies] [http] [info] https://dev-api.c4mpus.com
+[http-missing-security-headers:cross-origin-embedder-policy] [http] [info] https://dev-api.c4mpus.com
+[http-missing-security-headers:strict-transport-security] [http] [info] https://dev-api.c4mpus.com
+[http-missing-security-headers:content-security-policy] [http] [info] https://dev-api.c4mpus.com
+[http-missing-security-headers:permissions-policy] [http] [info] https://dev-api.c4mpus.com
+[http-missing-security-headers:clear-site-data] [http] [info] https://dev-api.c4mpus.com
+[http-missing-security-headers:cross-origin-opener-policy] [http] [info] https://dev-api.c4mpus.com
+[http-missing-security-headers:cross-origin-resource-policy] [http] [info] https://dev-api.c4mpus.com
+[http-missing-security-headers:x-content-type-options] [http] [info] https://dev-api.c4mpus.com
+[http-missing-security-headers:content-security-policy] [http] [info] https://cms.c4mpus.com
+[http-missing-security-headers:x-content-type-options] [http] [info] https://cms.c4mpus.com
+[http-missing-security-headers:x-permitted-cross-domain-policies] [http] [info] https://cms.c4mpus.com
+[http-missing-security-headers:cross-origin-opener-policy] [http] [info] https://cms.c4mpus.com
+[http-missing-security-headers:strict-transport-security] [http] [info] https://cms.c4mpus.com
+[http-missing-security-headers:permissions-policy] [http] [info] https://cms.c4mpus.com
+[http-missing-security-headers:clear-site-data] [http] [info] https://cms.c4mpus.com
+[http-missing-security-headers:cross-origin-embedder-policy] [http] [info] https://cms.c4mpus.com
+[http-missing-security-headers:cross-origin-resource-policy] [http] [info] https://cms.c4mpus.com
+[composer-config:composer.lock] [http] [info] https://api.c4mpus.com/composer.json
+[composer-config:composer.lock] [http] [info] https://staging-api.c4mpus.com/composer.json
+[composer-config:composer.lock] [http] [info] https://apiv2.c4mpus.com/composer.json
+[composer-config:composer.lock] [http] [info] https://api.c4mpus.com/composer.lock
+[addeventlistener-detect] [http] [info] https://admin.c4mpus.com
+[addeventlistener-detect] [http] [info] https://s3.c4mpus.com
+[composer-config:composer.lock] [http] [info] https://staging-api.c4mpus.com/composer.lock
+[addeventlistener-detect] [http] [info] https://chat.c4mpus.com
+[addeventlistener-detect] [http] [info] https://sage.c4mpus.com
+[default-apache-test-all] [http] [info] https://metrics.c4mpus.com ["cloudflare"]
+[default-apache2-ubuntu-page] [http] [info] https://metrics.c4mpus.com
+[addeventlistener-detect] [http] [info] https://call.c4mpus.com
+[google-floc-disabled] [http] [info] https://call.c4mpus.com
+[xss-deprecated-header] [http] [info] https://call.c4mpus.com ["1; mode=block"]
+[jitsi-meet-detect] [http] [info] https://call.c4mpus.com
+[composer-config:composer.lock] [http] [info] https://staging-api.c4mpus.com/.composer/composer.json
+[composer-config:composer.lock] [http] [info] https://apiv2.c4mpus.com/composer.lock
+[composer-config:composer.lock] [http] [info] https://api.c4mpus.com/.composer/composer.json
+[composer-config:composer.lock] [http] [info] https://staging-api.c4mpus.com/vendor/composer/installed.json
+[addeventlistener-detect] [http] [info] https://dev-api.c4mpus.com
+[addeventlistener-detect] [http] [info] https://cms.c4mpus.com
+[composer-config:composer.lock] [http] [info] https://apiv2.c4mpus.com/.composer/composer.json
+[composer-config:composer.lock] [http] [info] https://api.c4mpus.com/vendor/composer/installed.json
+[composer-config:composer.lock] [http] [info] https://apiv2.c4mpus.com/vendor/composer/installed.json
+[ssl-issuer] [ssl] [info] s3.c4mpus.com:443 ["Google Trust Services"]
+[ssl-dns-names] [ssl] [info] s3.c4mpus.com:443 ["*.c4mpus.com","c4mpus.com"]
+[wildcard-tls] [ssl] [info] s3.c4mpus.com:443 ["CN: c4mpus.com","SAN: [c4mpus.com *.c4mpus.com]"]
+[ssl-issuer] [ssl] [info] call.c4mpus.com:443 ["Google Trust Services"]
+[ssl-dns-names] [ssl] [info] call.c4mpus.com:443 ["c4mpus.com","*.c4mpus.com"]
+[wildcard-tls] [ssl] [info] call.c4mpus.com:443 ["CN: c4mpus.com","SAN: [c4mpus.com *.c4mpus.com]"]
+[ssl-issuer] [ssl] [info] enrollee-softwarica.c4mpus.com:443 ["Google Trust Services"]
+[ssl-dns-names] [ssl] [info] enrollee-softwarica.c4mpus.com:443 ["c4mpus.com","*.c4mpus.com"]
+[wildcard-tls] [ssl] [info] enrollee-softwarica.c4mpus.com:443 ["CN: c4mpus.com","SAN: [c4mpus.com *.c4mpus.com]"]
+[ssl-issuer] [ssl] [info] dev.c4mpus.com:443 ["Google Trust Services"]
+[ssl-dns-names] [ssl] [info] dev.c4mpus.com:443 ["c4mpus.com","*.c4mpus.com"]
+[wildcard-tls] [ssl] [info] dev.c4mpus.com:443 ["CN: c4mpus.com","SAN: [c4mpus.com *.c4mpus.com]"]
+[ssl-issuer] [ssl] [info] plagiarism.c4mpus.com:443 ["Google Trust Services"]
+[ssl-issuer] [ssl] [info] staging.c4mpus.com:443 ["Google Trust Services"]
+[ssl-dns-names] [ssl] [info] staging.c4mpus.com:443 ["c4mpus.com","*.c4mpus.com"]
+[wildcard-tls] [ssl] [info] staging.c4mpus.com:443 ["CN: c4mpus.com","SAN: [c4mpus.com *.c4mpus.com]"]
+[ssl-dns-names] [ssl] [info] plagiarism.c4mpus.com:443 ["c4mpus.com","*.c4mpus.com"]
+[wildcard-tls] [ssl] [info] plagiarism.c4mpus.com:443 ["CN: c4mpus.com","SAN: [c4mpus.com *.c4mpus.com]"]
+[ssl-issuer] [ssl] [info] cms.c4mpus.com:443 ["Google Trust Services"]
+[ssl-dns-names] [ssl] [info] cms.c4mpus.com:443 ["c4mpus.com","*.c4mpus.com"]
+[wildcard-tls] [ssl] [info] cms.c4mpus.com:443 ["CN: c4mpus.com","SAN: [c4mpus.com *.c4mpus.com]"]
+[ssl-issuer] [ssl] [info] chat.c4mpus.com:443 ["Google Trust Services"]
+[ssl-dns-names] [ssl] [info] chat.c4mpus.com:443 ["*.c4mpus.com","c4mpus.com"]
+[wildcard-tls] [ssl] [info] chat.c4mpus.com:443 ["CN: c4mpus.com","SAN: [c4mpus.com *.c4mpus.com]"]
+[ssl-issuer] [ssl] [info] api.c4mpus.com:443 ["Google Trust Services"]
+[ssl-dns-names] [ssl] [info] api.c4mpus.com:443 ["c4mpus.com","*.c4mpus.com"]
+[wildcard-tls] [ssl] [info] api.c4mpus.com:443 ["CN: c4mpus.com","SAN: [c4mpus.com *.c4mpus.com]"]
+[ssl-issuer] [ssl] [info] code.c4mpus.com:443 ["Google Trust Services"]
+[ssl-dns-names] [ssl] [info] code.c4mpus.com:443 ["c4mpus.com","*.c4mpus.com"]
+[wildcard-tls] [ssl] [info] code.c4mpus.com:443 ["CN: c4mpus.com","SAN: [c4mpus.com *.c4mpus.com]"]
+[ssl-issuer] [ssl] [info] dev-api.c4mpus.com:443 ["Google Trust Services"]
+[ssl-issuer] [ssl] [info] apiv2.c4mpus.com:443 ["Google Trust Services"]
+[ssl-dns-names] [ssl] [info] dev-api.c4mpus.com:443 ["c4mpus.com","*.c4mpus.com"]
+[ssl-dns-names] [ssl] [info] apiv2.c4mpus.com:443 ["c4mpus.com","*.c4mpus.com"]
+[wildcard-tls] [ssl] [info] apiv2.c4mpus.com:443 ["CN: c4mpus.com","SAN: [c4mpus.com *.c4mpus.com]"]
+[wildcard-tls] [ssl] [info] dev-api.c4mpus.com:443 ["CN: c4mpus.com","SAN: [c4mpus.com *.c4mpus.com]"]
+[ssl-issuer] [ssl] [info] exam.c4mpus.com:443 ["Google Trust Services"]
+[ssl-dns-names] [ssl] [info] exam.c4mpus.com:443 ["c4mpus.com","*.c4mpus.com"]
+[wildcard-tls] [ssl] [info] exam.c4mpus.com:443 ["CN: c4mpus.com","SAN: [c4mpus.com *.c4mpus.com]"]
+[ssl-issuer] [ssl] [info] sage.c4mpus.com:443 ["Google Trust Services"]
+[ssl-dns-names] [ssl] [info] sage.c4mpus.com:443 ["c4mpus.com","*.c4mpus.com"]
+[wildcard-tls] [ssl] [info] sage.c4mpus.com:443 ["CN: c4mpus.com","SAN: [c4mpus.com *.c4mpus.com]"]
+[ssl-issuer] [ssl] [info] staging-api.c4mpus.com:443 ["Google Trust Services"]
+[ssl-dns-names] [ssl] [info] staging-api.c4mpus.com:443 ["c4mpus.com","*.c4mpus.com"]
+[wildcard-tls] [ssl] [info] staging-api.c4mpus.com:443 ["CN: c4mpus.com","SAN: [c4mpus.com *.c4mpus.com]"]
+[ssl-issuer] [ssl] [info] www.c4mpus.com:443 ["Google Trust Services"]
+[ssl-issuer] [ssl] [info] autodiscover.c4mpus.com:443 ["Google Trust Services"]
+[ssl-dns-names] [ssl] [info] autodiscover.c4mpus.com:443 ["c4mpus.com","*.c4mpus.com"]
+[ssl-dns-names] [ssl] [info] www.c4mpus.com:443 ["c4mpus.com","*.c4mpus.com"]
+[wildcard-tls] [ssl] [info] autodiscover.c4mpus.com:443 ["CN: c4mpus.com","SAN: [c4mpus.com *.c4mpus.com]"]
+[wildcard-tls] [ssl] [info] www.c4mpus.com:443 ["CN: c4mpus.com","SAN: [c4mpus.com *.c4mpus.com]"]
+[ssl-issuer] [ssl] [info] admin.c4mpus.com:443 ["Google Trust Services"]
+[ssl-dns-names] [ssl] [info] admin.c4mpus.com:443 ["c4mpus.com","*.c4mpus.com"]
+[wildcard-tls] [ssl] [info] admin.c4mpus.com:443 ["CN: c4mpus.com","SAN: [c4mpus.com *.c4mpus.com]"]
+[ssl-issuer] [ssl] [info] email.c4mpus.com:443 ["Google Trust Services"]
+[ssl-dns-names] [ssl] [info] email.c4mpus.com:443 ["c4mpus.com","*.c4mpus.com"]
+[wildcard-tls] [ssl] [info] email.c4mpus.com:443 ["CN: c4mpus.com","SAN: [c4mpus.com *.c4mpus.com]"]
+[ssl-issuer] [ssl] [info] metrics.c4mpus.com:443 ["Google Trust Services"]
+[ssl-dns-names] [ssl] [info] metrics.c4mpus.com:443 ["c4mpus.com","*.c4mpus.com"]
+[wildcard-tls] [ssl] [info] metrics.c4mpus.com:443 ["CN: c4mpus.com","SAN: [c4mpus.com *.c4mpus.com]"]
+[ssl-issuer] [ssl] [info] employer.c4mpus.com:443 ["Google Trust Services"]
+[ssl-dns-names] [ssl] [info] employer.c4mpus.com:443 ["c4mpus.com","*.c4mpus.com"]
+[wildcard-tls] [ssl] [info] employer.c4mpus.com:443 ["CN: c4mpus.com","SAN: [c4mpus.com *.c4mpus.com]"]
+[ssl-issuer] [ssl] [info] c4mpus.com:443 ["Google Trust Services"]
+[ssl-dns-names] [ssl] [info] c4mpus.com:443 ["c4mpus.com","*.c4mpus.com"]
+[wildcard-tls] [ssl] [info] c4mpus.com:443 ["CN: c4mpus.com","SAN: [c4mpus.com *.c4mpus.com]"]
+[caa-fingerprint] [dns] [info] call.c4mpus.com
+[caa-fingerprint] [dns] [info] s3.c4mpus.com
+[caa-fingerprint] [dns] [info] www.c4mpus.com
+[caa-fingerprint] [dns] [info] c4mpus.com
+[caa-fingerprint] [dns] [info] dev.c4mpus.com
+[caa-fingerprint] [dns] [info] staging-api.c4mpus.com
+[caa-fingerprint] [dns] [info] employer.c4mpus.com
+[caa-fingerprint] [dns] [info] sage.c4mpus.com
+[caa-fingerprint] [dns] [info] chat.c4mpus.com
+[caa-fingerprint] [dns] [info] metrics.c4mpus.com
+[caa-fingerprint] [dns] [info] admin.c4mpus.com
+[caa-fingerprint] [dns] [info] cms.c4mpus.com
+[caa-fingerprint] [dns] [info] autodiscover.c4mpus.com
+[caa-fingerprint] [dns] [info] staging.c4mpus.com
+[caa-fingerprint] [dns] [info] code.c4mpus.com
+[mx-fingerprint] [dns] [info] c4mpus.com ["0 c4mpus-com.mail.protection.outlook.com."]
+[mx-service-detector:Office 365] [dns] [info] c4mpus.com
+[caa-fingerprint] [dns] [info] email.c4mpus.com
+[caa-fingerprint] [dns] [info] dev-api.c4mpus.com
+[caa-fingerprint] [dns] [info] plagiarism.c4mpus.com
+[caa-fingerprint] [dns] [info] apiv2.c4mpus.com
+[caa-fingerprint] [dns] [info] exam.c4mpus.com
+[caa-fingerprint] [dns] [info] api.c4mpus.com
+[caa-fingerprint] [dns] [info] enrollee-softwarica.c4mpus.com
+[spf-record-detect] [dns] [info] c4mpus.com ["v=spf1 include:secureserver.net -all""]
+[txt-fingerprint] [dns] [info] c4mpus.com [""MS=ms36835080"",""v=spf1 include:secureserver.net -all""]
+[nameserver-fingerprint] [dns] [info] c4mpus.com ["piotr.ns.cloudflare.com.","veda.ns.cloudflare.com."]

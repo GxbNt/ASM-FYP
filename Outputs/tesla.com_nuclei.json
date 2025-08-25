@@ -1,0 +1,1176 @@
+[CVE-2025-0133] [http] [medium] https://ams13-gpgw1.tesla.com/ssl-vpn/getconfig.esp?client-type=1&protocol-version=p1&app-version=3.0.1-10&clientos=Linux&os-version=linux-64&hmac-algo=sha1%2Cmd5&enc-algo=aes-128-cbc%2Caes-256-cbc&authcookie=12cea70227d3aafbf25082fac1b6f51d&portal=us-vpn-gw-N&user=%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cscript%3Eprompt%28%22XSS%22%29%3C%2Fscript%3E%3C%2Fsvg%3E&domain=%28empty_domain%29&computer=computer
+[CVE-2025-0133] [http] [medium] https://dal11-gpgw1.tesla.com/ssl-vpn/getconfig.esp?client-type=1&protocol-version=p1&app-version=3.0.1-10&clientos=Linux&os-version=linux-64&hmac-algo=sha1%2Cmd5&enc-algo=aes-128-cbc%2Caes-256-cbc&authcookie=12cea70227d3aafbf25082fac1b6f51d&portal=us-vpn-gw-N&user=%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cscript%3Eprompt%28%22XSS%22%29%3C%2Fscript%3E%3C%2Fsvg%3E&domain=%28empty_domain%29&computer=computer
+[CVE-2025-0133] [http] [medium] https://fra05-gpgw1.tesla.com/ssl-vpn/getconfig.esp?client-type=1&protocol-version=p1&app-version=3.0.1-10&clientos=Linux&os-version=linux-64&hmac-algo=sha1%2Cmd5&enc-algo=aes-128-cbc%2Caes-256-cbc&authcookie=12cea70227d3aafbf25082fac1b6f51d&portal=us-vpn-gw-N&user=%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cscript%3Eprompt%28%22XSS%22%29%3C%2Fscript%3E%3C%2Fsvg%3E&domain=%28empty_domain%29&computer=computer
+[CVE-2025-0133] [http] [medium] https://hnd13-gpgw1.tesla.com/ssl-vpn/getconfig.esp?client-type=1&protocol-version=p1&app-version=3.0.1-10&clientos=Linux&os-version=linux-64&hmac-algo=sha1%2Cmd5&enc-algo=aes-128-cbc%2Caes-256-cbc&authcookie=12cea70227d3aafbf25082fac1b6f51d&portal=us-vpn-gw-N&user=%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cscript%3Eprompt%28%22XSS%22%29%3C%2Fscript%3E%3C%2Fsvg%3E&domain=%28empty_domain%29&computer=computer
+[CVE-2025-0133] [http] [medium] https://iad05-gpgw1.tesla.com/ssl-vpn/getconfig.esp?client-type=1&protocol-version=p1&app-version=3.0.1-10&clientos=Linux&os-version=linux-64&hmac-algo=sha1%2Cmd5&enc-algo=aes-128-cbc%2Caes-256-cbc&authcookie=12cea70227d3aafbf25082fac1b6f51d&portal=us-vpn-gw-N&user=%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cscript%3Eprompt%28%22XSS%22%29%3C%2Fscript%3E%3C%2Fsvg%3E&domain=%28empty_domain%29&computer=computer
+[CVE-2025-0133] [http] [medium] https://lax32-gpgw1.tesla.com/ssl-vpn/getconfig.esp?client-type=1&protocol-version=p1&app-version=3.0.1-10&clientos=Linux&os-version=linux-64&hmac-algo=sha1%2Cmd5&enc-algo=aes-128-cbc%2Caes-256-cbc&authcookie=12cea70227d3aafbf25082fac1b6f51d&portal=us-vpn-gw-N&user=%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cscript%3Eprompt%28%22XSS%22%29%3C%2Fscript%3E%3C%2Fsvg%3E&domain=%28empty_domain%29&computer=computer
+[azure-domain-tenant] [http] [info] https://login.microsoftonline.com:443/service.tesla.com/v2.0/.well-known/openid-configuration ["9026c5f4-86d0-4b9f-bd39-b7d4d0fb4674"]
+[azure-domain-tenant] [http] [info] https://login.microsoftonline.com:443/tesla.com/v2.0/.well-known/openid-configuration ["9026c5f4-86d0-4b9f-bd39-b7d4d0fb4674"]
+[xff-403-bypass] [http] [info] http://installations-ext-api.tesla.com
+[external-service-interaction] [http] [info] http://bolt.tesla.com
+[external-service-interaction] [http] [info] https://click.email.tesla.com
+[xff-403-bypass] [http] [info] https://pay.tesla.com
+[xff-403-bypass] [http] [info] http://ranger-api.tesla.com
+[xff-403-bypass] [http] [info] http://serviceapi.tesla.com
+[xff-403-bypass] [http] [info] https://stage-traffic-flow-test.tesla.com
+[external-service-interaction] [http] [info] https://image.email.tesla.com
+[external-service-interaction] [http] [info] http://installations-ext-api.tesla.com
+[external-service-interaction] [http] [info] http://ranger-api.tesla.com
+[external-service-interaction] [http] [info] http://serviceapi.tesla.com
+[cookies-without-httponly] [javascript] [info] akamai-apigateway-deliveryopsapi.tesla.com ["ak_bmsc"]
+[cookies-without-httponly] [javascript] [info] accounts.tesla.com ["_abck","bm_sz"]
+[cookies-without-secure] [javascript] [info] akamai-apigateway-mfs-supplier.tesla.com ["ak_bmsc"]
+[cookies-without-secure] [javascript] [info] accounts.tesla.com ["bm_sz"]
+[cookies-without-secure] [javascript] [info] akamai-apigateway-stg-logisticssignals.tesla.com ["ak_bmsc"]
+[cookies-without-httponly] [javascript] [info] akamai-apigateway-stg-translationpipeline.tesla.com ["ak_bmsc"]
+[cookies-without-httponly] [javascript] [info] akamai-apigateway-warptqpapi.tesla.com ["ak_bmsc"]
+[cookies-without-httponly] [javascript] [info] auth-global.tesla.com ["_abck","bm_sz"]
+[cookies-without-httponly] [javascript] [info] auth.tesla.com ["_abck","bm_sz"]
+[cookies-without-secure] [javascript] [info] auth-global.tesla.com ["bm_sz"]
+[cookies-without-secure] [javascript] [info] apigateway-tradein-partner-svc.tesla.com ["ak_bmsc"]
+[cookies-without-secure] [javascript] [info] auth.tesla.com ["bm_sz"]
+[cookies-without-httponly] [javascript] [info] bettertime.tesla.com ["ak_bmsc"]
+[cookies-without-httponly] [javascript] [info] cicerone.tesla.com ["ak_bmsc"]
+[cookies-without-httponly] [javascript] [info] billing.tesla.com ["ak_bmsc"]
+[cookies-without-httponly] [javascript] [info] cua-test-drive-ui.tesla.com ["ak_bmsc"]
+[cookies-without-httponly] [javascript] [info] cx.tesla.com ["ak_bmsc"]
+[cookies-without-secure] [javascript] [info] cld-ec.tesla.com ["ak_bmsc"]
+[cookies-without-httponly] [javascript] [info] diner-webapp.tesla.com ["ak_bmsc"]
+[cookies-without-secure] [javascript] [info] edr-eu.tesla.com ["edr","ak_bmsc"]
+[cookies-without-httponly] [javascript] [info] exp-zcp-cloud-eu-itmfg.tesla.com ["ak_bmsc"]
+[cookies-without-secure] [javascript] [info] finops.tesla.com ["nonce","state","ak_bmsc"]
+[cookies-without-secure] [javascript] [info] extgithub.tesla.com ["ak_bmsc"]
+[cookies-without-httponly] [javascript] [info] grid.tesla.com ["ak_bmsc"]
+[cookies-without-httponly] [javascript] [info] inside.tesla.com ["ak_bmsc"]
+[cookies-without-secure] [javascript] [info] grid.tesla.com ["ak_bmsc"]
+[cookies-without-secure] [javascript] [info] ion.tesla.com ["ak_bmsc"]
+[cookies-without-httponly] [javascript] [info] ranger.tesla.com ["ak_bmsc"]
+[cookies-without-secure] [javascript] [info] schedule.tesla.com ["ak_bmsc"]
+[cookies-without-httponly] [javascript] [info] sso-dev.tesla.com ["_abck","bm_sz"]
+[cookies-without-httponly] [javascript] [info] static-map.tesla.com ["ak_bmsc"]
+[cookies-without-httponly] [javascript] [info] stream.tesla.com ["ak_bmsc"]
+[cookies-without-secure] [javascript] [info] sso-dev.tesla.com ["bm_sz"]
+[cookies-without-secure] [javascript] [info] sso.tesla.com ["bm_sz"]
+[cookies-without-secure] [javascript] [info] stream.tesla.com ["ak_bmsc"]
+[cookies-without-httponly] [javascript] [info] vehicle-files.eng.usw2.vn.cloud.tesla.com ["ak_bmsc"]
+[cookies-without-httponly] [javascript] [info] vehicle-files.prd.usw2.vn.cloud.tesla.com ["ak_bmsc"]
+[cookies-without-secure] [javascript] [info] vehicle-files.prd.usw2.vn.cloud.tesla.com ["ak_bmsc"]
+[missing-sri] [http] [info] https://cloudinary.com ["https://cloudinary.com/wp-content/themes/cld-2021/assets/js/scripts.js?ver=1.0.4","https://cloudinary.com/wp-content/themes/cld-2021/assets/js/jquery-3.4.1.min.js?ver=3.4.1","https://cdn.debugbear.com/EHCenyitCAgM.js","https://cloudinary.com/wp-content/mu-plugins/jetpack-14.8/jetpack_vendor/automattic/jetpack-forms/src/contact-form/../../dist/modules/form/view.js?ver=14.8","https://cloudinary.com/wp-content/themes/cld-2021/assets/js/cloudinary-core-shrinkwrap.min.js?ver=1.0.0","https://cloudinary.com/wp-content/themes/cld-2021/assets/js/lazysizes.min.js?ver=5.1.1","https://cloudinary.com/wp-content/themes/cld-2021/assets/js/fancybox.min.js?ver=3.5.7","https://cloudinary.com/wp-content/themes/cld-2021/assets/js/bootstrap.min.js?ver=4.3.1","https://cloudinary.com/wp-content/themes/cld-2021/assets/js/owl.carousel.234.min.js?ver=2.2.0","https://cloudinary.com/wp-content/themes/cld-2021/assets/js/picturefill.min.js?ver=3.0.2","https://cloudinary.com/wp-content/themes/cld-2021/assets/js/alert-bar.js?ver=1.0.0","https://cloudinary.com/wp-content/themes/cld-2021/assets/js/mobile-menu.js?ver=1.0.1","https://cloudinary.com/wp-content/themes/cld-2021/assets/2022/js/ajax-events.js","//cdn-4.convertexperiments.com/js/10042338-10042940.js","https://cloudinary.com/wp-content/themes/cld-2021/assets/js/search.js?ver=1.0.1","https://cloudinary.com/wp-content/themes/cld-2021/assets/css/bootstrap.min.css?ver=4.3.1","https://cloudinary.com/wp-content/themes/cld-2021/assets/css/owl.carousel.min.css?ver=2.2.0","https://cloudinary.com/wp-content/themes/cld-2021/assets/css/fancybox.min.css?ver=3.5.7","https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700;900&display=swap","https://cloudinary.com/wp-content/themes/cld-2021/assets/2022/fonts/inter/inter.css?ver=1.0.0","https://cloudinary.com/wp-content/themes/cld-2021/assets/fonts/inter/inter.css?ver=1.0.0","https://use.typekit.net/pbl6vvd.css?ver=1.0.0","https://cloudinary.com/wp-content/themes/cld-2021/common.css?ver=1.1.5","https://cloudinary.com/wp-content/themes/cld-2021/style.css?ver=1.0.1"]
+[missing-sri] [http] [info] https://cloudinary.com ["https://cdn.debugbear.com/EHCenyitCAgM.js","https://cloudinary.com/wp-content/themes/cld-2021/assets/js/bootstrap.min.js?ver=4.3.1","https://cloudinary.com/wp-content/themes/cld-2021/assets/js/cloudinary-core-shrinkwrap.min.js?ver=1.0.0","https://cloudinary.com/wp-content/themes/cld-2021/assets/js/owl.carousel.234.min.js?ver=2.2.0","https://cloudinary.com/wp-content/themes/cld-2021/assets/js/scripts.js?ver=1.0.4","https://cloudinary.com/wp-content/themes/cld-2021/assets/js/jquery-3.4.1.min.js?ver=3.4.1","https://cloudinary.com/wp-content/mu-plugins/jetpack-14.8/jetpack_vendor/automattic/jetpack-forms/src/contact-form/../../dist/modules/form/view.js?ver=14.8","https://cloudinary.com/wp-content/themes/cld-2021/assets/js/fancybox.min.js?ver=3.5.7","https://cloudinary.com/wp-content/themes/cld-2021/assets/js/alert-bar.js?ver=1.0.0","https://cloudinary.com/wp-content/themes/cld-2021/assets/js/mobile-menu.js?ver=1.0.1","https://cloudinary.com/wp-content/themes/cld-2021/assets/js/picturefill.min.js?ver=3.0.2","https://cloudinary.com/wp-content/themes/cld-2021/assets/js/lazysizes.min.js?ver=5.1.1","https://cloudinary.com/wp-content/themes/cld-2021/assets/js/search.js?ver=1.0.1","https://cloudinary.com/wp-content/themes/cld-2021/assets/2022/js/ajax-events.js","//cdn-4.convertexperiments.com/js/10042338-10042940.js","https://cloudinary.com/wp-content/themes/cld-2021/assets/fonts/inter/inter.css?ver=1.0.0","https://cloudinary.com/wp-content/themes/cld-2021/assets/css/bootstrap.min.css?ver=4.3.1","https://cloudinary.com/wp-content/themes/cld-2021/assets/css/owl.carousel.min.css?ver=2.2.0","https://use.typekit.net/pbl6vvd.css?ver=1.0.0","https://cloudinary.com/wp-content/themes/cld-2021/assets/css/fancybox.min.css?ver=3.5.7","https://cloudinary.com/wp-content/themes/cld-2021/common.css?ver=1.1.5","https://cloudinary.com/wp-content/themes/cld-2021/style.css?ver=1.0.1","https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700;900&display=swap","https://cloudinary.com/wp-content/themes/cld-2021/assets/2022/fonts/inter/inter.css?ver=1.0.0"]
+[missing-sri] [http] [info] https://cloudinary.com ["https://cloudinary.com/wp-content/themes/cld-2021/assets/2022/js/ajax-events.js","https://cloudinary.com/wp-content/themes/cld-2021/assets/js/jquery-3.4.1.min.js?ver=3.4.1","https://cloudinary.com/wp-content/mu-plugins/jetpack-14.8/jetpack_vendor/automattic/jetpack-forms/src/contact-form/../../dist/modules/form/view.js?ver=14.8","https://cloudinary.com/wp-content/themes/cld-2021/assets/js/owl.carousel.234.min.js?ver=2.2.0","https://cloudinary.com/wp-content/themes/cld-2021/assets/js/fancybox.min.js?ver=3.5.7","https://cdn.debugbear.com/EHCenyitCAgM.js","//cdn-4.convertexperiments.com/js/10042338-10042940.js","https://cloudinary.com/wp-content/themes/cld-2021/assets/js/bootstrap.min.js?ver=4.3.1","https://cloudinary.com/wp-content/themes/cld-2021/assets/js/picturefill.min.js?ver=3.0.2","https://cloudinary.com/wp-content/themes/cld-2021/assets/js/lazysizes.min.js?ver=5.1.1","https://cloudinary.com/wp-content/themes/cld-2021/assets/js/alert-bar.js?ver=1.0.0","https://cloudinary.com/wp-content/themes/cld-2021/assets/js/search.js?ver=1.0.1","https://cloudinary.com/wp-content/themes/cld-2021/assets/js/cloudinary-core-shrinkwrap.min.js?ver=1.0.0","https://cloudinary.com/wp-content/themes/cld-2021/assets/js/scripts.js?ver=1.0.4","https://cloudinary.com/wp-content/themes/cld-2021/assets/js/mobile-menu.js?ver=1.0.1","https://cloudinary.com/wp-content/themes/cld-2021/assets/css/owl.carousel.min.css?ver=2.2.0","https://cloudinary.com/wp-content/themes/cld-2021/assets/2022/fonts/inter/inter.css?ver=1.0.0","https://use.typekit.net/pbl6vvd.css?ver=1.0.0","https://cloudinary.com/wp-content/themes/cld-2021/assets/css/fancybox.min.css?ver=3.5.7","https://cloudinary.com/wp-content/themes/cld-2021/common.css?ver=1.1.5","https://cloudinary.com/wp-content/themes/cld-2021/style.css?ver=1.0.1","https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700;900&display=swap","https://cloudinary.com/wp-content/themes/cld-2021/assets/fonts/inter/inter.css?ver=1.0.0","https://cloudinary.com/wp-content/themes/cld-2021/assets/css/bootstrap.min.css?ver=4.3.1"]
+[missing-sri] [http] [info] https://cloudinary.com ["//cdn-4.convertexperiments.com/js/10042338-10042940.js","https://cloudinary.com/wp-content/themes/cld-2021/assets/js/owl.carousel.234.min.js?ver=2.2.0","https://cloudinary.com/wp-content/themes/cld-2021/assets/js/picturefill.min.js?ver=3.0.2","https://cloudinary.com/wp-content/themes/cld-2021/assets/js/search.js?ver=1.0.1","https://cloudinary.com/wp-content/themes/cld-2021/assets/js/scripts.js?ver=1.0.4","https://cdn.debugbear.com/EHCenyitCAgM.js","https://cloudinary.com/wp-content/mu-plugins/jetpack-14.8/jetpack_vendor/automattic/jetpack-forms/src/contact-form/../../dist/modules/form/view.js?ver=14.8","https://cloudinary.com/wp-content/themes/cld-2021/assets/js/alert-bar.js?ver=1.0.0","https://cloudinary.com/wp-content/themes/cld-2021/assets/js/mobile-menu.js?ver=1.0.1","https://cloudinary.com/wp-content/themes/cld-2021/assets/js/jquery-3.4.1.min.js?ver=3.4.1","https://cloudinary.com/wp-content/themes/cld-2021/assets/js/bootstrap.min.js?ver=4.3.1","https://cloudinary.com/wp-content/themes/cld-2021/assets/js/lazysizes.min.js?ver=5.1.1","https://cloudinary.com/wp-content/themes/cld-2021/assets/js/fancybox.min.js?ver=3.5.7","https://cloudinary.com/wp-content/themes/cld-2021/assets/js/cloudinary-core-shrinkwrap.min.js?ver=1.0.0","https://cloudinary.com/wp-content/themes/cld-2021/assets/2022/js/ajax-events.js","https://cloudinary.com/wp-content/themes/cld-2021/assets/css/owl.carousel.min.css?ver=2.2.0","https://cloudinary.com/wp-content/themes/cld-2021/assets/css/fancybox.min.css?ver=3.5.7","https://cloudinary.com/wp-content/themes/cld-2021/common.css?ver=1.1.5","https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700;900&display=swap","https://cloudinary.com/wp-content/themes/cld-2021/assets/fonts/inter/inter.css?ver=1.0.0","https://use.typekit.net/pbl6vvd.css?ver=1.0.0","https://cloudinary.com/wp-content/themes/cld-2021/style.css?ver=1.0.1","https://cloudinary.com/wp-content/themes/cld-2021/assets/2022/fonts/inter/inter.css?ver=1.0.0","https://cloudinary.com/wp-content/themes/cld-2021/assets/css/bootstrap.min.css?ver=4.3.1"]
+[missing-sri] [http] [info] https://cloudinary.com ["https://cloudinary.com/wp-content/themes/cld-2021/assets/js/owl.carousel.234.min.js?ver=2.2.0","https://cloudinary.com/wp-content/themes/cld-2021/assets/js/alert-bar.js?ver=1.0.0","https://cdn.debugbear.com/EHCenyitCAgM.js","//cdn-4.convertexperiments.com/js/10042338-10042940.js","https://cloudinary.com/wp-content/mu-plugins/jetpack-14.8/jetpack_vendor/automattic/jetpack-forms/src/contact-form/../../dist/modules/form/view.js?ver=14.8","https://cloudinary.com/wp-content/themes/cld-2021/assets/js/lazysizes.min.js?ver=5.1.1","https://cloudinary.com/wp-content/themes/cld-2021/assets/js/fancybox.min.js?ver=3.5.7","https://cloudinary.com/wp-content/themes/cld-2021/assets/js/search.js?ver=1.0.1","https://cloudinary.com/wp-content/themes/cld-2021/assets/js/scripts.js?ver=1.0.4","https://cloudinary.com/wp-content/themes/cld-2021/assets/js/picturefill.min.js?ver=3.0.2","https://cloudinary.com/wp-content/themes/cld-2021/assets/js/mobile-menu.js?ver=1.0.1","https://cloudinary.com/wp-content/themes/cld-2021/assets/2022/js/ajax-events.js","https://cloudinary.com/wp-content/themes/cld-2021/assets/js/jquery-3.4.1.min.js?ver=3.4.1","https://cloudinary.com/wp-content/themes/cld-2021/assets/js/bootstrap.min.js?ver=4.3.1","https://cloudinary.com/wp-content/themes/cld-2021/assets/js/cloudinary-core-shrinkwrap.min.js?ver=1.0.0","https://use.typekit.net/pbl6vvd.css?ver=1.0.0","https://cloudinary.com/wp-content/themes/cld-2021/assets/css/bootstrap.min.css?ver=4.3.1","https://cloudinary.com/wp-content/themes/cld-2021/assets/css/owl.carousel.min.css?ver=2.2.0","https://cloudinary.com/wp-content/themes/cld-2021/assets/css/fancybox.min.css?ver=3.5.7","https://cloudinary.com/wp-content/themes/cld-2021/common.css?ver=1.1.5","https://cloudinary.com/wp-content/themes/cld-2021/style.css?ver=1.0.1","https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700;900&display=swap","https://cloudinary.com/wp-content/themes/cld-2021/assets/2022/fonts/inter/inter.css?ver=1.0.0","https://cloudinary.com/wp-content/themes/cld-2021/assets/fonts/inter/inter.css?ver=1.0.0"]
+[missing-sri] [http] [info] https://cloudinary.com ["https://cloudinary.com/wp-content/mu-plugins/jetpack-14.8/jetpack_vendor/automattic/jetpack-forms/src/contact-form/../../dist/modules/form/view.js?ver=14.8","https://cloudinary.com/wp-content/themes/cld-2021/assets/js/owl.carousel.234.min.js?ver=2.2.0","https://cloudinary.com/wp-content/themes/cld-2021/assets/js/picturefill.min.js?ver=3.0.2","https://cloudinary.com/wp-content/themes/cld-2021/assets/js/fancybox.min.js?ver=3.5.7","https://cdn.debugbear.com/EHCenyitCAgM.js","https://cloudinary.com/wp-content/themes/cld-2021/assets/js/bootstrap.min.js?ver=4.3.1","https://cloudinary.com/wp-content/themes/cld-2021/assets/js/cloudinary-core-shrinkwrap.min.js?ver=1.0.0","https://cloudinary.com/wp-content/themes/cld-2021/assets/js/mobile-menu.js?ver=1.0.1","https://cloudinary.com/wp-content/themes/cld-2021/assets/js/jquery-3.4.1.min.js?ver=3.4.1","https://cloudinary.com/wp-content/themes/cld-2021/assets/js/lazysizes.min.js?ver=5.1.1","https://cloudinary.com/wp-content/themes/cld-2021/assets/js/alert-bar.js?ver=1.0.0","https://cloudinary.com/wp-content/themes/cld-2021/assets/js/search.js?ver=1.0.1","//cdn-4.convertexperiments.com/js/10042338-10042940.js","https://cloudinary.com/wp-content/themes/cld-2021/assets/js/scripts.js?ver=1.0.4","https://cloudinary.com/wp-content/themes/cld-2021/assets/2022/js/ajax-events.js","https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700;900&display=swap","https://cloudinary.com/wp-content/themes/cld-2021/assets/fonts/inter/inter.css?ver=1.0.0","https://use.typekit.net/pbl6vvd.css?ver=1.0.0","https://cloudinary.com/wp-content/themes/cld-2021/assets/css/owl.carousel.min.css?ver=2.2.0","https://cloudinary.com/wp-content/themes/cld-2021/assets/css/fancybox.min.css?ver=3.5.7","https://cloudinary.com/wp-content/themes/cld-2021/style.css?ver=1.0.1","https://cloudinary.com/wp-content/themes/cld-2021/assets/2022/fonts/inter/inter.css?ver=1.0.0","https://cloudinary.com/wp-content/themes/cld-2021/assets/css/bootstrap.min.css?ver=4.3.1","https://cloudinary.com/wp-content/themes/cld-2021/common.css?ver=1.1.5"]
+[missing-sri] [http] [info] https://tradepartnertickets.tesla.com ["https://unpkg.com/react@18.2.0/umd/react.production.min.js","https://unpkg.com/react-dom@18.2.0/umd/react-dom.production.min.js"]
+[missing-sri] [http] [info] https://login.microsoftonline.com/9026c5f4-86d0-4b9f-bd39-b7d4d0fb4674/saml2?SAMLRequest=fVJNS8QwFPwrJfe2Sbfd3YbdhdVuYUFFVDx4kTR91UCa1LzUr19vWlH0oJDTZCZvZl42KHo98P3oH80VPI2APnrttUE%2BX2zJ6Ay3AhVyI3pA7iW%2F3p%2Bf8SyhfHDWW2k1%2BSH5XyEQwXllDYmO1ZbcH07qBcvrulwdaMUWJ4yVrCirep0taV2wA4luwWHgb0mQBxHiCEeDXhgfIJoVMV3HrLyhBS%2FCye9IVIUMygg%2Fqx69H5CnqbYPyiS9ks6i7bw1WhlIpO3TkmZLWXR5vF62NM6bsoubdlHGzarNW9o1%2BXKVp1OyjES1dRLmrrakExphcnQZQqln%2BEJ2m4nMZ6du9zX%2F3YsXaMQwYCy1HdvEA2rRh%2F4czjYmUYpD6gAHaxA26c9nNp9rugiFHqtLq5V8m8z0wv%2FdN0vYjKg27mYqHw0OIFWnoCXRXmv7cupA%2BG%2Fr6e5z6u%2F%2FsPsA&RelayState=1887826616472367839 ["https://aadcdn.msftauth.net/ests/2.1/content/cdnbundles/ux.converged.login.strings-en.min_-3ossdung9loxbndof5ckq2.js","https://aadcdn.msftauth.net/ests/2.1/content/cdnbundles/converged.v2.login.min_wyfpxtvrgudp2mrjlpyxva2.css"]
+[missing-sri] [http] [info] https://login.microsoftonline.com/9026c5f4-86d0-4b9f-bd39-b7d4d0fb4674/saml2?SAMLRequest=jZJBb6MwEIX%2FCvLdYBxjwAqpsltVW6nVpgntYW%2FGmNYS2KzHRKv%2B%2BqUkkVqpqnq0%2FebNm%2Fm8vvo39NFRezDOViiNCYq0Va419rlCj%2FUNLtDVZg1y6OkotlN4sXv9d9IQornQgji9VGjyVjgJBoSVgwYRlDhs7%2B8EjYkYvQtOuR5FWwDtw9zqp7MwDdoftD8apR%2F3dxV6CWEEkSRvljDGozdHGXT8Ckr22sfKDYmcAyQpYyktU84J4yUleUETAIei6zmVsTIsk1zMevdsbDwY5R24LjjbG6sXr5JQrrKO4YK3BLOm7HDTrkrc5C1rSdcwnrMlC0XRjfNKL9NXKPhJo%2Bj2ukLb%2FYNKS1byBrc5X2HGZIaLTKaYdqRoc1nqjL9pYScBzFFXqJM9LDcw6VsLQdpQIUpohkmB07Immci4SGmc5as%2FKNqdN%2FfD2BORr9bcnEQgftX1Du9%2BH2oUPV3IzgJ05iiW7v49wK%2BN5YUa2nyX0aCDbGWQn8BaJ%2B9TbM7Hj59r8x8%3D&SigAlg=http%3A%2F%2Fwww.w3.org%2F2001%2F04%2Fxmldsig-more%23rsa-sha256&Signature=U0EA53hXrUFNZx4DNw%2BXa0HXIg%2F7wZEK36P8ak%2FVtPQgAjQXOS54EaZGc6l1Hd4jbcCNeRj4MHzrVBjaACmvwC2otFrB6BEULwWu61vVjM87GX2pNkF%2FjBWD0HqXcIEoivmTEYt2yuBu8E%2B9XO4T7rCfmrZn1OCqKrF0SacVlJw3UVlz7Tlax83VhlgqJZT9xW2Ds44JVhLlazai1EMHYiBuYBjHwfIvOuX%2FEVSno5SWa4y4vr2riAIr2LptoW4q5P%2BBF8AoRvaZ%2B3V5qWJP%2BOf%2FHUzZFvF89ePnj%2Fsakp5QxQiOwr2oYkcNnvId6OzRJO4W2vopYMtZ0nDfpqAXIQ%3D%3D ["https://aadcdn.msftauth.net/ests/2.1/content/cdnbundles/ux.converged.login.strings-en.min_-3ossdung9loxbndof5ckq2.js","https://aadcdn.msftauth.net/ests/2.1/content/cdnbundles/converged.v2.login.min_wyfpxtvrgudp2mrjlpyxva2.css"]
+[waf-detect:akamai] [http] [info] https://akamai-apigateway-einvoicing.tesla.com
+[waf-detect:akamai] [http] [info] https://akamai-apigateway-deliveryopsapi.tesla.com
+[waf-detect:akamai] [http] [info] https://akamai-apigateway-mfs-supplier-uat.tesla.com
+[waf-detect:akamai] [http] [info] https://akamai-apigateway-inventorytxnextapi.tesla.com
+[waf-detect:akamai] [http] [info] https://akamai-apigateway-finplateng-defi.tesla.com
+[waf-detect:akamai] [http] [info] https://akamai-apigateway-finplateng.tesla.com
+[waf-detect:akamai] [http] [info] https://akamai-apigateway-deliveryopsapi1.tesla.com
+[waf-detect:akamai] [http] [info] https://akamai-apigateway-logisticsratesapi.tesla.com
+[waf-detect:akamai] [http] [info] https://accounts.tesla.com
+[waf-detect:akamai] [http] [info] https://akamai-apigateway-ehs.tesla.com
+[waf-detect:akamai] [http] [info] https://akamai-apigateway-mfs-supplier.tesla.com
+[waf-detect:akamai] [http] [info] https://akamai-apigateway-automation-billing.tesla.com
+[waf-detect:akamai] [http] [info] https://akamai-apigateway-charging-ownership.tesla.com
+[waf-detect:akamai] [http] [info] https://akamai-apigateway-logisticssignals.tesla.com
+[waf-detect:akamai] [http] [info] https://akamai-apigateway-automation.tesla.com
+[waf-detect:akamai] [http] [info] https://akamai-apigateway-fta.tesla.com
+[waf-detect:akamai] [http] [info] https://akamai-apigateway-captiveunderwriting.tesla.com
+[waf-detect:akamai] [http] [info] https://akamai-apigateway-materials.tesla.com
+[waf-detect:akamai] [http] [info] https://akamai-apigateway-bender.tesla.com
+[waf-detect:akamai] [http] [info] https://akamai-apigateway-deliveryopsvitu.tesla.com
+[waf-detect:akamai] [http] [info] https://akamai-apigateway-dev-warptmsapiserver-upgrade.tesla.com
+[waf-detect:akamai] [http] [info] https://akamai-apigateway-finplateng-routeone.tesla.com
+[waf-detect:akamai] [http] [info] https://akamai-apigateway-dev-captiveunderwriting.tesla.com
+[waf-detect:akamai] [http] [info] https://akamai-apigateway-dev-warptmsapiserver.tesla.com
+[waf-detect:akamai] [http] [info] https://akamai-apigateway-ehs-stg.tesla.com
+[waf-detect:akamai] [http] [info] https://akamai-apigateway-profileapi.tesla.com
+[waf-detect:akamai] [http] [info] https://akamai-apigateway-stg-einvoicing.tesla.com
+[waf-detect:akamai] [http] [info] https://akamai-apigateway-stg-captiveunderwriting.tesla.com
+[waf-detect:akamai] [http] [info] https://akamai-apigateway-stg-finplateng-routeone.tesla.com
+[waf-detect:akamai] [http] [info] https://akamai-apigateway-payment.tesla.com
+[waf-detect:akamai] [http] [info] https://akamai-apigateway-stg-finplateng-defi.tesla.com
+[waf-detect:akamai] [http] [info] https://akamai-apigateway-stg-deliveryopsapi1.tesla.com
+[waf-detect:akamai] [http] [info] https://akamai-apigateway-packaging2.tesla.com
+[waf-detect:akamai] [http] [info] https://akamai-apigateway-shipmentplanningapi.tesla.com
+[waf-detect:akamai] [http] [info] https://akamai-apigateway-stg-deliveryopsvitu.tesla.com
+[waf-detect:akamai] [http] [info] https://akamai-apigateway-qa-captiveunderwriting.tesla.com
+[waf-detect:akamai] [http] [info] https://akamai-apigateway-stg-finplateng.tesla.com
+[waf-detect:akamai] [http] [info] https://akamai-apigateway-procuretopayapi.tesla.com
+[waf-detect:akamai] [http] [info] https://akamai-apigateway-ops-warp3pl.tesla.com
+[waf-detect:akamai] [http] [info] https://akamai-apigateway-stg-logisticssignals.tesla.com
+[waf-detect:akamai] [http] [info] https://akamai-apigateway-stg-payment.tesla.com
+[waf-detect:akamai] [http] [info] https://akamai-apigateway-stg-shipmentplanningapi.tesla.com
+[waf-detect:akamai] [http] [info] https://akamai-apigateway-stg-inventorytxnextapi.tesla.com
+[waf-detect:akamai] [http] [info] https://akamai-apigateway-stg-procuretopayapi.tesla.com
+[waf-detect:akamai] [http] [info] https://akamai-apigateway-stg-teslarpsapi.tesla.com
+[waf-detect:akamai] [http] [info] https://akamai-apigateway-stg-packaging2.tesla.com
+[waf-detect:akamai] [http] [info] https://akamai-apigateway-stg-materials.tesla.com
+[waf-detect:akamai] [http] [info] https://akamai-apigateway-stg-ops-warp3pl.tesla.com
+[waf-detect:akamai] [http] [info] https://akamai-apigateway-stg-fta.tesla.com
+[waf-detect:akamai] [http] [info] https://akamai-apigateway-stg-profileapi.tesla.com
+[waf-detect:akamai] [http] [info] https://akamai-apigateway-stg-warp3pl.tesla.com
+[waf-detect:akamai] [http] [info] https://akamai-apigateway-stg-translationpipeline.tesla.com
+[waf-detect:akamai] [http] [info] https://akamai-apigateway-stg-vendorpartsapi.tesla.com
+[waf-detect:akamai] [http] [info] https://akamai-apigateway-stg-warptqpapi.tesla.com
+[waf-detect:akamai] [http] [info] https://akamai-apigateway-vehicleextinfogw-prdsvc-st.tesla.com
+[waf-detect:akamai] [http] [info] https://akamai-apigateway-stg2-deliveryopsapi.tesla.com
+[waf-detect:akamai] [http] [info] https://akamai-apigateway-suppliers.tesla.com
+[waf-detect:akamai] [http] [info] https://akamai-apigateway-stg-warptmsapiserver-upgrade.tesla.com
+[waf-detect:akamai] [http] [info] https://akamai-apigateway-uat-materials.tesla.com
+[waf-detect:akamai] [http] [info] https://akamai-apigateway-stg-warpedi.tesla.com
+[waf-detect:akamai] [http] [info] https://akamai-apigateway-vendorpartsapi.tesla.com
+[waf-detect:akamai] [http] [info] https://akamai-apigateway-vfx-stg.tesla.com
+[waf-detect:akamai] [http] [info] https://akamai-apigateway-stg-warpassetapi.tesla.com
+[waf-detect:akamai] [http] [info] https://akamai-apigateway-warp3pl.tesla.com
+[waf-detect:akamai] [http] [info] https://akamai-apigateway-stg-warptmsapiserver.tesla.com
+[waf-detect:akamai] [http] [info] https://akamai-apigateway-stg-warpdashboardapi.tesla.com
+[waf-detect:akamai] [http] [info] https://akamai-apigateway-vfx.tesla.com
+[waf-detect:akamai] [http] [info] https://akamai-apigateway-translationpipeline.tesla.com
+[waf-detect:akamai] [http] [info] https://akamai-apigateway-stg-warpcxml.tesla.com
+[waf-detect:akamai] [http] [info] https://akamai-apigateway-teslarpsapi.tesla.com
+[waf-detect:akamai] [http] [info] https://akamai-apigateway-warptmsapiserver-upgrade.tesla.com
+[waf-detect:akamai] [http] [info] https://akamai-apigateway-warpcxml.tesla.com
+[waf-detect:akamai] [http] [info] https://akamai-apigateway-warpassetapi.tesla.com
+[waf-detect:akamai] [http] [info] https://akamai-apigateway-warpdashboardapi.tesla.com
+[waf-detect:akamai] [http] [info] https://akamai-apigateway-warpedi.tesla.com
+[waf-detect:akamai] [http] [info] https://akamai-apigateway-warptmsapiserver.tesla.com
+[waf-detect:akamai] [http] [info] https://akamai-apigateway-warptqpapi.tesla.com
+[waf-detect:akamai] [http] [info] https://akamai-apigateway-zip3-suppliersequence.tesla.com
+[waf-detect:akamai] [http] [info] https://apps.tesla.com
+[waf-detect:akamai] [http] [info] https://apigateway-tradein-partner-svc.tesla.com
+[waf-detect:akamai] [http] [info] https://analytics-relay.tesla.com
+[waf-detect:akamai] [http] [info] https://atom.tesla.com
+[waf-detect:akamai] [http] [info] https://auth-global.tesla.com
+[waf-detect:akamai] [http] [info] https://apigateway-energy-fulfillment-cx-bff-prd.tesla.com
+[waf-detect:akamai] [http] [info] https://apigateway-message-center-ownership.tesla.com
+[waf-detect:akamai] [http] [info] https://api-firebolt.tesla.com
+[waf-detect:akamai] [http] [info] https://apigateway-logisticsmobile-api.tesla.com
+[waf-detect:akamai] [http] [info] https://api-firebolt-stage.tesla.com
+[waf-detect:akamai] [http] [info] https://apigateway-logging.tesla.com
+[waf-detect:akamai] [http] [info] https://api-firebolt-dev.tesla.com
+[waf-detect:cloudfront] [http] [info] https://apf-api.eng.vn.cloud.tesla.com
+[waf-detect:cloudfront] [http] [info] https://apf-api.prd.vn.cloud.tesla.com
+[waf-detect:cloudfront] [http] [info] https://assets.engage.tesla.com
+[waf-detect:akamai] [http] [info] https://autobidder-preprd.powerhub.energy.tesla.com
+[waf-detect:akamai] [http] [info] https://autobidder.powerhub.energy.tesla.com
+[waf-detect:akamai] [http] [info] https://auth.tesla.com
+[waf-detect:aspgeneric] [http] [info] http://autodiscover.tesla.com
+[waf-detect:akamai] [http] [info] https://bettertime-stage.tesla.com
+[waf-detect:akamai] [http] [info] http://bolt.tesla.com
+[waf-detect:akamai] [http] [info] https://billing.tesla.com
+[waf-detect:akamai] [http] [info] https://bettertime.tesla.com
+[waf-detect:akamai] [http] [info] https://cdn-design.tesla.com
+[waf-detect:akamai] [http] [info] https://business-ui-ownership.tesla.com
+[waf-detect:nginxgeneric] [http] [info] https://bi.tesla.com
+[waf-detect:cloudflare] [http] [info] https://bi.tesla.com
+[waf-detect:akamai] [http] [info] https://click.email.tesla.com
+[waf-detect:akamai] [http] [info] https://developer.tesla.com
+[waf-detect:akamai] [http] [info] https://cua-test-drive-ui.tesla.com
+[waf-detect:akamai] [http] [info] https://cx-apac.tesla.com
+[waf-detect:akamai] [http] [info] https://charging-guest-ownership.tesla.com
+[waf-detect:akamai] [http] [info] https://cx-api-apac.tesla.com
+[waf-detect:akamai] [http] [info] https://cua-chat-ui.tesla.com
+[waf-detect:akamai] [http] [info] https://cicerone.tesla.com
+[waf-detect:akamai] [http] [info] https://courses.tesla.com
+[waf-detect:akamai] [http] [info] https://cdns-content.tesla.com
+[waf-detect:akamai] [http] [info] https://cyberbeer.tesla.com
+[waf-detect:akamai] [http] [info] https://cx.tesla.com
+[waf-detect:akamai] [http] [info] https://cld-ec.tesla.com
+[waf-detect:akamai] [http] [info] https://checkout-ui-assets.tesla.com
+[waf-detect:akamai] [http] [info] https://diner-webapp-stage.tesla.com
+[waf-detect:akamai] [http] [info] https://edr-eu.tesla.com
+[waf-detect:akamai] [http] [info] https://edr.tesla.com
+[waf-detect:akamai] [http] [info] https://diner-webapp.tesla.com
+[waf-detect:akamai] [http] [info] https://echo.tesla.com
+[waf-detect:akamai] [http] [info] https://dro.tesla.com
+[waf-detect:akamai] [http] [info] https://ehs.tesla.com
+[waf-detect:akamai] [http] [info] https://epcapi.tesla.com
+[waf-detect:akamai] [http] [info] https://envoy-partnerleadsharing.tesla.com
+[waf-detect:akamai] [http] [info] https://epc-support.tesla.com
+[waf-detect:akamai] [http] [info] https://employeefeedback.tesla.com
+[waf-detect:akamai] [http] [info] https://envoy-finplat-stg.tesla.com
+[waf-detect:akamai] [http] [info] https://epc.tesla.com
+[waf-detect:akamai] [http] [info] https://envoy-partnertasks.tesla.com
+[waf-detect:akamai] [http] [info] https://einvoicing.tesla.com
+[waf-detect:akamai] [http] [info] https://errlog-stage.tesla.com
+[waf-detect:akamai] [http] [info] https://energylibrary.tesla.com
+[waf-detect:akamai] [http] [info] https://envoy-finplat-sunlight.tesla.com
+[waf-detect:cloudfront] [http] [info] https://engage.tesla.com
+[waf-detect:akamai] [http] [info] https://error-log.tesla.com
+[waf-detect:akamai] [http] [info] https://errlog.tesla.com
+[waf-detect:akamai] [http] [info] https://external-sandbox-automation.tesla.com
+[waf-detect:akamai] [http] [info] https://exp-zcp-cloud-eu-itmfg-staging.tesla.com
+[waf-detect:akamai] [http] [info] https://exp-zcp-cloud-na-itmfg.tesla.com
+[waf-detect:akamai] [http] [info] https://exp-zcp-cloud-na-itmfg-staging.tesla.com
+[waf-detect:akamai] [http] [info] https://exp-zcp-cloud-eu-itmfg.tesla.com
+[waf-detect:akamai] [http] [info] https://extgithub.tesla.com
+[waf-detect:akamai] [http] [info] https://finops.tesla.com
+[waf-detect:akamai] [http] [info] https://files-ownership.tesla.com
+[waf-detect:akamai] [http] [info] https://feedback.tesla.com
+[waf-detect:cloudflare] [http] [info] https://factory.tesla.com
+[waf-detect:nginxgeneric] [http] [info] https://factory.tesla.com
+[waf-detect:akamai] [http] [info] https://fleet-auth.prd.vn.cloud.tesla.com
+[waf-detect:nginxgeneric] [http] [info] https://fleetview.america.fn.tesla.com
+[waf-detect:nginxgeneric] [http] [info] https://fleetview.europe.fn.tesla.com
+[waf-detect:akamai] [http] [info] https://gigabier.tesla.com
+[waf-detect:akamai] [http] [info] https://fsx.tesla.com
+[waf-detect:nginxgeneric] [http] [info] https://fleetview.prd.america.fn.tesla.com
+[waf-detect:nginxgeneric] [http] [info] https://fleetview.fn.tesla.com
+[waf-detect:nginxgeneric] [http] [info] https://fleetview.prd.europe.fn.tesla.com
+[waf-detect:akamai] [http] [info] https://hcaptcha.tesla.com
+[waf-detect:akamai] [http] [info] https://grid.tesla.com
+[waf-detect:nginxgeneric] [http] [info] https://hermes-ap.prd.vn.cloud.tesla.com
+[waf-detect:nginxgeneric] [http] [info] https://hermes-stream-api.eng.na.vn.cloud.tesla.com
+[waf-detect:nginxgeneric] [http] [info] https://hermes-ap.eng.vn.cloud.tesla.com
+[waf-detect:nginxgeneric] [http] [info] https://hermes-stream-api.prd.eu.vn.cloud.tesla.com
+[waf-detect:akamai] [http] [info] https://ideas.tesla.com
+[waf-detect:cloudflare] [http] [info] https://humans.tesla.com
+[waf-detect:nginxgeneric] [http] [info] https://humans.tesla.com
+[waf-detect:nginxgeneric] [http] [info] https://hub.tesla.com
+[waf-detect:cloudflare] [http] [info] https://hub.tesla.com
+[waf-detect:akamai] [http] [info] https://image-emails.tesla.com
+[waf-detect:akamai] [http] [info] https://image.email.tesla.com
+[waf-detect:akamai] [http] [info] https://image.emails.tesla.com
+[waf-detect:akamai] [http] [info] https://inventory-assets.tesla.com
+[waf-detect:akamai] [http] [info] http://installations-ext-api.tesla.com
+[waf-detect:akamai] [http] [info] https://inside.tesla.com
+[waf-detect:akamai] [http] [info] https://ion.tesla.com
+[waf-detect:akamai] [http] [info] https://ir.tesla.com
+[waf-detect:akamai] [http] [info] https://kronos-dev.tesla.com
+[waf-detect:akamai] [http] [info] https://kronos.tesla.com
+[waf-detect:akamai] [http] [info] https://link.tesla.com
+[waf-detect:nginxgeneric] [http] [info] https://link.qa.tesla.com
+[waf-detect:akamai] [http] [info] https://links.tesla.com
+[waf-detect:nginxgeneric] [http] [info] https://live-data.america.fn.tesla.com
+[waf-detect:akamai] [http] [info] https://livestream.tesla.com
+[waf-detect:nginxgeneric] [http] [info] https://live-data.prd.america.fn.tesla.com
+[waf-detect:nginxgeneric] [http] [info] https://live-data.fn.tesla.com
+[waf-detect:nginxgeneric] [http] [info] https://live-data.europe.fn.tesla.com
+[waf-detect:nginxgeneric] [http] [info] https://live-data.prd.europe.fn.tesla.com
+[waf-detect:akamai] [http] [info] https://livestreamapi-test.tesla.com
+[waf-detect:akamai] [http] [info] https://livestreamapi.tesla.com
+[waf-detect:akamai] [http] [info] https://location-services-prd.tesla.com
+[waf-detect:akamai] [http] [info] https://logcollector-ext.tesla.com
+[waf-detect:akamai] [http] [info] https://logcollection.tesla.com
+[waf-detect:akamai] [http] [info] https://mfs-supplier.tesla.com
+[waf-detect:cloudfront] [http] [info] https://mobile-links-cdn.eng.vn.cloud.tesla.com
+[waf-detect:akamai] [http] [info] https://mfs-supplier-uat.tesla.com
+[waf-detect:akamai] [http] [info] https://mfa-reset.tesla.com
+[waf-detect:akamai] [http] [info] https://mfa.tesla.com
+[waf-detect:cloudfront] [http] [info] https://mobile-links-cdn.prd.vn.cloud.tesla.com
+[waf-detect:nginxgeneric] [http] [info] https://mobile-links.prd.vn.cloud.tesla.com
+[waf-detect:apachegeneric] [http] [info] https://mobile-links.prd.vn.cloud.tesla.com
+[waf-detect:apachegeneric] [http] [info] https://mobile-ops-links.prd.vn.cloud.tesla.com
+[waf-detect:nginxgeneric] [http] [info] https://mobile-ops-links.prd.vn.cloud.tesla.com
+[waf-detect:apachegeneric] [http] [info] https://mobile-links.eng.vn.cloud.tesla.com
+[waf-detect:nginxgeneric] [http] [info] https://mobile-links.eng.vn.cloud.tesla.com
+[waf-detect:akamai] [http] [info] https://mobile.tesla.com
+[waf-detect:akamai] [http] [info] https://myapps.tesla.com
+[waf-detect:akamai] [http] [info] https://nav-maps-cdn-prd.tesla.com
+[waf-detect:akamai] [http] [info] https://npm.tesla.com
+[waf-detect:nginxgeneric] [http] [info] https://npuapt-prd.usw2.vn.cloud.tesla.com
+[waf-detect:nginxgeneric] [http] [info] https://npuca-prd.usw2.vn.cloud.tesla.com
+[waf-detect:nginxgeneric] [http] [info] https://npuca-prd.euw1.vn.cloud.tesla.com
+[waf-detect:nginxgeneric] [http] [info] https://npuapt-eng.usw.vn.cloud.tesla.com
+[waf-detect:nginxgeneric] [http] [info] https://npuhe-eng.usw2.vn.cloud.tesla.com
+[waf-detect:nginxgeneric] [http] [info] https://npuhe-eng.euw1.vn.cloud.tesla.com
+[waf-detect:nginxgeneric] [http] [info] https://npute-prd.usw2.vn.cloud.tesla.com
+[waf-detect:nginxgeneric] [http] [info] https://npute-eng.usw2.vn.cloud.tesla.com
+[waf-detect:nginxgeneric] [http] [info] https://npute-eng.usw.vn.cloud.tesla.com
+[waf-detect:nginxgeneric] [http] [info] https://npute-eng.euw1.vn.cloud.tesla.com
+[waf-detect:nginxgeneric] [http] [info] https://npute-prd.euw1.vn.cloud.tesla.com
+[waf-detect:nginxgeneric] [http] [info] https://npuv-prd.usw2.vn.cloud.tesla.com
+[waf-detect:nginxgeneric] [http] [info] https://npuv-ap.prd.usw2.vn.cloud.tesla.com
+[waf-detect:nginxgeneric] [http] [info] https://npuv-eng.usw2.vn.cloud.tesla.com
+[waf-detect:nginxgeneric] [http] [info] https://npuv-ap.prd.euw1.vn.cloud.tesla.com
+[waf-detect:nginxgeneric] [http] [info] https://npuv-eng.usw.vn.cloud.tesla.com
+[waf-detect:nginxgeneric] [http] [info] https://npuv-eng.euw1.vn.cloud.tesla.com
+[waf-detect:nginxgeneric] [http] [info] https://npuv-prd.euw1.vn.cloud.tesla.com
+[waf-detect:akamai] [http] [info] https://onboard.tesla.com
+[waf-detect:akamai] [http] [info] https://ownership.tesla.com
+[waf-detect:modsecurity] [http] [info] https://pages.email.tesla.com
+[waf-detect:akamai] [http] [info] https://pay.tesla.com
+[waf-detect:akamai] [http] [info] https://partners.tesla.com
+[waf-detect:nginxgeneric] [http] [info] http://pm-bounces.tesla.com
+[waf-detect:modsecurity] [http] [info] https://pages.emails.tesla.com
+[waf-detect:akamai] [http] [info] https://profile.tesla.com
+[waf-detect:akamai] [http] [info] https://powerhub.energy.tesla.com
+[waf-detect:akamai] [http] [info] http://ranger-api.tesla.com
+[waf-detect:akamai] [http] [info] https://ranger.tesla.com
+[waf-detect:akamai] [http] [info] https://recycling.tesla.com
+[waf-detect:akamai] [http] [info] https://reassignment-ui.tesla.com
+[waf-detect:akamai] [http] [info] https://sales-prd.tesla.com
+[waf-detect:akamai] [http] [info] https://roadsideinvoice.tesla.com
+[waf-detect:akamai] [http] [info] https://secure-static-assets.tesla.com
+[waf-detect:akamai] [http] [info] https://repair.tesla.com
+[waf-detect:akamai] [http] [info] https://schedule.tesla.com
+[waf-detect:akamai] [http] [info] https://serviceapi-stg.tesla.com
+[waf-detect:akamai] [http] [info] https://service.tesla.com
+[waf-detect:nginxgeneric] [http] [info] https://sentry-api.ops.na.vn.cloud.tesla.com
+[waf-detect:akamai] [http] [info] http://serviceapi.tesla.com
+[waf-detect:cloudflare] [http] [info] https://serviceapp.tesla.com
+[waf-detect:nginxgeneric] [http] [info] https://serviceapp.tesla.com
+[waf-detect:akamai] [http] [info] https://shop.tesla.com
+[waf-detect:nginxgeneric] [http] [info] https://signaling-alpha.prd.vn.cloud.tesla.com
+[waf-detect:nginxgeneric] [http] [info] https://signaling-robotics.eng.usw.vn.cloud.tesla.com
+[waf-detect:nginxgeneric] [http] [info] https://signaling-robotics.eng.vn.cloud.tesla.com
+[waf-detect:akamai] [http] [info] https://sspr.tesla.com
+[waf-detect:akamai] [http] [info] https://sso-dev.tesla.com
+[waf-detect:akamai] [http] [info] https://solarbonds.tesla.com
+[waf-detect:akamai] [http] [info] https://sso.tesla.com
+[waf-detect:akamai] [http] [info] https://static-assets-pay.tesla.com
+[waf-detect:akamai] [http] [info] https://static-assets-profile-settings.tesla.com
+[waf-detect:varnish] [http] [info] https://stage-traffic-flow-test.tesla.com
+[waf-detect:akamai] [http] [info] https://static-map.tesla.com
+[waf-detect:akamai] [http] [info] https://suppliers-stg.tesla.com
+[waf-detect:akamai] [http] [info] https://stream.tesla.com
+[waf-detect:akamai] [http] [info] https://static-assets.tesla.com
+[waf-detect:akamai] [http] [info] https://stg-uc-twilio-bpm-webhook.tesla.com
+[waf-detect:akamai] [http] [info] https://static-assets-teslaaccount.tesla.com
+[waf-detect:akamai] [http] [info] https://static.tesla.com
+[waf-detect:akamai] [http] [info] https://tcc-graph-stg.tesla.com
+[waf-detect:akamai] [http] [info] https://suppliers.tesla.com
+[waf-detect:akamai] [http] [info] https://tcc-graph.tesla.com
+[waf-detect:akamai] [http] [info] https://tcc-gw-stg.tesla.com
+[waf-detect:akamai] [http] [info] https://tcc-gw.tesla.com
+[waf-detect:akamai] [http] [info] https://teamchat.tesla.com
+[waf-detect:nginxgeneric] [http] [info] https://telemetry-ap.prd.vn.cloud.tesla.com
+[waf-detect:nginxgeneric] [http] [info] https://telemetry-ap.eng.vn.cloud.tesla.com
+[waf-detect:akamai] [http] [info] https://tesla.com
+[waf-detect:cloudfront] [http] [info] https://teslamezcal.tesla.com
+[waf-detect:akamai] [http] [info] https://teslatequila.tesla.com
+[waf-detect:akamai] [http] [info] https://tracking.tesla.com
+[waf-detect:akamai] [http] [info] https://track.tesla.com
+[waf-detect:akamai] [http] [info] https://toolbox.tesla.com
+[waf-detect:akamai] [http] [info] https://tradein-partner.tesla.com
+[waf-detect:akamai] [http] [info] https://tradepartnertickets.tesla.com
+[waf-detect:akamai] [http] [info] https://uicrashtracer.tesla.com
+[waf-detect:akamai] [http] [info] https://trt.tesla.com
+[waf-detect:cloudfront] [http] [info] https://ul.engage.tesla.com
+[waf-detect:nginxgeneric] [http] [info] https://url1894.tesla.com
+[waf-detect:nginxgeneric] [http] [info] https://url5196.tesla.com
+[waf-detect:nginxgeneric] [http] [info] https://url4857.tesla.com
+[waf-detect:nginxgeneric] [http] [info] https://url4104.tesla.com
+[waf-detect:nginxgeneric] [http] [info] https://url4211.tesla.com
+[waf-detect:nginxgeneric] [http] [info] https://url2547.tesla.com
+[waf-detect:akamai] [http] [info] https://url7051.tesla.com
+[waf-detect:akamai] [http] [info] https://vehicle-files.eng.euw1.vn.cloud.tesla.com
+[waf-detect:akamai] [http] [info] https://vehicle-files.prd.euw1.vn.cloud.tesla.com
+[waf-detect:akamai] [http] [info] https://vehicle-files.eng.usw2.vn.cloud.tesla.com
+[waf-detect:nginxgeneric] [http] [info] https://url5347.tesla.com
+[waf-detect:nginxgeneric] [http] [info] https://url8833.tesla.com
+[waf-detect:nginxgeneric] [http] [info] https://url6661.tesla.com
+[waf-detect:akamai] [http] [info] https://vehicle-files.prd.usw2.vn.cloud.tesla.com
+[waf-detect:akamai] [http] [info] https://vmanage-alerts.tesla.com
+[waf-detect:akamai] [http] [info] https://vote.tesla.com
+[waf-detect:nginxgeneric] [http] [info] https://warehouse.tesla.com
+[waf-detect:cloudflare] [http] [info] https://warehouse.tesla.com
+[waf-detect:akamai] [http] [info] https://warp.tesla.com
+[waf-detect:akamai] [http] [info] https://workforce.tesla.com
+[waf-detect:cloudflare] [http] [info] https://wire.tesla.com
+[waf-detect:nginxgeneric] [http] [info] https://wire.tesla.com
+[waf-detect:akamai] [http] [info] https://www.tesla.com
+[waf-detect:akamai] [http] [info] https://workplace.tesla.com
+[waf-detect:cloudfront] [http] [info] https://www.engage.tesla.com
+[cors-misconfig:arbitrary-origin] [http] [info] https://factory.tesla.com [cors_origin="https://7drgq.com"]
+[cors-misconfig:arbitrary-origin] [http] [info] https://humans.tesla.com [cors_origin="http://stesla.com"]
+[cors-misconfig:arbitrary-origin] [http] [info] https://hub.tesla.com [cors_origin="https://hub.tesla.com.$.f4faz.com"]
+[request-based-interaction:dns] [http] [info] http://bolt.tesla.com/
+[request-based-interaction:dns] [http] [info] https://click.email.tesla.com/
+[cors-misconfig:arbitrary-origin] [http] [info] https://warehouse.tesla.com [cors_origin="https://warehouse.tesla.com.!.dvzpm.com"]
+[cors-misconfig:arbitrary-origin] [http] [info] https://wire.tesla.com [cors_origin="https://wire.tesla.com.;.j6rxm.com"]
+[request-based-interaction:dns] [http] [info] https://image.email.tesla.com/
+[request-based-interaction:dns] [http] [info] http://installations-ext-api.tesla.com/
+[request-based-interaction:dns] [http] [info] http://ranger-api.tesla.com/
+[request-based-interaction:dns] [http] [info] http://serviceapi.tesla.com/
+[deprecated-tls:tls_1.1] [ssl] [info] click.email.tesla.com:443 ["tls11"]
+[deprecated-tls:tls_1.1] [ssl] [info] apf-api.prd.vn.cloud.tesla.com:443 ["tls11"]
+[deprecated-tls:tls_1.1] [ssl] [info] apf-api.eng.vn.cloud.tesla.com:443 ["tls11"]
+[deprecated-tls:tls_1.0] [ssl] [info] click.email.tesla.com:443 ["tls10"]
+[deprecated-tls:tls_1.0] [ssl] [info] apf-api.eng.vn.cloud.tesla.com:443 ["tls10"]
+[deprecated-tls:tls_1.0] [ssl] [info] apf-api.prd.vn.cloud.tesla.com:443 ["tls10"]
+[deprecated-tls:tls_1.1] [ssl] [info] image.email.tesla.com:443 ["tls11"]
+[deprecated-tls:tls_1.0] [ssl] [info] image.email.tesla.com:443 ["tls10"]
+[tls-version] [ssl] [info] akamai-apigateway-materials.tesla.com:443 ["tls12"]
+[tls-version] [ssl] [info] akamai-apigateway-finplateng-defi.tesla.com:443 ["tls12"]
+[tls-version] [ssl] [info] akamai-apigateway-fta.tesla.com:443 ["tls12"]
+[tls-version] [ssl] [info] akamai-apigateway-logisticssignals.tesla.com:443 ["tls12"]
+[tls-version] [ssl] [info] akamai-apigateway-automation.tesla.com:443 ["tls12"]
+[tls-version] [ssl] [info] akamai-apigateway-automation-billing.tesla.com:443 ["tls12"]
+[tls-version] [ssl] [info] akamai-apigateway-dev-captiveunderwriting.tesla.com:443 ["tls12"]
+[tls-version] [ssl] [info] akamai-apigateway-captiveunderwriting.tesla.com:443 ["tls12"]
+[tls-version] [ssl] [info] akamai-apigateway-charging-ownership.tesla.com:443 ["tls12"]
+[tls-version] [ssl] [info] akamai-apigateway-ehs.tesla.com:443 ["tls12"]
+[tls-version] [ssl] [info] akamai-apigateway-mfs-supplier-uat.tesla.com:443 ["tls12"]
+[tls-version] [ssl] [info] akamai-apigateway-deliveryopsvitu.tesla.com:443 ["tls12"]
+[tls-version] [ssl] [info] akamai-apigateway-finplateng.tesla.com:443 ["tls12"]
+[tls-version] [ssl] [info] accounts.tesla.com:443 ["tls12"]
+[tls-version] [ssl] [info] akamai-apigateway-mfs-supplier.tesla.com:443 ["tls12"]
+[tls-version] [ssl] [info] akamai-apigateway-einvoicing.tesla.com:443 ["tls12"]
+[tls-version] [ssl] [info] akamai-apigateway-logisticsratesapi.tesla.com:443 ["tls12"]
+[tls-version] [ssl] [info] akamai-apigateway-finplateng-routeone.tesla.com:443 ["tls12"]
+[tls-version] [ssl] [info] akamai-apigateway-inventorytxnextapi.tesla.com:443 ["tls12"]
+[tls-version] [ssl] [info] akamai-apigateway-automation.tesla.com:443 ["tls13"]
+[tls-version] [ssl] [info] akamai-apigateway-dev-warptmsapiserver.tesla.com:443 ["tls12"]
+[tls-version] [ssl] [info] akamai-apigateway-deliveryopsapi.tesla.com:443 ["tls12"]
+[tls-version] [ssl] [info] akamai-apigateway-dev-warptmsapiserver-upgrade.tesla.com:443 ["tls12"]
+[tls-version] [ssl] [info] akamai-apigateway-bender.tesla.com:443 ["tls12"]
+[tls-version] [ssl] [info] akamai-apigateway-finplateng-defi.tesla.com:443 ["tls13"]
+[tls-version] [ssl] [info] akamai-apigateway-ehs.tesla.com:443 ["tls13"]
+[tls-version] [ssl] [info] akamai-apigateway-logisticssignals.tesla.com:443 ["tls13"]
+[tls-version] [ssl] [info] akamai-apigateway-materials.tesla.com:443 ["tls13"]
+[tls-version] [ssl] [info] akamai-apigateway-deliveryopsapi1.tesla.com:443 ["tls12"]
+[tls-version] [ssl] [info] akamai-apigateway-charging-ownership.tesla.com:443 ["tls13"]
+[tls-version] [ssl] [info] akamai-apigateway-automation-billing.tesla.com:443 ["tls13"]
+[tls-version] [ssl] [info] akamai-apigateway-fta.tesla.com:443 ["tls13"]
+[tls-version] [ssl] [info] akamai-apigateway-dev-captiveunderwriting.tesla.com:443 ["tls13"]
+[tls-version] [ssl] [info] akamai-apigateway-mfs-supplier-uat.tesla.com:443 ["tls13"]
+[tls-version] [ssl] [info] accounts.tesla.com:443 ["tls13"]
+[tls-version] [ssl] [info] akamai-apigateway-deliveryopsvitu.tesla.com:443 ["tls13"]
+[tls-version] [ssl] [info] akamai-apigateway-finplateng.tesla.com:443 ["tls13"]
+[tls-version] [ssl] [info] akamai-apigateway-ehs-stg.tesla.com:443 ["tls12"]
+[tls-version] [ssl] [info] akamai-apigateway-captiveunderwriting.tesla.com:443 ["tls13"]
+[tls-version] [ssl] [info] akamai-apigateway-mfs-supplier.tesla.com:443 ["tls13"]
+[tls-version] [ssl] [info] akamai-apigateway-einvoicing.tesla.com:443 ["tls13"]
+[tls-version] [ssl] [info] akamai-apigateway-logisticsratesapi.tesla.com:443 ["tls13"]
+[tls-version] [ssl] [info] akamai-apigateway-deliveryopsapi.tesla.com:443 ["tls13"]
+[tls-version] [ssl] [info] akamai-apigateway-finplateng-routeone.tesla.com:443 ["tls13"]
+[tls-version] [ssl] [info] akamai-apigateway-inventorytxnextapi.tesla.com:443 ["tls13"]
+[tls-version] [ssl] [info] akamai-apigateway-dev-warptmsapiserver.tesla.com:443 ["tls13"]
+[tls-version] [ssl] [info] akamai-apigateway-dev-warptmsapiserver-upgrade.tesla.com:443 ["tls13"]
+[tls-version] [ssl] [info] akamai-apigateway-deliveryopsapi1.tesla.com:443 ["tls13"]
+[tls-version] [ssl] [info] akamai-apigateway-bender.tesla.com:443 ["tls13"]
+[tls-version] [ssl] [info] akamai-apigateway-ehs-stg.tesla.com:443 ["tls13"]
+[tls-version] [ssl] [info] akamai-apigateway-ops-warp3pl.tesla.com:443 ["tls12"]
+[tls-version] [ssl] [info] akamai-apigateway-stg-captiveunderwriting.tesla.com:443 ["tls12"]
+[tls-version] [ssl] [info] akamai-apigateway-packaging2.tesla.com:443 ["tls12"]
+[tls-version] [ssl] [info] akamai-apigateway-stg-deliveryopsapi1.tesla.com:443 ["tls12"]
+[tls-version] [ssl] [info] akamai-apigateway-procuretopayapi.tesla.com:443 ["tls12"]
+[tls-version] [ssl] [info] akamai-apigateway-payment.tesla.com:443 ["tls12"]
+[tls-version] [ssl] [info] akamai-apigateway-qa-captiveunderwriting.tesla.com:443 ["tls12"]
+[tls-version] [ssl] [info] akamai-apigateway-profileapi.tesla.com:443 ["tls12"]
+[tls-version] [ssl] [info] akamai-apigateway-stg-einvoicing.tesla.com:443 ["tls12"]
+[tls-version] [ssl] [info] akamai-apigateway-stg-deliveryopsvitu.tesla.com:443 ["tls12"]
+[tls-version] [ssl] [info] akamai-apigateway-stg-finplateng.tesla.com:443 ["tls12"]
+[tls-version] [ssl] [info] akamai-apigateway-stg-inventorytxnextapi.tesla.com:443 ["tls12"]
+[tls-version] [ssl] [info] akamai-apigateway-stg-captiveunderwriting.tesla.com:443 ["tls13"]
+[tls-version] [ssl] [info] akamai-apigateway-ops-warp3pl.tesla.com:443 ["tls13"]
+[tls-version] [ssl] [info] akamai-apigateway-stg-finplateng-defi.tesla.com:443 ["tls12"]
+[tls-version] [ssl] [info] akamai-apigateway-stg-finplateng-routeone.tesla.com:443 ["tls12"]
+[tls-version] [ssl] [info] akamai-apigateway-stg-fta.tesla.com:443 ["tls12"]
+[tls-version] [ssl] [info] akamai-apigateway-stg-deliveryopsapi1.tesla.com:443 ["tls13"]
+[tls-version] [ssl] [info] akamai-apigateway-shipmentplanningapi.tesla.com:443 ["tls12"]
+[tls-version] [ssl] [info] akamai-apigateway-procuretopayapi.tesla.com:443 ["tls13"]
+[tls-version] [ssl] [info] akamai-apigateway-stg-materials.tesla.com:443 ["tls12"]
+[tls-version] [ssl] [info] akamai-apigateway-stg-ops-warp3pl.tesla.com:443 ["tls12"]
+[tls-version] [ssl] [info] akamai-apigateway-payment.tesla.com:443 ["tls13"]
+[tls-version] [ssl] [info] akamai-apigateway-stg-procuretopayapi.tesla.com:443 ["tls12"]
+[tls-version] [ssl] [info] akamai-apigateway-stg-logisticssignals.tesla.com:443 ["tls12"]
+[tls-version] [ssl] [info] akamai-apigateway-packaging2.tesla.com:443 ["tls13"]
+[tls-version] [ssl] [info] akamai-apigateway-stg-packaging2.tesla.com:443 ["tls12"]
+[tls-version] [ssl] [info] akamai-apigateway-stg-einvoicing.tesla.com:443 ["tls13"]
+[tls-version] [ssl] [info] akamai-apigateway-stg-payment.tesla.com:443 ["tls12"]
+[tls-version] [ssl] [info] akamai-apigateway-profileapi.tesla.com:443 ["tls13"]
+[tls-version] [ssl] [info] akamai-apigateway-stg-finplateng.tesla.com:443 ["tls13"]
+[tls-version] [ssl] [info] akamai-apigateway-stg-profileapi.tesla.com:443 ["tls12"]
+[tls-version] [ssl] [info] akamai-apigateway-stg-shipmentplanningapi.tesla.com:443 ["tls12"]
+[tls-version] [ssl] [info] akamai-apigateway-qa-captiveunderwriting.tesla.com:443 ["tls13"]
+[tls-version] [ssl] [info] akamai-apigateway-stg-finplateng-defi.tesla.com:443 ["tls13"]
+[tls-version] [ssl] [info] akamai-apigateway-stg-teslarpsapi.tesla.com:443 ["tls12"]
+[tls-version] [ssl] [info] akamai-apigateway-stg-inventorytxnextapi.tesla.com:443 ["tls13"]
+[tls-version] [ssl] [info] akamai-apigateway-stg-deliveryopsvitu.tesla.com:443 ["tls13"]
+[tls-version] [ssl] [info] akamai-apigateway-stg-fta.tesla.com:443 ["tls13"]
+[tls-version] [ssl] [info] akamai-apigateway-stg-finplateng-routeone.tesla.com:443 ["tls13"]
+[tls-version] [ssl] [info] akamai-apigateway-stg-materials.tesla.com:443 ["tls13"]
+[tls-version] [ssl] [info] akamai-apigateway-stg-logisticssignals.tesla.com:443 ["tls13"]
+[tls-version] [ssl] [info] akamai-apigateway-stg-procuretopayapi.tesla.com:443 ["tls13"]
+[tls-version] [ssl] [info] akamai-apigateway-stg-ops-warp3pl.tesla.com:443 ["tls13"]
+[tls-version] [ssl] [info] akamai-apigateway-shipmentplanningapi.tesla.com:443 ["tls13"]
+[tls-version] [ssl] [info] akamai-apigateway-stg-payment.tesla.com:443 ["tls13"]
+[tls-version] [ssl] [info] akamai-apigateway-stg-packaging2.tesla.com:443 ["tls13"]
+[tls-version] [ssl] [info] akamai-apigateway-stg-profileapi.tesla.com:443 ["tls13"]
+[tls-version] [ssl] [info] akamai-apigateway-stg-shipmentplanningapi.tesla.com:443 ["tls13"]
+[tls-version] [ssl] [info] akamai-apigateway-stg-teslarpsapi.tesla.com:443 ["tls13"]
+[tls-version] [ssl] [info] akamai-apigateway-stg-translationpipeline.tesla.com:443 ["tls12"]
+[tls-version] [ssl] [info] akamai-apigateway-stg-warpassetapi.tesla.com:443 ["tls12"]
+[tls-version] [ssl] [info] akamai-apigateway-stg-warp3pl.tesla.com:443 ["tls12"]
+[tls-version] [ssl] [info] akamai-apigateway-stg-vendorpartsapi.tesla.com:443 ["tls12"]
+[tls-version] [ssl] [info] akamai-apigateway-stg-warpcxml.tesla.com:443 ["tls12"]
+[tls-version] [ssl] [info] akamai-apigateway-stg-warptmsapiserver-upgrade.tesla.com:443 ["tls12"]
+[tls-version] [ssl] [info] akamai-apigateway-stg-warptmsapiserver.tesla.com:443 ["tls12"]
+[tls-version] [ssl] [info] akamai-apigateway-stg-warpdashboardapi.tesla.com:443 ["tls12"]
+[tls-version] [ssl] [info] akamai-apigateway-stg-warpassetapi.tesla.com:443 ["tls13"]
+[tls-version] [ssl] [info] akamai-apigateway-stg-warpedi.tesla.com:443 ["tls12"]
+[tls-version] [ssl] [info] akamai-apigateway-stg-warptqpapi.tesla.com:443 ["tls12"]
+[tls-version] [ssl] [info] akamai-apigateway-suppliers.tesla.com:443 ["tls12"]
+[tls-version] [ssl] [info] akamai-apigateway-stg-warpcxml.tesla.com:443 ["tls13"]
+[tls-version] [ssl] [info] akamai-apigateway-stg-translationpipeline.tesla.com:443 ["tls13"]
+[tls-version] [ssl] [info] akamai-apigateway-stg-warp3pl.tesla.com:443 ["tls13"]
+[tls-version] [ssl] [info] akamai-apigateway-stg-vendorpartsapi.tesla.com:443 ["tls13"]
+[tls-version] [ssl] [info] akamai-apigateway-teslarpsapi.tesla.com:443 ["tls12"]
+[tls-version] [ssl] [info] akamai-apigateway-translationpipeline.tesla.com:443 ["tls12"]
+[tls-version] [ssl] [info] akamai-apigateway-uat-materials.tesla.com:443 ["tls12"]
+[tls-version] [ssl] [info] akamai-apigateway-vehicleextinfogw-prdsvc-st.tesla.com:443 ["tls12"]
+[tls-version] [ssl] [info] akamai-apigateway-vendorpartsapi.tesla.com:443 ["tls12"]
+[tls-version] [ssl] [info] akamai-apigateway-stg2-deliveryopsapi.tesla.com:443 ["tls12"]
+[tls-version] [ssl] [info] akamai-apigateway-warpassetapi.tesla.com:443 ["tls12"]
+[tls-version] [ssl] [info] akamai-apigateway-stg-warptmsapiserver-upgrade.tesla.com:443 ["tls13"]
+[tls-version] [ssl] [info] akamai-apigateway-vfx.tesla.com:443 ["tls12"]
+[tls-version] [ssl] [info] akamai-apigateway-stg-warpedi.tesla.com:443 ["tls13"]
+[tls-version] [ssl] [info] akamai-apigateway-warpedi.tesla.com:443 ["tls12"]
+[tls-version] [ssl] [info] akamai-apigateway-stg-warptmsapiserver.tesla.com:443 ["tls13"]
+[tls-version] [ssl] [info] akamai-apigateway-vfx-stg.tesla.com:443 ["tls12"]
+[tls-version] [ssl] [info] akamai-apigateway-suppliers.tesla.com:443 ["tls13"]
+[tls-version] [ssl] [info] akamai-apigateway-warptmsapiserver-upgrade.tesla.com:443 ["tls12"]
+[tls-version] [ssl] [info] akamai-apigateway-warpdashboardapi.tesla.com:443 ["tls12"]
+[tls-version] [ssl] [info] akamai-apigateway-warpassetapi.tesla.com:443 ["tls13"]
+[tls-version] [ssl] [info] akamai-apigateway-vehicleextinfogw-prdsvc-st.tesla.com:443 ["tls13"]
+[tls-version] [ssl] [info] akamai-apigateway-translationpipeline.tesla.com:443 ["tls13"]
+[tls-version] [ssl] [info] akamai-apigateway-warpcxml.tesla.com:443 ["tls12"]
+[tls-version] [ssl] [info] akamai-apigateway-stg-warptqpapi.tesla.com:443 ["tls13"]
+[tls-version] [ssl] [info] akamai-apigateway-stg-warpdashboardapi.tesla.com:443 ["tls13"]
+[tls-version] [ssl] [info] akamai-apigateway-teslarpsapi.tesla.com:443 ["tls13"]
+[tls-version] [ssl] [info] akamai-apigateway-warp3pl.tesla.com:443 ["tls12"]
+[tls-version] [ssl] [info] akamai-apigateway-vendorpartsapi.tesla.com:443 ["tls13"]
+[tls-version] [ssl] [info] akamai-apigateway-stg2-deliveryopsapi.tesla.com:443 ["tls13"]
+[tls-version] [ssl] [info] akamai-apigateway-uat-materials.tesla.com:443 ["tls13"]
+[tls-version] [ssl] [info] akamai-apigateway-vfx.tesla.com:443 ["tls13"]
+[tls-version] [ssl] [info] akamai-apigateway-vfx-stg.tesla.com:443 ["tls13"]
+[tls-version] [ssl] [info] akamai-apigateway-warptmsapiserver-upgrade.tesla.com:443 ["tls13"]
+[tls-version] [ssl] [info] akamai-apigateway-warpedi.tesla.com:443 ["tls13"]
+[tls-version] [ssl] [info] akamai-apigateway-warpcxml.tesla.com:443 ["tls13"]
+[tls-version] [ssl] [info] akamai-apigateway-warpdashboardapi.tesla.com:443 ["tls13"]
+[tls-version] [ssl] [info] akamai-apigateway-warp3pl.tesla.com:443 ["tls13"]
+[tls-version] [ssl] [info] analytics-relay.tesla.com:443 ["tls12"]
+[tls-version] [ssl] [info] akamai-apigateway-warptmsapiserver.tesla.com:443 ["tls12"]
+[tls-version] [ssl] [info] akamai-apigateway-zip3-suppliersequence.tesla.com:443 ["tls12"]
+[tls-version] [ssl] [info] akamai-apigateway-warptqpapi.tesla.com:443 ["tls12"]
+[tls-version] [ssl] [info] api-firebolt-dev.tesla.com:443 ["tls12"]
+[tls-version] [ssl] [info] analytics-relay.tesla.com:443 ["tls13"]
+[tls-version] [ssl] [info] akamai-apigateway-warptmsapiserver.tesla.com:443 ["tls13"]
+[tls-version] [ssl] [info] api-firebolt-stage.tesla.com:443 ["tls12"]
+[tls-version] [ssl] [info] api-firebolt.tesla.com:443 ["tls12"]
+[tls-version] [ssl] [info] apigateway-message-center-ownership.tesla.com:443 ["tls12"]
+[tls-version] [ssl] [info] atom.tesla.com:443 ["tls12"]
+[tls-version] [ssl] [info] apigateway-tradein-partner-svc.tesla.com:443 ["tls12"]
+[tls-version] [ssl] [info] akamai-apigateway-zip3-suppliersequence.tesla.com:443 ["tls13"]
+[tls-version] [ssl] [info] akamai-apigateway-warptqpapi.tesla.com:443 ["tls13"]
+[tls-version] [ssl] [info] apigateway-logisticsmobile-api.tesla.com:443 ["tls12"]
+[tls-version] [ssl] [info] api-firebolt-dev.tesla.com:443 ["tls13"]
+[tls-version] [ssl] [info] apigateway-energy-fulfillment-cx-bff-prd.tesla.com:443 ["tls12"]
+[tls-version] [ssl] [info] auth-global.tesla.com:443 ["tls12"]
+[tls-version] [ssl] [info] apigateway-logging.tesla.com:443 ["tls12"]
+[tls-version] [ssl] [info] auth-global-stage.tesla.com:443 ["tls12"]
+[tls-version] [ssl] [info] apps.tesla.com:443 ["tls12"]
+[tls-version] [ssl] [info] apigateway-message-center-ownership.tesla.com:443 ["tls13"]
+[tls-version] [ssl] [info] api-firebolt.tesla.com:443 ["tls13"]
+[tls-version] [ssl] [info] api-firebolt-stage.tesla.com:443 ["tls13"]
+[tls-version] [ssl] [info] atom.tesla.com:443 ["tls13"]
+[tls-version] [ssl] [info] auth-stage.tesla.com:443 ["tls12"]
+[tls-version] [ssl] [info] apigateway-tradein-partner-svc.tesla.com:443 ["tls13"]
+[tls-version] [ssl] [info] auth.tesla.com:443 ["tls12"]
+[tls-version] [ssl] [info] auth-global.tesla.com:443 ["tls13"]
+[tls-version] [ssl] [info] autobidder.powerhub.energy.tesla.com:443 ["tls12"]
+[tls-version] [ssl] [info] apigateway-logging.tesla.com:443 ["tls13"]
+[tls-version] [ssl] [info] apps.tesla.com:443 ["tls13"]
+[tls-version] [ssl] [info] apigateway-logisticsmobile-api.tesla.com:443 ["tls13"]
+[tls-version] [ssl] [info] apigateway-energy-fulfillment-cx-bff-prd.tesla.com:443 ["tls13"]
+[tls-version] [ssl] [info] auth-stage.tesla.com:443 ["tls13"]
+[tls-version] [ssl] [info] auth-global-stage.tesla.com:443 ["tls13"]
+[tls-version] [ssl] [info] autobidder-preprd.powerhub.energy.tesla.com:443 ["tls12"]
+[tls-version] [ssl] [info] bettertime-stage.tesla.com:443 ["tls12"]
+[tls-version] [ssl] [info] bettertime.tesla.com:443 ["tls12"]
+[tls-version] [ssl] [info] auth.tesla.com:443 ["tls13"]
+[tls-version] [ssl] [info] autobidder.powerhub.energy.tesla.com:443 ["tls13"]
+[tls-version] [ssl] [info] charging-guest-ownership.tesla.com:443 ["tls12"]
+[tls-version] [ssl] [info] cdns-content.tesla.com:443 ["tls12"]
+[tls-version] [ssl] [info] bolt.tesla.com:443 ["tls12"]
+[tls-version] [ssl] [info] bettertime-stage.tesla.com:443 ["tls13"]
+[tls-version] [ssl] [info] cdn-design.tesla.com:443 ["tls12"]
+[tls-version] [ssl] [info] billing.tesla.com:443 ["tls12"]
+[tls-version] [ssl] [info] autobidder-preprd.powerhub.energy.tesla.com:443 ["tls13"]
+[tls-version] [ssl] [info] click.email.tesla.com:443 ["tls10"]
+[tls-version] [ssl] [info] bettertime.tesla.com:443 ["tls13"]
+[tls-version] [ssl] [info] cicerone.tesla.com:443 ["tls12"]
+[tls-version] [ssl] [info] courses.tesla.com:443 ["tls12"]
+[tls-version] [ssl] [info] charging-guest-ownership.tesla.com:443 ["tls13"]
+[tls-version] [ssl] [info] checkout-ui-assets.tesla.com:443 ["tls12"]
+[tls-version] [ssl] [info] cua-chat-ui.tesla.com:443 ["tls12"]
+[tls-version] [ssl] [info] business-ui-ownership.tesla.com:443 ["tls12"]
+[tls-version] [ssl] [info] cdn-design.tesla.com:443 ["tls13"]
+[tls-version] [ssl] [info] bolt.tesla.com:443 ["tls13"]
+[tls-version] [ssl] [info] cdns-content.tesla.com:443 ["tls13"]
+[tls-version] [ssl] [info] cld-ec.tesla.com:443 ["tls12"]
+[tls-version] [ssl] [info] apf-api.eng.vn.cloud.tesla.com:443 ["tls10"]
+[tls-version] [ssl] [info] apf-api.prd.vn.cloud.tesla.com:443 ["tls10"]
+[tls-version] [ssl] [info] cua-test-drive-ui.tesla.com:443 ["tls12"]
+[tls-version] [ssl] [info] billing.tesla.com:443 ["tls13"]
+[tls-version] [ssl] [info] cicerone.tesla.com:443 ["tls13"]
+[tls-version] [ssl] [info] cx-apac.tesla.com:443 ["tls12"]
+[tls-version] [ssl] [info] courses.tesla.com:443 ["tls13"]
+[tls-version] [ssl] [info] checkout-ui-assets.tesla.com:443 ["tls13"]
+[tls-version] [ssl] [info] click.email.tesla.com:443 ["tls11"]
+[tls-version] [ssl] [info] cua-chat-ui.tesla.com:443 ["tls13"]
+[tls-version] [ssl] [info] cx-api-apac.tesla.com:443 ["tls12"]
+[tls-version] [ssl] [info] business-ui-ownership.tesla.com:443 ["tls13"]
+[tls-version] [ssl] [info] cld-ec.tesla.com:443 ["tls13"]
+[tls-version] [ssl] [info] cua-test-drive-ui.tesla.com:443 ["tls13"]
+[tls-version] [ssl] [info] cx.tesla.com:443 ["tls12"]
+[tls-version] [ssl] [info] cx-api-apac.tesla.com:443 ["tls13"]
+[tls-version] [ssl] [info] cx-apac.tesla.com:443 ["tls13"]
+[tls-version] [ssl] [info] developer.tesla.com:443 ["tls12"]
+[tls-version] [ssl] [info] click.email.tesla.com:443 ["tls12"]
+[tls-version] [ssl] [info] cyberbeer.tesla.com:443 ["tls12"]
+[tls-version] [ssl] [info] cx.tesla.com:443 ["tls13"]
+[tls-version] [ssl] [info] dro.tesla.com:443 ["tls12"]
+[tls-version] [ssl] [info] developer.tesla.com:443 ["tls13"]
+[tls-version] [ssl] [info] digitalassets-accounts.tesla.com:443 ["tls12"]
+[tls-version] [ssl] [info] digitalassets-energy.tesla.com:443 ["tls12"]
+[tls-version] [ssl] [info] diner-webapp-stage.tesla.com:443 ["tls12"]
+[tls-version] [ssl] [info] cyberbeer.tesla.com:443 ["tls13"]
+[tls-version] [ssl] [info] diner-webapp.tesla.com:443 ["tls12"]
+[tls-version] [ssl] [info] click.email.tesla.com:443 ["tls13"]
+[tls-version] [ssl] [info] digitalassets-contents.tesla.com:443 ["tls12"]
+[tls-version] [ssl] [info] echo.tesla.com:443 ["tls12"]
+[tls-version] [ssl] [info] dro.tesla.com:443 ["tls13"]
+[tls-version] [ssl] [info] digitalassets.tesla.com:443 ["tls12"]
+[tls-version] [ssl] [info] diner-webapp-stage.tesla.com:443 ["tls13"]
+[tls-version] [ssl] [info] diner-webapp.tesla.com:443 ["tls13"]
+[tls-version] [ssl] [info] digitalassets-learning.tesla.com:443 ["tls12"]
+[tls-version] [ssl] [info] digitalassets-secure.tesla.com:443 ["tls12"]
+[tls-version] [ssl] [info] edr-eu.tesla.com:443 ["tls12"]
+[tls-version] [ssl] [info] digitalassets-shop.tesla.com:443 ["tls12"]
+[tls-version] [ssl] [info] echo.tesla.com:443 ["tls13"]
+[tls-version] [ssl] [info] ehs.tesla.com:443 ["tls12"]
+[tls-version] [ssl] [info] edr.tesla.com:443 ["tls12"]
+[tls-version] [ssl] [info] digitalassets-accounts.tesla.com:443 ["tls13"]
+[tls-version] [ssl] [info] digitalassets-energy.tesla.com:443 ["tls13"]
+[tls-version] [ssl] [info] ehs.tesla.com:443 ["tls13"]
+[tls-version] [ssl] [info] einvoicing.tesla.com:443 ["tls12"]
+[tls-version] [ssl] [info] edr-eu.tesla.com:443 ["tls13"]
+[tls-version] [ssl] [info] energylibrary.tesla.com:443 ["tls12"]
+[tls-version] [ssl] [info] edr.tesla.com:443 ["tls13"]
+[tls-version] [ssl] [info] digitalassets-contents.tesla.com:443 ["tls13"]
+[tls-version] [ssl] [info] digitalassets.tesla.com:443 ["tls13"]
+[tls-version] [ssl] [info] digitalassets-secure.tesla.com:443 ["tls13"]
+[tls-version] [ssl] [info] einvoicing.tesla.com:443 ["tls13"]
+[tls-version] [ssl] [info] envoy-finplat-sunlight.tesla.com:443 ["tls12"]
+[tls-version] [ssl] [info] energylibrary.tesla.com:443 ["tls13"]
+[tls-version] [ssl] [info] digitalassets-shop.tesla.com:443 ["tls13"]
+[tls-version] [ssl] [info] envoy-partnerleadsharing.tesla.com:443 ["tls12"]
+[tls-version] [ssl] [info] envoy-finplat-stg.tesla.com:443 ["tls12"]
+[tls-version] [ssl] [info] envoy-partnertasks.tesla.com:443 ["tls12"]
+[tls-version] [ssl] [info] apf-api.eng.vn.cloud.tesla.com:443 ["tls11"]
+[tls-version] [ssl] [info] apf-api.prd.vn.cloud.tesla.com:443 ["tls11"]
+[tls-version] [ssl] [info] envoy-finplat-sunlight.tesla.com:443 ["tls13"]
+[tls-version] [ssl] [info] employeefeedback.tesla.com:443 ["tls12"]
+[tls-version] [ssl] [info] error-log.tesla.com:443 ["tls12"]
+[tls-version] [ssl] [info] epc-support.tesla.com:443 ["tls12"]
+[tls-version] [ssl] [info] epcapi.tesla.com:443 ["tls12"]
+[tls-version] [ssl] [info] errlog-stage.tesla.com:443 ["tls12"]
+[tls-version] [ssl] [info] envoy-finplat-stg.tesla.com:443 ["tls13"]
+[tls-version] [ssl] [info] envoy-partnertasks.tesla.com:443 ["tls13"]
+[tls-version] [ssl] [info] envoy-partnerleadsharing.tesla.com:443 ["tls13"]
+[tls-version] [ssl] [info] errlog.tesla.com:443 ["tls12"]
+[tls-version] [ssl] [info] epc.tesla.com:443 ["tls12"]
+[tls-version] [ssl] [info] exp-zcp-cloud-eu-itmfg-staging.tesla.com:443 ["tls12"]
+[tls-version] [ssl] [info] exp-zcp-cloud-eu-itmfg.tesla.com:443 ["tls12"]
+[tls-version] [ssl] [info] epc-support.tesla.com:443 ["tls13"]
+[tls-version] [ssl] [info] error-log.tesla.com:443 ["tls13"]
+[tls-version] [ssl] [info] external-sandbox-automation.tesla.com:443 ["tls12"]
+[deprecated-tls:tls_1.1] [ssl] [info] mobile-links-cdn.eng.vn.cloud.tesla.com:443 ["tls11"]
+[tls-version] [ssl] [info] errlog-stage.tesla.com:443 ["tls13"]
+[tls-version] [ssl] [info] epcapi.tesla.com:443 ["tls13"]
+[deprecated-tls:tls_1.0] [ssl] [info] mobile-links-cdn.eng.vn.cloud.tesla.com:443 ["tls10"]
+[tls-version] [ssl] [info] employeefeedback.tesla.com:443 ["tls13"]
+[deprecated-tls:tls_1.1] [ssl] [info] mobile-links-cdn.prd.vn.cloud.tesla.com:443 ["tls11"]
+[tls-version] [ssl] [info] exp-zcp-cloud-na-itmfg-staging.tesla.com:443 ["tls12"]
+[tls-version] [ssl] [info] errlog.tesla.com:443 ["tls13"]
+[tls-version] [ssl] [info] epc.tesla.com:443 ["tls13"]
+[tls-version] [ssl] [info] external-sandbox-automation.tesla.com:443 ["tls13"]
+[deprecated-tls:tls_1.0] [ssl] [info] mobile-links-cdn.prd.vn.cloud.tesla.com:443 ["tls10"]
+[tls-version] [ssl] [info] exp-zcp-cloud-eu-itmfg-staging.tesla.com:443 ["tls13"]
+[tls-version] [ssl] [info] exp-zcp-cloud-eu-itmfg.tesla.com:443 ["tls13"]
+[tls-version] [ssl] [info] exp-zcp-cloud-na-itmfg.tesla.com:443 ["tls12"]
+[tls-version] [ssl] [info] extgithub.tesla.com:443 ["tls12"]
+[tls-version] [ssl] [info] factory.tesla.com:443 ["tls12"]
+[tls-version] [ssl] [info] files-ownership.tesla.com:443 ["tls12"]
+[tls-version] [ssl] [info] exp-zcp-cloud-na-itmfg-staging.tesla.com:443 ["tls13"]
+[tls-version] [ssl] [info] extgithub.tesla.com:443 ["tls13"]
+[tls-version] [ssl] [info] factory.tesla.com:443 ["tls13"]
+[tls-version] [ssl] [info] finops.tesla.com:443 ["tls12"]
+[tls-version] [ssl] [info] exp-zcp-cloud-na-itmfg.tesla.com:443 ["tls13"]
+[tls-version] [ssl] [info] files-ownership.tesla.com:443 ["tls13"]
+[tls-version] [ssl] [info] finops.tesla.com:443 ["tls13"]
+[tls-version] [ssl] [info] fleet-auth.prd.vn.cloud.tesla.com:443 ["tls12"]
+[tls-version] [ssl] [info] feedback.tesla.com:443 ["tls12"]
+[tls-version] [ssl] [info] fleet-auth.prd.vn.cloud.tesla.com:443 ["tls13"]
+[tls-version] [ssl] [info] gigabier.tesla.com:443 ["tls12"]
+[tls-version] [ssl] [info] fsx.tesla.com:443 ["tls12"]
+[tls-version] [ssl] [info] grid.tesla.com:443 ["tls12"]
+[tls-version] [ssl] [info] gigabier.tesla.com:443 ["tls13"]
+[tls-version] [ssl] [info] hcaptcha.tesla.com:443 ["tls12"]
+[tls-version] [ssl] [info] fsx.tesla.com:443 ["tls13"]
+[tls-version] [ssl] [info] feedback.tesla.com:443 ["tls13"]
+[tls-version] [ssl] [info] hcaptcha.tesla.com:443 ["tls13"]
+[tls-version] [ssl] [info] grid.tesla.com:443 ["tls13"]
+[tls-version] [ssl] [info] apf-api.eng.vn.cloud.tesla.com:443 ["tls12"]
+[tls-version] [ssl] [info] apf-api.prd.vn.cloud.tesla.com:443 ["tls12"]
+[tls-version] [ssl] [info] apf-api.eng.vn.cloud.tesla.com:443 ["tls13"]
+[tls-version] [ssl] [info] apf-api.prd.vn.cloud.tesla.com:443 ["tls13"]
+[tls-version] [ssl] [info] bi.tesla.com:443 ["tls12"]
+[tls-version] [ssl] [info] humans.tesla.com:443 ["tls12"]
+[tls-version] [ssl] [info] humans.tesla.com:443 ["tls13"]
+[tls-version] [ssl] [info] ideas.tesla.com:443 ["tls12"]
+[tls-version] [ssl] [info] ideas.tesla.com:443 ["tls13"]
+[tls-version] [ssl] [info] image-emails.tesla.com:443 ["tls12"]
+[tls-version] [ssl] [info] image-emails.tesla.com:443 ["tls13"]
+[tls-version] [ssl] [info] image.email.tesla.com:443 ["tls10"]
+[tls-version] [ssl] [info] image.email.tesla.com:443 ["tls11"]
+[tls-version] [ssl] [info] image.email.tesla.com:443 ["tls12"]
+[tls-version] [ssl] [info] image.emails.tesla.com:443 ["tls12"]
+[tls-version] [ssl] [info] image.email.tesla.com:443 ["tls13"]
+[tls-version] [ssl] [info] image.emails.tesla.com:443 ["tls13"]
+[tls-version] [ssl] [info] inside.tesla.com:443 ["tls12"]
+[tls-version] [ssl] [info] inside.tesla.com:443 ["tls13"]
+[tls-version] [ssl] [info] installations-ext-api.tesla.com:443 ["tls12"]
+[tls-version] [ssl] [info] installations-ext-api.tesla.com:443 ["tls13"]
+[tls-version] [ssl] [info] inventory-assets.tesla.com:443 ["tls12"]
+[tls-version] [ssl] [info] ion.tesla.com:443 ["tls12"]
+[tls-version] [ssl] [info] inventory-assets.tesla.com:443 ["tls13"]
+[tls-version] [ssl] [info] ion.tesla.com:443 ["tls13"]
+[tls-version] [ssl] [info] gpv.tesla.com:443 ["tls12"]
+[tls-version] [ssl] [info] ir.tesla.com:443 ["tls12"]
+[tls-version] [ssl] [info] ir.tesla.com:443 ["tls13"]
+[tls-version] [ssl] [info] kronos-dev.tesla.com:443 ["tls12"]
+[tls-version] [ssl] [info] kronos.tesla.com:443 ["tls12"]
+[tls-version] [ssl] [info] kronos-dev.tesla.com:443 ["tls13"]
+[tls-version] [ssl] [info] kronos.tesla.com:443 ["tls13"]
+[tls-version] [ssl] [info] link.tesla.com:443 ["tls12"]
+[tls-version] [ssl] [info] link.tesla.com:443 ["tls13"]
+[tls-version] [ssl] [info] links.tesla.com:443 ["tls12"]
+[tls-version] [ssl] [info] links.tesla.com:443 ["tls13"]
+[tls-version] [ssl] [info] hub.tesla.com:443 ["tls12"]
+[tls-version] [ssl] [info] auth.eng.usw.vn.cloud.tesla.com:443 ["tls12"]
+[tls-version] [ssl] [info] assets.engage.tesla.com:443 ["tls12"]
+[tls-version] [ssl] [info] auth.eng.usw.vn.cloud.tesla.com:443 ["tls13"]
+[tls-version] [ssl] [info] dex.ops.bn.na.vn.cloud.tesla.com:443 ["tls12"]
+[tls-version] [ssl] [info] assets.engage.tesla.com:443 ["tls13"]
+[tls-version] [ssl] [info] link.qa.tesla.com:443 ["tls12"]
+[tls-version] [ssl] [info] hnd13-gpgw1.tesla.com:443 ["tls12"]
+[tls-version] [ssl] [info] engage.tesla.com:443 ["tls12"]
+[tls-version] [ssl] [info] dex.ops.bn.na.vn.cloud.tesla.com:443 ["tls13"]
+[tls-version] [ssl] [info] livestream.tesla.com:443 ["tls12"]
+[tls-version] [ssl] [info] livestream.tesla.com:443 ["tls13"]
+[tls-version] [ssl] [info] livestreamapi-test.tesla.com:443 ["tls12"]
+[tls-version] [ssl] [info] livestreamapi-test.tesla.com:443 ["tls13"]
+[tls-version] [ssl] [info] fleet-api.eng.na.vn.cloud.tesla.com:443 ["tls12"]
+[tls-version] [ssl] [info] fleetview.fn.tesla.com:443 ["tls12"]
+[tls-version] [ssl] [info] livestreamapi.tesla.com:443 ["tls12"]
+[tls-version] [ssl] [info] fleetview.america.fn.tesla.com:443 ["tls12"]
+[tls-version] [ssl] [info] fleetview.prd.america.fn.tesla.com:443 ["tls12"]
+[tls-version] [ssl] [info] fleet-api.prd.na.vn.cloud.tesla.com:443 ["tls12"]
+[tls-version] [ssl] [info] livestreamapi.tesla.com:443 ["tls13"]
+[tls-version] [ssl] [info] location-services-prd.tesla.com:443 ["tls12"]
+[tls-version] [ssl] [info] location-services-prd.tesla.com:443 ["tls13"]
+[tls-version] [ssl] [info] engage.tesla.com:443 ["tls13"]
+[tls-version] [ssl] [info] logcollection.tesla.com:443 ["tls12"]
+[tls-version] [ssl] [info] hermes-ap.prd.vn.cloud.tesla.com:443 ["tls12"]
+[tls-version] [ssl] [info] logcollection.tesla.com:443 ["tls13"]
+[tls-version] [ssl] [info] logcollector-ext.tesla.com:443 ["tls12"]
+[tls-version] [ssl] [info] logcollector-ext.tesla.com:443 ["tls13"]
+[tls-version] [ssl] [info] hermes-ap.eng.vn.cloud.tesla.com:443 ["tls12"]
+[tls-version] [ssl] [info] fleetview.europe.fn.tesla.com:443 ["tls12"]
+[tls-version] [ssl] [info] hermes-stream-api.eng.na.vn.cloud.tesla.com:443 ["tls12"]
+[tls-version] [ssl] [info] fleetview.fn.tesla.com:443 ["tls13"]
+[tls-version] [ssl] [info] fleet-api.prd.eu.vn.cloud.tesla.com:443 ["tls12"]
+[tls-version] [ssl] [info] fleet-api.eng.na.vn.cloud.tesla.com:443 ["tls13"]
+[tls-version] [ssl] [info] fleetview.america.fn.tesla.com:443 ["tls13"]
+[tls-version] [ssl] [info] fleetview.prd.america.fn.tesla.com:443 ["tls13"]
+[tls-version] [ssl] [info] mfa-reset.tesla.com:443 ["tls12"]
+[tls-version] [ssl] [info] fleet-api.prd.na.vn.cloud.tesla.com:443 ["tls13"]
+[tls-version] [ssl] [info] hermes-ap.prd.vn.cloud.tesla.com:443 ["tls13"]
+[tls-version] [ssl] [info] mobile-links-cdn.eng.vn.cloud.tesla.com:443 ["tls10"]
+[tls-version] [ssl] [info] fleetview.prd.europe.fn.tesla.com:443 ["tls12"]
+[tls-version] [ssl] [info] mobile-links-cdn.eng.vn.cloud.tesla.com:443 ["tls11"]
+[tls-version] [ssl] [info] mfa-reset.tesla.com:443 ["tls13"]
+[tls-version] [ssl] [info] mfs-supplier-uat.tesla.com:443 ["tls12"]
+[tls-version] [ssl] [info] mobile-links-cdn.eng.vn.cloud.tesla.com:443 ["tls12"]
+[tls-version] [ssl] [info] mfa.tesla.com:443 ["tls12"]
+[tls-version] [ssl] [info] mobile-links-cdn.prd.vn.cloud.tesla.com:443 ["tls10"]
+[tls-version] [ssl] [info] mobile-links-cdn.eng.vn.cloud.tesla.com:443 ["tls13"]
+[tls-version] [ssl] [info] mobile-links-cdn.prd.vn.cloud.tesla.com:443 ["tls11"]
+[tls-version] [ssl] [info] mobile-links-cdn.prd.vn.cloud.tesla.com:443 ["tls12"]
+[tls-version] [ssl] [info] mfs-supplier-uat.tesla.com:443 ["tls13"]
+[tls-version] [ssl] [info] mfs-supplier.tesla.com:443 ["tls12"]
+[tls-version] [ssl] [info] mfa.tesla.com:443 ["tls13"]
+[tls-version] [ssl] [info] mobile-links-cdn.prd.vn.cloud.tesla.com:443 ["tls13"]
+[tls-version] [ssl] [info] mfs-supplier.tesla.com:443 ["tls13"]
+[tls-version] [ssl] [info] hermes-ap.eng.vn.cloud.tesla.com:443 ["tls13"]
+[tls-version] [ssl] [info] mobile.tesla.com:443 ["tls12"]
+[tls-version] [ssl] [info] myapps.tesla.com:443 ["tls12"]
+[tls-version] [ssl] [info] nav-maps-cdn-prd.tesla.com:443 ["tls12"]
+[tls-version] [ssl] [info] mobile.tesla.com:443 ["tls13"]
+[tls-version] [ssl] [info] myapps.tesla.com:443 ["tls13"]
+[tls-version] [ssl] [info] nav-maps-cdn-prd.tesla.com:443 ["tls13"]
+[tls-version] [ssl] [info] hermes-stream-api.prd.eu.vn.cloud.tesla.com:443 ["tls12"]
+[tls-version] [ssl] [info] npm.tesla.com:443 ["tls12"]
+[tls-version] [ssl] [info] fleetview.europe.fn.tesla.com:443 ["tls13"]
+[tls-version] [ssl] [info] npm.tesla.com:443 ["tls13"]
+[tls-version] [ssl] [info] ams13-gpgw1.tesla.com:443 ["tls12"]
+[tls-version] [ssl] [info] hermes-stream-api.eng.na.vn.cloud.tesla.com:443 ["tls13"]
+[tls-version] [ssl] [info] fleet-api.prd.eu.vn.cloud.tesla.com:443 ["tls13"]
+[tls-version] [ssl] [info] fleetview.prd.europe.fn.tesla.com:443 ["tls13"]
+[tls-version] [ssl] [info] dal11-gpgw1.tesla.com:443 ["tls12"]
+[tls-version] [ssl] [info] hermes-stream-api.prd.eu.vn.cloud.tesla.com:443 ["tls13"]
+[tls-version] [ssl] [info] live-data.america.fn.tesla.com:443 ["tls12"]
+[tls-version] [ssl] [info] live-data.america.fn.tesla.com:443 ["tls13"]
+[tls-version] [ssl] [info] fra05-gpgw1.tesla.com:443 ["tls12"]
+[tls-version] [ssl] [info] live-data.fn.tesla.com:443 ["tls12"]
+[tls-version] [ssl] [info] live-data.europe.fn.tesla.com:443 ["tls12"]
+[tls-version] [ssl] [info] live-data.prd.america.fn.tesla.com:443 ["tls12"]
+[tls-version] [ssl] [info] iad05-gpgw1.tesla.com:443 ["tls12"]
+[tls-version] [ssl] [info] lax32-gpgw1.tesla.com:443 ["tls12"]
+[tls-version] [ssl] [info] live-data.fn.tesla.com:443 ["tls13"]
+[tls-version] [ssl] [info] live-data.europe.fn.tesla.com:443 ["tls13"]
+[tls-version] [ssl] [info] live-data.prd.america.fn.tesla.com:443 ["tls13"]
+[tls-version] [ssl] [info] media-server-api.eng.vn.cloud.tesla.com:443 ["tls12"]
+[tls-version] [ssl] [info] live-data.prd.europe.fn.tesla.com:443 ["tls12"]
+[tls-version] [ssl] [info] media-server-dev-api.eng.vn.cloud.tesla.com:443 ["tls12"]
+[tls-version] [ssl] [info] media-server-qr-dev.eng.america.vn.cloud.tesla.com:443 ["tls12"]
+[tls-version] [ssl] [info] media-server-qr.eng.america.vn.cloud.tesla.com:443 ["tls12"]
+[tls-version] [ssl] [info] media-server-api.eng.vn.cloud.tesla.com:443 ["tls13"]
+[tls-version] [ssl] [info] mobile-ops-links.prd.vn.cloud.tesla.com:443 ["tls12"]
+[tls-version] [ssl] [info] mobile-links.eng.vn.cloud.tesla.com:443 ["tls12"]
+[tls-version] [ssl] [info] mobile-links.prd.vn.cloud.tesla.com:443 ["tls12"]
+[tls-version] [ssl] [info] live-data.prd.europe.fn.tesla.com:443 ["tls13"]
+[tls-version] [ssl] [info] media-server-dev-api.eng.vn.cloud.tesla.com:443 ["tls13"]
+[tls-version] [ssl] [info] onboard.tesla.com:443 ["tls12"]
+[tls-version] [ssl] [info] media-server-qr-dev.eng.america.vn.cloud.tesla.com:443 ["tls13"]
+[tls-version] [ssl] [info] npuapt-eng.usw.vn.cloud.tesla.com:443 ["tls12"]
+[tls-version] [ssl] [info] onboard.tesla.com:443 ["tls13"]
+[tls-version] [ssl] [info] npuapt-prd.usw2.vn.cloud.tesla.com:443 ["tls12"]
+[tls-version] [ssl] [info] npuca-prd.usw2.vn.cloud.tesla.com:443 ["tls12"]
+[tls-version] [ssl] [info] npuhe-eng.usw2.vn.cloud.tesla.com:443 ["tls12"]
+[tls-version] [ssl] [info] media-server-qr.eng.america.vn.cloud.tesla.com:443 ["tls13"]
+[tls-version] [ssl] [info] mobile-ops-links.prd.vn.cloud.tesla.com:443 ["tls13"]
+[tls-version] [ssl] [info] mobile-links.prd.vn.cloud.tesla.com:443 ["tls13"]
+[tls-version] [ssl] [info] npuapt-eng.usw.vn.cloud.tesla.com:443 ["tls13"]
+[tls-version] [ssl] [info] npuapt-prd.usw2.vn.cloud.tesla.com:443 ["tls13"]
+[tls-version] [ssl] [info] mobile-links.eng.vn.cloud.tesla.com:443 ["tls13"]
+[tls-version] [ssl] [info] npuca-prd.usw2.vn.cloud.tesla.com:443 ["tls13"]
+[tls-version] [ssl] [info] npuhe-eng.usw2.vn.cloud.tesla.com:443 ["tls13"]
+[tls-version] [ssl] [info] npuca-prd.euw1.vn.cloud.tesla.com:443 ["tls12"]
+[tls-version] [ssl] [info] npute-eng.usw.vn.cloud.tesla.com:443 ["tls12"]
+[tls-version] [ssl] [info] npuhe-eng.euw1.vn.cloud.tesla.com:443 ["tls12"]
+[tls-version] [ssl] [info] ownership.tesla.com:443 ["tls12"]
+[tls-version] [ssl] [info] npute-eng.euw1.vn.cloud.tesla.com:443 ["tls12"]
+[tls-version] [ssl] [info] pay.tesla.com:443 ["tls12"]
+[tls-version] [ssl] [info] partners.tesla.com:443 ["tls12"]
+[tls-version] [ssl] [info] pay.tesla.com:443 ["tls13"]
+[tls-version] [ssl] [info] ownership.tesla.com:443 ["tls13"]
+[tls-version] [ssl] [info] powerhub.energy.tesla.com:443 ["tls12"]
+[tls-version] [ssl] [info] partners.tesla.com:443 ["tls13"]
+[tls-version] [ssl] [info] npuca-prd.euw1.vn.cloud.tesla.com:443 ["tls13"]
+[tls-version] [ssl] [info] powerhub.energy.tesla.com:443 ["tls13"]
+[tls-version] [ssl] [info] npute-eng.usw.vn.cloud.tesla.com:443 ["tls13"]
+[tls-version] [ssl] [info] npute-eng.usw2.vn.cloud.tesla.com:443 ["tls12"]
+[tls-version] [ssl] [info] npuhe-eng.euw1.vn.cloud.tesla.com:443 ["tls13"]
+[tls-version] [ssl] [info] npute-eng.euw1.vn.cloud.tesla.com:443 ["tls13"]
+[tls-version] [ssl] [info] profile.tesla.com:443 ["tls12"]
+[tls-version] [ssl] [info] ranger.tesla.com:443 ["tls12"]
+[tls-version] [ssl] [info] recycling.tesla.com:443 ["tls12"]
+[tls-version] [ssl] [info] profile.tesla.com:443 ["tls13"]
+[tls-version] [ssl] [info] ranger-api.tesla.com:443 ["tls12"]
+[tls-version] [ssl] [info] reassignment-ui.tesla.com:443 ["tls12"]
+[tls-version] [ssl] [info] npute-prd.usw2.vn.cloud.tesla.com:443 ["tls12"]
+[tls-version] [ssl] [info] npute-eng.usw2.vn.cloud.tesla.com:443 ["tls13"]
+[tls-version] [ssl] [info] ranger.tesla.com:443 ["tls13"]
+[tls-version] [ssl] [info] recycling.tesla.com:443 ["tls13"]
+[tls-version] [ssl] [info] repair.tesla.com:443 ["tls12"]
+[tls-version] [ssl] [info] roadsideinvoice.tesla.com:443 ["tls12"]
+[tls-version] [ssl] [info] ranger-api.tesla.com:443 ["tls13"]
+[tls-version] [ssl] [info] reassignment-ui.tesla.com:443 ["tls13"]
+[tls-version] [ssl] [info] repair.tesla.com:443 ["tls13"]
+[tls-version] [ssl] [info] roadsideinvoice.tesla.com:443 ["tls13"]
+[tls-version] [ssl] [info] sales-prd.tesla.com:443 ["tls12"]
+[tls-version] [ssl] [info] npute-prd.euw1.vn.cloud.tesla.com:443 ["tls12"]
+[tls-version] [ssl] [info] npute-prd.usw2.vn.cloud.tesla.com:443 ["tls13"]
+[tls-version] [ssl] [info] schedule.tesla.com:443 ["tls12"]
+[tls-version] [ssl] [info] sales-prd.tesla.com:443 ["tls13"]
+[tls-version] [ssl] [info] secure-static-assets.tesla.com:443 ["tls12"]
+[weak-cipher-suites:tls-1.0] [ssl] [low] apf-api.prd.vn.cloud.tesla.com:443 ["[tls10 TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA]"]
+[weak-cipher-suites:tls-1.0] [ssl] [low] apf-api.eng.vn.cloud.tesla.com:443 ["[tls10 TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA]"]
+[tls-version] [ssl] [info] service.tesla.com:443 ["tls12"]
+[tls-version] [ssl] [info] schedule.tesla.com:443 ["tls13"]
+[tls-version] [ssl] [info] serviceapi-stg.tesla.com:443 ["tls12"]
+[tls-version] [ssl] [info] serviceapp.tesla.com:443 ["tls12"]
+[tls-version] [ssl] [info] serviceapi.tesla.com:443 ["tls12"]
+[tls-version] [ssl] [info] secure-static-assets.tesla.com:443 ["tls13"]
+[tls-version] [ssl] [info] service.tesla.com:443 ["tls13"]
+[tls-version] [ssl] [info] npute-prd.euw1.vn.cloud.tesla.com:443 ["tls13"]
+[tls-version] [ssl] [info] shop.tesla.com:443 ["tls12"]
+[weak-cipher-suites:tls-1.0] [ssl] [low] click.email.tesla.com:443 ["[tls10 TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA]"]
+[tls-version] [ssl] [info] serviceapi-stg.tesla.com:443 ["tls13"]
+[tls-version] [ssl] [info] serviceapi.tesla.com:443 ["tls13"]
+[tls-version] [ssl] [info] shop.tesla.com:443 ["tls13"]
+[weak-cipher-suites:tls-1.1] [ssl] [low] click.email.tesla.com:443 ["[tls11 TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA]"]
+[tls-version] [ssl] [info] sso.tesla.com:443 ["tls12"]
+[tls-version] [ssl] [info] npuv-ap.prd.usw2.vn.cloud.tesla.com:443 ["tls12"]
+[tls-version] [ssl] [info] sso-dev.tesla.com:443 ["tls12"]
+[weak-cipher-suites:tls-1.1] [ssl] [low] apf-api.prd.vn.cloud.tesla.com:443 ["[tls11 TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA]"]
+[weak-cipher-suites:tls-1.1] [ssl] [low] apf-api.eng.vn.cloud.tesla.com:443 ["[tls11 TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA]"]
+[tls-version] [ssl] [info] sso.tesla.com:443 ["tls13"]
+[tls-version] [ssl] [info] sspr.tesla.com:443 ["tls12"]
+[tls-version] [ssl] [info] solarbonds.tesla.com:443 ["tls12"]
+[tls-version] [ssl] [info] sso-dev.tesla.com:443 ["tls13"]
+[tls-version] [ssl] [info] sspr.tesla.com:443 ["tls13"]
+[tls-version] [ssl] [info] solarbonds.tesla.com:443 ["tls13"]
+[tls-version] [ssl] [info] stage-traffic-flow-test.tesla.com:443 ["tls12"]
+[tls-version] [ssl] [info] static-assets-pay.tesla.com:443 ["tls12"]
+[tls-version] [ssl] [info] npuv-ap.prd.usw2.vn.cloud.tesla.com:443 ["tls13"]
+[tls-version] [ssl] [info] stage-traffic-flow-test.tesla.com:443 ["tls13"]
+[tls-version] [ssl] [info] npuv-ap.prd.euw1.vn.cloud.tesla.com:443 ["tls12"]
+[tls-version] [ssl] [info] static-assets-profile-settings.tesla.com:443 ["tls12"]
+[tls-version] [ssl] [info] npuv-eng.usw.vn.cloud.tesla.com:443 ["tls12"]
+[tls-version] [ssl] [info] static-assets-teslaaccount.tesla.com:443 ["tls12"]
+[tls-version] [ssl] [info] static-assets-pay.tesla.com:443 ["tls13"]
+[tls-version] [ssl] [info] npuv-eng.euw1.vn.cloud.tesla.com:443 ["tls12"]
+[tls-version] [ssl] [info] static-assets-profile-settings.tesla.com:443 ["tls13"]
+[tls-version] [ssl] [info] static-assets-teslaaccount.tesla.com:443 ["tls13"]
+[tls-version] [ssl] [info] npuv-eng.usw2.vn.cloud.tesla.com:443 ["tls12"]
+[tls-version] [ssl] [info] static-assets.tesla.com:443 ["tls12"]
+[tls-version] [ssl] [info] static-map.tesla.com:443 ["tls12"]
+[tls-version] [ssl] [info] static-assets.tesla.com:443 ["tls13"]
+[tls-version] [ssl] [info] npuv-prd.usw2.vn.cloud.tesla.com:443 ["tls12"]
+[tls-version] [ssl] [info] static-map.tesla.com:443 ["tls13"]
+[tls-version] [ssl] [info] stg-uc-twilio-bpm-webhook.tesla.com:443 ["tls12"]
+[tls-version] [ssl] [info] static.tesla.com:443 ["tls12"]
+[tls-version] [ssl] [info] ownerapi-api.eng.usw.vn.cloud.tesla.com:443 ["tls12"]
+[tls-version] [ssl] [info] npuv-ap.prd.euw1.vn.cloud.tesla.com:443 ["tls13"]
+[tls-version] [ssl] [info] npuv-eng.usw.vn.cloud.tesla.com:443 ["tls13"]
+[tls-version] [ssl] [info] stream.tesla.com:443 ["tls12"]
+[tls-version] [ssl] [info] stg-uc-twilio-bpm-webhook.tesla.com:443 ["tls13"]
+[tls-version] [ssl] [info] static.tesla.com:443 ["tls13"]
+[tls-version] [ssl] [info] npuv-eng.euw1.vn.cloud.tesla.com:443 ["tls13"]
+[tls-version] [ssl] [info] suppliers-stg.tesla.com:443 ["tls12"]
+[tls-version] [ssl] [info] stream.tesla.com:443 ["tls13"]
+[tls-version] [ssl] [info] npuv-eng.usw2.vn.cloud.tesla.com:443 ["tls13"]
+[tls-version] [ssl] [info] suppliers.tesla.com:443 ["tls12"]
+[tls-version] [ssl] [info] ownerapi-alpha.prd.vn.cloud.tesla.com:443 ["tls12"]
+[tls-version] [ssl] [info] sin05-gpgw1.tesla.com:443 ["tls12"]
+[tls-version] [ssl] [info] suppliers-stg.tesla.com:443 ["tls13"]
+[tls-version] [ssl] [info] suppliers.tesla.com:443 ["tls13"]
+[tls-version] [ssl] [info] tcc-gw-stg.tesla.com:443 ["tls12"]
+[tls-version] [ssl] [info] tcc-graph.tesla.com:443 ["tls12"]
+[tls-version] [ssl] [info] npuv-prd.usw2.vn.cloud.tesla.com:443 ["tls13"]
+[tls-version] [ssl] [info] tcc-graph-stg.tesla.com:443 ["tls12"]
+[tls-version] [ssl] [info] tcc-gw-stg.tesla.com:443 ["tls13"]
+[tls-version] [ssl] [info] tcc-gw.tesla.com:443 ["tls12"]
+[tls-version] [ssl] [info] teamchat.tesla.com:443 ["tls12"]
+[tls-version] [ssl] [info] npuv-prd.euw1.vn.cloud.tesla.com:443 ["tls12"]
+[tls-version] [ssl] [info] tcc-graph.tesla.com:443 ["tls13"]
+[tls-version] [ssl] [info] tcc-gw.tesla.com:443 ["tls13"]
+[tls-version] [ssl] [info] tcc-graph-stg.tesla.com:443 ["tls13"]
+[tls-version] [ssl] [info] ownerapi-api.eng.usw2.vn.cloud.tesla.com:443 ["tls12"]
+[tls-version] [ssl] [info] teamchat.tesla.com:443 ["tls13"]
+[tls-version] [ssl] [info] teslacmgap01.tesla.com:443 ["tls12"]
+[tls-version] [ssl] [info] ownerapi-api.eng.usw.vn.cloud.tesla.com:443 ["tls13"]
+[tls-version] [ssl] [info] ownerapi-api.eng.euw1.vn.cloud.tesla.com:443 ["tls12"]
+[tls-version] [ssl] [info] teslamezcal.tesla.com:443 ["tls12"]
+[tls-version] [ssl] [info] teslatequila.tesla.com:443 ["tls12"]
+[tls-version] [ssl] [info] teslacmgap01.tesla.com:443 ["tls13"]
+[tls-version] [ssl] [info] teslatequila.tesla.com:443 ["tls13"]
+[tls-version] [ssl] [info] teslamezcal.tesla.com:443 ["tls13"]
+[tls-version] [ssl] [info] toolbox.tesla.com:443 ["tls12"]
+[tls-version] [ssl] [info] track.tesla.com:443 ["tls12"]
+[tls-version] [ssl] [info] ownerapi-alpha.prd.vn.cloud.tesla.com:443 ["tls13"]
+[tls-version] [ssl] [info] toolbox.tesla.com:443 ["tls13"]
+[tls-version] [ssl] [info] tradein-partner.tesla.com:443 ["tls12"]
+[tls-version] [ssl] [info] tracking.tesla.com:443 ["tls12"]
+[tls-version] [ssl] [info] track.tesla.com:443 ["tls13"]
+[tls-version] [ssl] [info] tradein-partner.tesla.com:443 ["tls13"]
+[tls-version] [ssl] [info] tracking.tesla.com:443 ["tls13"]
+[tls-version] [ssl] [info] tradepartnertickets.tesla.com:443 ["tls12"]
+[tls-version] [ssl] [info] tradepartnertickets.tesla.com:443 ["tls13"]
+[tls-version] [ssl] [info] npuv-prd.euw1.vn.cloud.tesla.com:443 ["tls13"]
+[tls-version] [ssl] [info] ownerapi-api.eng.usw2.vn.cloud.tesla.com:443 ["tls13"]
+[tls-version] [ssl] [info] trt.tesla.com:443 ["tls12"]
+[weak-cipher-suites:tls-1.0] [ssl] [low] image.email.tesla.com:443 ["[tls10 TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA]"]
+[tls-version] [ssl] [info] uicrashtracer.tesla.com:443 ["tls12"]
+[tls-version] [ssl] [info] trt.tesla.com:443 ["tls13"]
+[tls-version] [ssl] [info] uicrashtracer.tesla.com:443 ["tls13"]
+[weak-cipher-suites:tls-1.1] [ssl] [low] image.email.tesla.com:443 ["[tls11 TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA]"]
+[tls-version] [ssl] [info] url1894.tesla.com:443 ["tls12"]
+[tls-version] [ssl] [info] teslacmgcn01.tesla.com:443 ["tls12"]
+[tls-version] [ssl] [info] ownerapi-api.eng.euw1.vn.cloud.tesla.com:443 ["tls13"]
+[tls-version] [ssl] [info] url4104.tesla.com:443 ["tls12"]
+[tls-version] [ssl] [info] teslacmgcn01.tesla.com:443 ["tls13"]
+[tls-version] [ssl] [info] url5196.tesla.com:443 ["tls12"]
+[tls-version] [ssl] [info] url4857.tesla.com:443 ["tls12"]
+[tls-version] [ssl] [info] pages.emails.tesla.com:443 ["tls12"]
+[tls-version] [ssl] [info] sentry-api.ops.na.vn.cloud.tesla.com:443 ["tls12"]
+[tls-version] [ssl] [info] pages.email.tesla.com:443 ["tls12"]
+[tls-version] [ssl] [info] sentry-api.ops.na.vn.cloud.tesla.com:443 ["tls13"]
+[tls-version] [ssl] [info] signaling-alpha.prd.vn.cloud.tesla.com:443 ["tls12"]
+[tls-version] [ssl] [info] signaling-robotics.eng.vn.cloud.tesla.com:443 ["tls12"]
+[tls-version] [ssl] [info] signaling-robotics.eng.usw.vn.cloud.tesla.com:443 ["tls12"]
+[tls-version] [ssl] [info] url7051.tesla.com:443 ["tls12"]
+[tls-version] [ssl] [info] url2547.tesla.com:443 ["tls12"]
+[tls-version] [ssl] [info] url7051.tesla.com:443 ["tls13"]
+[tls-version] [ssl] [info] pub.email.tesla.com:443 ["tls12"]
+[tls-version] [ssl] [info] url4211.tesla.com:443 ["tls12"]
+[tls-version] [ssl] [info] signaling-alpha.prd.vn.cloud.tesla.com:443 ["tls13"]
+[tls-version] [ssl] [info] url5347.tesla.com:443 ["tls12"]
+[tls-version] [ssl] [info] vehicle-files.eng.euw1.vn.cloud.tesla.com:443 ["tls12"]
+[tls-version] [ssl] [info] url6661.tesla.com:443 ["tls12"]
+[tls-version] [ssl] [info] vehicle-files.eng.usw2.vn.cloud.tesla.com:443 ["tls12"]
+[tls-version] [ssl] [info] signaling-robotics.eng.usw.vn.cloud.tesla.com:443 ["tls13"]
+[tls-version] [ssl] [info] signaling-robotics.eng.vn.cloud.tesla.com:443 ["tls13"]
+[tls-version] [ssl] [info] vehicle-files.prd.euw1.vn.cloud.tesla.com:443 ["tls12"]
+[tls-version] [ssl] [info] vehicle-files.eng.usw2.vn.cloud.tesla.com:443 ["tls13"]
+[tls-version] [ssl] [info] vehicle-files.eng.euw1.vn.cloud.tesla.com:443 ["tls13"]
+[tls-version] [ssl] [info] vehicle-files.prd.euw1.vn.cloud.tesla.com:443 ["tls13"]
+[tls-version] [ssl] [info] vehicle-files.prd.usw2.vn.cloud.tesla.com:443 ["tls12"]
+[tls-version] [ssl] [info] vote.tesla.com:443 ["tls12"]
+[tls-version] [ssl] [info] vmanage-alerts.tesla.com:443 ["tls12"]
+[tls-version] [ssl] [info] vehicle-files.prd.usw2.vn.cloud.tesla.com:443 ["tls13"]
+[tls-version] [ssl] [info] vote.tesla.com:443 ["tls13"]
+[tls-version] [ssl] [info] warp.tesla.com:443 ["tls12"]
+[tls-version] [ssl] [info] vmanage-alerts.tesla.com:443 ["tls13"]
+[tls-version] [ssl] [info] warehouse.tesla.com:443 ["tls12"]
+[tls-version] [ssl] [info] warp.tesla.com:443 ["tls13"]
+[tls-version] [ssl] [info] watchman.tesla.com:443 ["tls12"]
+[tls-version] [ssl] [info] warehouse.tesla.com:443 ["tls13"]
+[tls-version] [ssl] [info] watchman.tesla.com:443 ["tls13"]
+[tls-version] [ssl] [info] workforce.tesla.com:443 ["tls12"]
+[tls-version] [ssl] [info] workplace.tesla.com:443 ["tls12"]
+[tls-version] [ssl] [info] workforce.tesla.com:443 ["tls13"]
+[tls-version] [ssl] [info] www.tesla.com:443 ["tls12"]
+[tls-version] [ssl] [info] workplace.tesla.com:443 ["tls13"]
+[tls-version] [ssl] [info] www.tesla.com:443 ["tls13"]
+[tls-version] [ssl] [info] zcc.tesla.com:443 ["tls12"]
+[tls-version] [ssl] [info] syd14-gpgw1.tesla.com:443 ["tls12"]
+[tls-version] [ssl] [info] url8833.tesla.com:443 ["tls12"]
+[tls-version] [ssl] [info] teslacmgeu01.tesla.com:443 ["tls12"]
+[tls-version] [ssl] [info] sjc36-gpgw1.tesla.com:443 ["tls12"]
+[tls-version] [ssl] [info] ul.engage.tesla.com:443 ["tls12"]
+[tls-version] [ssl] [info] tesla.com:443 ["tls12"]
+[tls-version] [ssl] [info] telemetry-ap.eng.vn.cloud.tesla.com:443 ["tls12"]
+[tls-version] [ssl] [info] telemetry-ap.prd.vn.cloud.tesla.com:443 ["tls12"]
+[tls-version] [ssl] [info] teslacmgus01.tesla.com:443 ["tls12"]
+[tls-version] [ssl] [info] teslacmgna01.tesla.com:443 ["tls12"]
+[tls-version] [ssl] [info] ul.engage.tesla.com:443 ["tls13"]
+[tls-version] [ssl] [info] tesla.com:443 ["tls13"]
+[weak-cipher-suites:tls-1.0] [ssl] [low] mobile-links-cdn.eng.vn.cloud.tesla.com:443 ["[tls10 TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA]"]
+[weak-cipher-suites:tls-1.1] [ssl] [low] mobile-links-cdn.eng.vn.cloud.tesla.com:443 ["[tls11 TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA]"]
+[weak-cipher-suites:tls-1.0] [ssl] [low] mobile-links-cdn.prd.vn.cloud.tesla.com:443 ["[tls10 TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA]"]
+[weak-cipher-suites:tls-1.1] [ssl] [low] mobile-links-cdn.prd.vn.cloud.tesla.com:443 ["[tls11 TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA]"]
+[tls-version] [ssl] [info] telemetry-ap.eng.vn.cloud.tesla.com:443 ["tls13"]
+[tls-version] [ssl] [info] telemetry-ap.prd.vn.cloud.tesla.com:443 ["tls13"]
+[tls-version] [ssl] [info] teslacmgeu01.tesla.com:443 ["tls13"]
+[tls-version] [ssl] [info] tripx.prd.usw2.vn.cloud.tesla.com:443 ["tls12"]
+[tls-version] [ssl] [info] tripx-alpha.prd.vn.cloud.tesla.com:443 ["tls12"]
+[tls-version] [ssl] [info] tripx.prd.vn.cloud.tesla.com:443 ["tls12"]
+[tls-version] [ssl] [info] teslacmgus01.tesla.com:443 ["tls13"]
+[tls-version] [ssl] [info] wire.tesla.com:443 ["tls12"]
+[tls-version] [ssl] [info] teslacmgna01.tesla.com:443 ["tls13"]
+[tls-version] [ssl] [info] tripx.eng.usw2.vn.cloud.tesla.com:443 ["tls12"]
+[tls-version] [ssl] [info] tripx.prd.usw2.vn.cloud.tesla.com:443 ["tls13"]
+[tls-version] [ssl] [info] tripx.prd.vn.cloud.tesla.com:443 ["tls13"]
+[tls-version] [ssl] [info] tripx-alpha.prd.vn.cloud.tesla.com:443 ["tls13"]
+[tls-version] [ssl] [info] tripx.eng.usw2.vn.cloud.tesla.com:443 ["tls13"]
+[tls-version] [ssl] [info] www.engage.tesla.com:443 ["tls12"]
+[tls-version] [ssl] [info] www.engage.tesla.com:443 ["tls13"]
+[tls-version] [ssl] [info] view.email.tesla.com:443 ["tls12"]
+[security-txt] [http] [info] https://www.tesla.com/.well-known/security.txt ["mailto:VulnerabilityReporting@tesla.com"]
+[options-method] [http] [info] https://ams13-gpgw1.tesla.com ["GET, POST"]
+[options-method] [http] [info] https://apigateway-tradein-partner-svc.tesla.com ["GET"]
+[options-method] [http] [info] https://auth.tesla.com ["GET,HEAD"]
+[options-method] [http] [info] https://dal11-gpgw1.tesla.com ["GET, POST"]
+[options-method] [http] [info] https://fleet-auth.prd.vn.cloud.tesla.com ["GET,HEAD"]
+[options-method] [http] [info] https://fra05-gpgw1.tesla.com ["GET, POST"]
+[options-method] [http] [info] https://hnd13-gpgw1.tesla.com ["GET, POST"]
+[options-method] [http] [info] https://iad05-gpgw1.tesla.com ["GET, POST"]
+[options-method] [http] [info] https://lax32-gpgw1.tesla.com ["GET, POST"]
+[options-method] [http] [info] https://logcollection.tesla.com ["GET,POST,HEAD,OPTIONS"]
+[options-method] [http] [info] https://pages.emails.tesla.com ["OPTIONS, TRACE, GET, HEAD, POST"]
+[options-method] [http] [info] https://pages.email.tesla.com ["OPTIONS, TRACE, GET, HEAD, POST"]
+[options-method] [http] [info] https://shop.tesla.com ["GET,HEAD,POST,PUT,PATCH,DELETE,OPTIONS"]
+[options-method] [http] [info] https://view.email.tesla.com ["OPTIONS, TRACE, GET, HEAD, POST"]
+[options-method] [http] [info] https://www.tesla.com ["GET, POST"]
+[composer-config:composer.lock] [http] [info] https://apigateway-tradein-partner-svc.tesla.com/composer.json
+[composer-config:composer.lock] [http] [info] https://apigateway-tradein-partner-svc.tesla.com/composer.lock
+[composer-config:composer.lock] [http] [info] https://apigateway-tradein-partner-svc.tesla.com/.composer/composer.json
+[composer-config:composer.lock] [http] [info] https://apigateway-message-center-ownership.tesla.com/.composer/composer.json
+[composer-config:composer.lock] [http] [info] https://apigateway-tradein-partner-svc.tesla.com/vendor/composer/installed.json
+[composer-config:composer.lock] [http] [info] https://cua-chat-ui.tesla.com/composer.json
+[composer-config:composer.lock] [http] [info] https://dex.ops.bn.na.vn.cloud.tesla.com/composer.json
+[composer-config:composer.lock] [http] [info] https://checkout-ui-assets.tesla.com/composer.lock
+[composer-config:composer.lock] [http] [info] https://dex.ops.bn.na.vn.cloud.tesla.com/composer.lock
+[composer-config:composer.lock] [http] [info] https://dex.ops.bn.na.vn.cloud.tesla.com/.composer/composer.json
+[composer-config:composer.lock] [http] [info] https://dex.ops.bn.na.vn.cloud.tesla.com/vendor/composer/installed.json
+[composer-config:composer.lock] [http] [info] https://cua-chat-ui.tesla.com/vendor/composer/installed.json
+[composer-config:composer.lock] [http] [info] https://envoy-partnerleadsharing.tesla.com/composer.json
+[composer-config:composer.lock] [http] [info] https://envoy-partnertasks.tesla.com/composer.json
+[composer-config:composer.lock] [http] [info] https://envoy-partnerleadsharing.tesla.com/composer.lock
+[composer-config:composer.lock] [http] [info] https://envoy-partnerleadsharing.tesla.com/.composer/composer.json
+[composer-config:composer.lock] [http] [info] https://envoy-partnertasks.tesla.com/.composer/composer.json
+[composer-config:composer.lock] [http] [info] https://envoy-partnerleadsharing.tesla.com/vendor/composer/installed.json
+[composer-config:composer.lock] [http] [info] https://logcollection.tesla.com/composer.json
+[composer-config:composer.lock] [http] [info] https://media-server-api.eng.vn.cloud.tesla.com/composer.json
+[composer-config:composer.lock] [http] [info] https://media-server-dev-api.eng.vn.cloud.tesla.com/composer.json
+[composer-config:composer.lock] [http] [info] https://logcollection.tesla.com/composer.lock
+[composer-config:composer.lock] [http] [info] https://media-server-api.eng.vn.cloud.tesla.com/composer.lock
+[composer-config:composer.lock] [http] [info] https://media-server-dev-api.eng.vn.cloud.tesla.com/composer.lock
+[composer-config:composer.lock] [http] [info] https://logcollection.tesla.com/.composer/composer.json
+[composer-config:composer.lock] [http] [info] https://media-server-api.eng.vn.cloud.tesla.com/.composer/composer.json
+[composer-config:composer.lock] [http] [info] https://media-server-dev-api.eng.vn.cloud.tesla.com/.composer/composer.json
+[composer-config:composer.lock] [http] [info] https://logcollection.tesla.com/vendor/composer/installed.json
+[composer-config:composer.lock] [http] [info] https://media-server-api.eng.vn.cloud.tesla.com/vendor/composer/installed.json
+[composer-config:composer.lock] [http] [info] https://media-server-dev-api.eng.vn.cloud.tesla.com/vendor/composer/installed.json
+[composer-config:composer.lock] [http] [info] https://roadsideinvoice.tesla.com/composer.json
+[composer-config:composer.lock] [http] [info] https://ownership.tesla.com/vendor/composer/installed.json
+[composer-config:composer.lock] [http] [info] https://roadsideinvoice.tesla.com/.composer/composer.json
+[composer-config:composer.lock] [http] [info] https://teslacmgap01.tesla.com/composer.json
+[composer-config:composer.lock] [http] [info] https://teslacmgcn01.tesla.com/composer.json
+[composer-config:composer.lock] [http] [info] https://teslacmgeu01.tesla.com/composer.json
+[composer-config:composer.lock] [http] [info] https://teslacmgna01.tesla.com/composer.json
+[composer-config:composer.lock] [http] [info] https://teslacmgap01.tesla.com/composer.lock
+[composer-config:composer.lock] [http] [info] https://teslacmgus01.tesla.com/composer.json
+[composer-config:composer.lock] [http] [info] https://teslacmgcn01.tesla.com/composer.lock
+[composer-config:composer.lock] [http] [info] https://teslacmgeu01.tesla.com/composer.lock
+[composer-config:composer.lock] [http] [info] https://teslacmgna01.tesla.com/composer.lock
+[composer-config:composer.lock] [http] [info] https://teslacmgap01.tesla.com/.composer/composer.json
+[composer-config:composer.lock] [http] [info] https://tripx-alpha.prd.vn.cloud.tesla.com/composer.json
+[composer-config:composer.lock] [http] [info] https://teslacmgus01.tesla.com/composer.lock
+[composer-config:composer.lock] [http] [info] https://teslacmgcn01.tesla.com/.composer/composer.json
+[composer-config:composer.lock] [http] [info] https://tripx.prd.usw2.vn.cloud.tesla.com/composer.json
+[composer-config:composer.lock] [http] [info] https://tripx.eng.usw2.vn.cloud.tesla.com/composer.json
+[composer-config:composer.lock] [http] [info] https://teslacmgna01.tesla.com/.composer/composer.json
+[composer-config:composer.lock] [http] [info] https://teslacmgeu01.tesla.com/.composer/composer.json
+[composer-config:composer.lock] [http] [info] https://tripx.prd.vn.cloud.tesla.com/composer.json
+[composer-config:composer.lock] [http] [info] https://tripx-alpha.prd.vn.cloud.tesla.com/composer.lock
+[composer-config:composer.lock] [http] [info] https://teslacmgus01.tesla.com/.composer/composer.json
+[composer-config:composer.lock] [http] [info] https://tripx.prd.usw2.vn.cloud.tesla.com/composer.lock
+[composer-config:composer.lock] [http] [info] https://tripx.eng.usw2.vn.cloud.tesla.com/composer.lock
+[composer-config:composer.lock] [http] [info] https://tripx.prd.vn.cloud.tesla.com/composer.lock
+[composer-config:composer.lock] [http] [info] https://tripx-alpha.prd.vn.cloud.tesla.com/.composer/composer.json
+[composer-config:composer.lock] [http] [info] https://tripx.prd.usw2.vn.cloud.tesla.com/.composer/composer.json
+[composer-config:composer.lock] [http] [info] https://tripx.eng.usw2.vn.cloud.tesla.com/.composer/composer.json
+[composer-config:composer.lock] [http] [info] https://tripx.prd.vn.cloud.tesla.com/.composer/composer.json
+[composer-config:composer.lock] [http] [info] https://tripx-alpha.prd.vn.cloud.tesla.com/vendor/composer/installed.json
+[composer-config:composer.lock] [http] [info] https://tripx.prd.usw2.vn.cloud.tesla.com/vendor/composer/installed.json
+[composer-config:composer.lock] [http] [info] https://tripx.eng.usw2.vn.cloud.tesla.com/vendor/composer/installed.json
+[composer-config:composer.lock] [http] [info] https://tripx.prd.vn.cloud.tesla.com/vendor/composer/installed.json
+[composer-config:composer.lock] [http] [info] https://watchman.tesla.com/composer.json
+[composer-config:composer.lock] [http] [info] https://workplace.tesla.com/composer.json
+[composer-config:composer.lock] [http] [info] https://watchman.tesla.com/composer.lock
+[composer-config:composer.lock] [http] [info] https://watchman.tesla.com/.composer/composer.json
+[composer-config:composer.lock] [http] [info] https://watchman.tesla.com/vendor/composer/installed.json

@@ -1,0 +1,6 @@
+admin.c4mpus.com
+www.c4mpus.com
+api-sage.c4mpus.com
+enrollee-softwarica.c4mpus.com
+dev.c4mpus.com
+www.admin.c4mpus.com
